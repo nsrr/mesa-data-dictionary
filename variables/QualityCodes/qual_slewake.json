@@ -1,0 +1,7 @@
+{
+  "id": "slewake",
+  "display_name": "PSG QS: Study Scored Sleep / Wake Only",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

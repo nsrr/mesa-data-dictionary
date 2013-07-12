@@ -1,0 +1,7 @@
+{
+  "id": "quecg",
+  "display_name": "PSG QS: ECG Signal Quality",
+  "description": "",
+  "type": "choices",
+  "domain": "signalqual"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "qulimb",
+  "display_name": "PSG QS: Limb Signal Quality",
+  "description": "",
+  "type": "choices",
+  "domain": "signalqual"
+}

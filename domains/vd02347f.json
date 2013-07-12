@@ -1,37 +1,32 @@
 [
   {
-    "value": "1",
-    "display_name": "Oximetry",
-    "description": ""
-  },
-  {
     "value": "2",
-    "display_name": "EEG",
+    "display_name": "Failed",
     "description": ""
   },
   {
     "value": "3",
-    "display_name": "Short Recording",
+    "display_name": "Fair",
     "description": ""
   },
   {
     "value": "4",
-    "display_name": "Other",
+    "display_name": "Good",
     "description": ""
   },
   {
     "value": "5",
-    "display_name": "No Signals",
+    "display_name": "Very Good",
     "description": ""
   },
   {
     "value": "6",
-    "display_name": "Participant",
+    "display_name": "Excellent",
     "description": ""
   },
   {
     "value": "7",
-    "display_name": "Missing Files",
+    "display_name": "Outstanding",
     "description": ""
   }
 ]

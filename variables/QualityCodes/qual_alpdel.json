@@ -1,0 +1,7 @@
+{
+  "id": "alpdel",
+  "display_name": "PSG QS: Physiologic Alpha Intrusion",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

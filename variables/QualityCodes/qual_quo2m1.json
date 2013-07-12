@@ -1,0 +1,7 @@
+{
+  "id": "quo2m1",
+  "display_name": "PSG QS: C4-M1 Signal Quality - EEG",
+  "description": "",
+  "type": "choices",
+  "domain": "signalqual"
+}

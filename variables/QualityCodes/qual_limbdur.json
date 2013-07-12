@@ -1,0 +1,6 @@
+{
+  "id": "limbdur",
+  "display_name": "PSG QS: Limb Signal Duration (hours)",
+  "description": "",
+  "type": "integer"
+}

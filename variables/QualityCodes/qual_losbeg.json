@@ -1,0 +1,7 @@
+{
+  "id": "losbeg",
+  "display_name": "PSG QS: Data Lost at Beginning of Study",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

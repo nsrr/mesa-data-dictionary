@@ -1,0 +1,7 @@
+{
+  "id": "quchin",
+  "display_name": "PSG QS: Chin Signal Quality",
+  "description": "",
+  "type": "choices",
+  "domain": "signalqual"
+}

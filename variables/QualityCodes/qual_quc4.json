@@ -1,0 +1,7 @@
+{
+  "id": "quc4",
+  "display_name": "PSG QS: Cz-Oz Signal Quality - EEG",
+  "description": "",
+  "type": "choices",
+  "domain": "signalqual"
+}

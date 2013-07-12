@@ -1,0 +1,6 @@
+{
+  "id": "chestdur",
+  "display_name": "PSG QS: Chest Signal Duration (hours)",
+  "description": "",
+  "type": "integer"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "airdur",
+  "display_name": "PSG QS: Airflow Signal Duration (hours)",
+  "description": "",
+  "type": "integer"
+}

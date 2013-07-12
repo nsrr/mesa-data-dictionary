@@ -1,0 +1,7 @@
+{
+  "id": "lagbreath",
+  "display_name": "PSG QS: Periodic Large Breaths",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}
