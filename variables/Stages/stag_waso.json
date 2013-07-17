@@ -1,0 +1,6 @@
+{
+  "id": "waso",
+  "display_name": "Calculated - Wake After Sleep Onset (minutes)",
+  "description": "",
+  "type": "numeric"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "timerem",
+  "display_name": "Calculated - Time Stage REM (minutes)",
+  "description": "",
+  "type": "numeric"
+}

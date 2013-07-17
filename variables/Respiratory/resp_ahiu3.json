@@ -1,0 +1,6 @@
+{
+  "id": "ahiu3",
+  "display_name": "AHI >=3% Desat",
+  "description": "AHI - Apnea/AASM Recommended Hypopnea/AASM Alternative Hypopneas with >= 3% desat as used on short report sent to sites",
+  "type": "numeric"
+}

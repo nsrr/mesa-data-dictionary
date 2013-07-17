@@ -1,0 +1,7 @@
+{
+  "id": "svpulse",
+  "display_name": "PSG QS: Manual Pulse at Time of Hookup from SV Form",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

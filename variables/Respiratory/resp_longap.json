@@ -1,0 +1,6 @@
+{
+  "id": "longap",
+  "display_name": "Long Apnea (seconds)",
+  "description": "",
+  "type": "numeric"
+}

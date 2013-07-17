@@ -1,0 +1,6 @@
+{
+  "id": "bpmmin",
+  "display_name": "Lowest Heart Rate (bpm) During Sleep",
+  "description": "",
+  "type": "numeric"
+}
