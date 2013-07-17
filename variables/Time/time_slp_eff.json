@@ -1,0 +1,6 @@
+{
+  "id": "slp_eff",
+  "display_name": "Calculated - Sleep Efficiency %",
+  "description": "",
+  "type": "numeric"
+}

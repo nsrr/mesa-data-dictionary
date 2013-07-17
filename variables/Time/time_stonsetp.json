@@ -1,0 +1,6 @@
+{
+  "id": "stonsetp",
+  "display_name": "Sleep Onset Time (hh:mm:ss)",
+  "description": "",
+  "type": "time"
+}
