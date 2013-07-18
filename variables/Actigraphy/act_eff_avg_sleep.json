@@ -1,0 +1,6 @@
+{
+  "id": "eff_avg_sleep",
+  "display_name": "Actigraphy Report: Average Sleep Efficiency (%)",
+  "description": "",
+  "type": "numeric"
+}

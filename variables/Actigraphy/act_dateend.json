@@ -1,0 +1,6 @@
+{
+  "id": "dateend",
+  "display_name": "Actigraphy QS: Data Collection End Date",
+  "description": "",
+  "type": "date"
+}

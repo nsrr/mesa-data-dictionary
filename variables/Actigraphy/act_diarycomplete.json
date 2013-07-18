@@ -1,0 +1,7 @@
+{
+  "id": "diarycomplete",
+  "display_name": "Actigraphy QS: Diary Completeness",
+  "description": "",
+  "type": "choices",
+  "domain": "vd02341f"
+}

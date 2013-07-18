@@ -1,0 +1,6 @@
+{
+  "id": "wake_avg_sleep",
+  "display_name": "Actigraphy Report: Average Sleep Wake Time (minutes)",
+  "description": "",
+  "type": "numeric"
+}

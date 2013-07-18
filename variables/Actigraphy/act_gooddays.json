@@ -1,0 +1,6 @@
+{
+  "id": "gooddays",
+  "display_name": "Actigraphy QS: # of Good Days",
+  "description": "",
+  "type": "integer"
+}

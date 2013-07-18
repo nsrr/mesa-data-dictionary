@@ -1,0 +1,6 @@
+{
+  "id": "nightsrec",
+  "display_name": "Actigraphy QS: # of Nights Recorded",
+  "description": "",
+  "type": "integer"
+}
