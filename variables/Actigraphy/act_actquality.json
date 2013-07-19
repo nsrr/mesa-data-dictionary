@@ -3,5 +3,5 @@
   "display_name": "Actigraphy QS: Overall Quality Grading",
   "description": "",
   "type": "choices",
-  "domain": "vd02339f"
+  "domain": "qualgrade"
 }
