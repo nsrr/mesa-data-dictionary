@@ -1,6 +1,6 @@
 {
   "id": "mwaket",
-  "display_name": "Actigraphy Report: Mean Wake Time",
+  "display_name": "Mean Wake Time",
   "description": "",
   "type": "time"
 }

@@ -1,6 +1,6 @@
 {
   "id": "plethdur",
-  "display_name": "PSG QS: Plethysmography Signal Duration (hours)",
+  "display_name": "Plethysmography Signal Duration (hours)",
   "description": "",
   "type": "integer"
 }

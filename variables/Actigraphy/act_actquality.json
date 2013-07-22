@@ -1,6 +1,6 @@
 {
   "id": "actquality",
-  "display_name": "Actigraphy QS: Overall Quality Grading",
+  "display_name": "Overall Quality Grading",
   "description": "",
   "type": "choices",
   "domain": "qualgrade"

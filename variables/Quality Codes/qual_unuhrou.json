@@ -1,6 +1,6 @@
 {
   "id": "unuhrou",
-  "display_name": "PSG QS: Urgent Referral - Unusual HR/ECG (categorical)",
+  "display_name": "Urgent Referral - Unusual HR/ECG (categorical)",
   "description": "",
   "type": "choices",
   "domain": "hrissues"

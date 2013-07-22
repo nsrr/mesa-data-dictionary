@@ -1,6 +1,6 @@
 {
   "id": "scoredt",
-  "display_name": "PSG QS: Date Scored",
+  "display_name": "Date Scored",
   "description": "",
   "type": "date"
 }

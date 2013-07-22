@@ -1,6 +1,6 @@
 {
   "id": "arunrel",
-  "display_name": "PSG QS: Scoring Arousals Unreliable",
+  "display_name": "Scoring Arousals Unreliable",
   "description": "",
   "type": "choices",
   "domain": "yesno"

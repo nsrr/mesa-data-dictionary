@@ -1,6 +1,6 @@
 {
   "id": "diarycomplete",
-  "display_name": "Actigraphy QS: Diary Completeness",
+  "display_name": "Diary Completeness",
   "description": "",
   "type": "choices",
   "domain": "completeness"

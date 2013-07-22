@@ -1,6 +1,6 @@
 {
   "id": "scorid",
-  "display_name": "PSG QS: Scorer ID",
+  "display_name": "Scorer ID",
   "description": "",
   "type": "choices",
   "domain": "scorid"

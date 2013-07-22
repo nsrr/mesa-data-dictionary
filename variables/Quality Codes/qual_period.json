@@ -1,6 +1,6 @@
 {
   "id": "period",
-  "display_name": "PSG QS: Periodic Breathing >=10 min",
+  "display_name": "Periodic Breathing >=10 min",
   "description": "",
   "type": "choices",
   "domain": "yesno"

@@ -1,6 +1,6 @@
 {
   "id": "alpdel",
-  "display_name": "PSG QS: Physiologic Alpha Intrusion",
+  "display_name": "Physiologic Alpha Intrusion",
   "description": "",
   "type": "choices",
   "domain": "yesno"

@@ -1,6 +1,6 @@
 {
   "id": "mbedt",
-  "display_name": "Actigraphy Report: Mean Bedtime",
+  "display_name": "Mean Bedtime",
   "description": "",
   "type": "time"
 }

@@ -1,6 +1,6 @@
 {
   "id": "m1",
-  "display_name": "PSG QS: Signal Quality Issues Found on M1 Signal",
+  "display_name": "Signal Quality Issues Found on M1 Signal",
   "description": "",
   "type": "choices",
   "domain": "yesno"

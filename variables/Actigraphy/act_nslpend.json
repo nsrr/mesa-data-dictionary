@@ -1,6 +1,6 @@
 {
   "id": "nslpend",
-  "display_name": "Actigraphy Report: Number of Weekend Days Sleep",
+  "display_name": "Number of Weekend Days Sleep",
   "description": "",
   "type": "numeric"
 }

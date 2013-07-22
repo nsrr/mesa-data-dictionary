@@ -1,6 +1,6 @@
 {
   "id": "plmwake",
-  "display_name": "PSG QS: Leg Movements in Wake",
+  "display_name": "Leg Movements in Wake",
   "description": "",
   "type": "choices",
   "domain": "yesno"

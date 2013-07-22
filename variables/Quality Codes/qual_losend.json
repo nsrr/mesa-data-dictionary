@@ -1,6 +1,6 @@
 {
   "id": "losend",
-  "display_name": "PSG QS: Data Lost at End of Study",
+  "display_name": "Data Lost at End of Study",
   "description": "",
   "type": "choices",
   "domain": "yesno"

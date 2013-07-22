@@ -1,6 +1,6 @@
 {
   "id": "datestart",
-  "display_name": "Actigraphy QS: Data Collection Start Date",
+  "display_name": "Data Collection Start Date",
   "description": "",
   "type": "date"
 }

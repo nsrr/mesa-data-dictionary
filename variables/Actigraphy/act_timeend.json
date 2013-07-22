@@ -1,6 +1,6 @@
 {
   "id": "timeend",
-  "display_name": "Actigraphy QS: Data Collection End Time",
+  "display_name": "Data Collection End Time",
   "description": "",
   "type": "time"
 }

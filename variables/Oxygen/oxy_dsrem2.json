@@ -1,6 +1,6 @@
 {
   "id": "dsrem2",
-  "display_name": "# of Desats Per Hour (REM, >=2%",
+  "display_name": "# of Desats Per Hour (REM, >=2%)",
   "description": "",
   "type": "numeric"
 }

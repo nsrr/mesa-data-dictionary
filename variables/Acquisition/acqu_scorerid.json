@@ -1,6 +1,6 @@
 {
   "id": "scorerid",
-  "display_name": "PSG Report: Scorer ID",
+  "display_name": "Scorer ID",
   "description": "",
   "type": "integer"
 }

@@ -1,6 +1,6 @@
 {
   "id": "pptid",
-  "display_name": "MESA Sleep: Participant ID",
+  "display_name": "Participant ID",
   "description": "",
   "type": "integer"
 }

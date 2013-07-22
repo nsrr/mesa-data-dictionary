@@ -1,6 +1,6 @@
 {
   "id": "mslpwkhr",
-  "display_name": "Actigraphy Report: Weekday Sleep Mean (in hours)",
+  "display_name": "Weekday Sleep Mean (in hours)",
   "description": "",
   "type": "numeric"
 }

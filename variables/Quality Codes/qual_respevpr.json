@@ -1,6 +1,6 @@
 {
   "id": "respevpr",
-  "display_name": "PSG QS: Scoring Respiratory Events (RDI) Unreliable",
+  "display_name": "Scoring Respiratory Events (AHI) Unreliable",
   "description": "",
   "type": "choices",
   "domain": "yesno"

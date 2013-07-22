@@ -1,6 +1,6 @@
 {
   "id": "havepsg",
-  "display_name": "MESA Sleep: Has PSG data (passed overnight study)",
+  "display_name": "Has PSG data (passed overnight study)",
   "description": "",
   "type": "choices",
   "domain": "yesno"

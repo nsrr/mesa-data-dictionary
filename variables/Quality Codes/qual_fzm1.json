@@ -1,6 +1,6 @@
 {
   "id": "qufzm1",
-  "display_name": "PSG QS: Fz-Cz Signal Quality - EEG",
+  "display_name": "Fz-Cz Signal Quality - EEG",
   "description": "",
   "type": "choices",
   "domain": "signalqual"

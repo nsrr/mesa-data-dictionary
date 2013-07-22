@@ -1,6 +1,6 @@
 {
   "id": "sleepjournal",
-  "display_name": "Actigraphy QS: Sleep Journal Received",
+  "display_name": "Sleep Journal Received",
   "description": "",
   "type": "choices",
   "domain": "yesnoinc"

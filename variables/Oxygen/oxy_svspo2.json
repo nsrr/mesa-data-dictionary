@@ -1,6 +1,6 @@
 {
   "id": "svspo2",
-  "display_name": "PSQ QS: SPO2 from Signal Verification Form - Reading at Time of Hookup",
+  "display_name": "SpO2 from Signal Verification Form - Reading at Time of Hookup",
   "description": "",
   "type": "choices",
   "domain": "yesno"

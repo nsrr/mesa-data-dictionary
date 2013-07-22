@@ -1,6 +1,6 @@
 {
   "id": "quxflow",
-  "display_name": "PSG QS: Cannula Flow Signal Quality",
+  "display_name": "Cannula Flow Signal Quality",
   "description": "",
   "type": "choices",
   "domain": "signalqual"

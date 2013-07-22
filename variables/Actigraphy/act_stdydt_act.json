@@ -1,6 +1,6 @@
 {
   "id": "stdydt_act",
-  "display_name": "Actigraphy QS: Date of Study",
+  "display_name": "Date of Study",
   "description": "",
   "type": "date"
 }

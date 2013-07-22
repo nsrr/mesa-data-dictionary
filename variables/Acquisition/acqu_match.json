@@ -1,6 +1,6 @@
  {
   "id": "match",
-  "display_name": "MESA Sleep: PSG/Actigraphy Start Dates Match (i.e. no failures; tests were concurrent)",
+  "display_name": "PSG/Actigraphy Start Dates Match (i.e. no failures; tests were concurrent)",
   "description": "",
   "type": "choices",
   "domain": "yesno"

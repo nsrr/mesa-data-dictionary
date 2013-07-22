@@ -1,6 +1,6 @@
 {
   "id": "mslpendhr",
-  "display_name": "Actigraphy Report: Weekend Sleep Mean (in hours)",
+  "display_name": "Weekend Sleep Mean (in hours)",
   "description": "",
   "type": "numeric"
 }

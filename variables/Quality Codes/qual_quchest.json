@@ -1,6 +1,6 @@
 {
   "id": "quchest",
-  "display_name": "PSG QS: Chest Signal Quality",
+  "display_name": "Chest Signal Quality",
   "description": "",
   "type": "choices",
   "domain": "signalqual"

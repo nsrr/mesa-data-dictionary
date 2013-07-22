@@ -1,6 +1,6 @@
 {
   "id": "mwaketwk",
-  "display_name": "Actigraphy Report: Mean Wake Time Weekday",
+  "display_name": "Mean Wake Time Weekday",
   "description": "",
   "type": "time"
 }

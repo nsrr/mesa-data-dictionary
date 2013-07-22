@@ -1,6 +1,6 @@
 {
   "id": "overall",
-  "display_name": "PSG QS: Overall Study Quality Grade",
+  "display_name": "Overall Study Quality Grade",
   "description": "",
   "type": "choices",
   "domain": "qualgrade"

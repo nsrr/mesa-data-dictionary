@@ -1,6 +1,6 @@
 {
   "id": "cansdur",
-  "display_name": "PSG QS: Cannula Snore Signal Duration (hours)",
+  "display_name": "Cannula Snore Signal Duration (hours)",
   "description": "",
   "type": "integer"
 }

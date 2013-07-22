@@ -1,6 +1,6 @@
 {
   "id": "diarypresent",
-  "display_name": "Actigraphy QS: Diary Present",
+  "display_name": "Diary Present",
   "description": "",
   "type": "choices",
   "domain": "diarystatus"

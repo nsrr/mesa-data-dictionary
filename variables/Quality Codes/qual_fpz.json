@@ -1,6 +1,6 @@
 {
   "id": "fpz",
-  "display_name": "PSG QS: Signal Quality Issues Found on FPz Signal",
+  "display_name": "Signal Quality Issues Found on FPz Signal",
   "description": "",
   "type": "choices",
   "domain": "yesno"

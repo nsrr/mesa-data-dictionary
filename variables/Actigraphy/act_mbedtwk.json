@@ -1,6 +1,6 @@
 {
   "id": "mbedtwk",
-  "display_name": "Actigraphy Report: Mean Bedtime Weekday",
+  "display_name": "Mean Bedtime Weekday",
   "description": "",
   "type": "time"
 }

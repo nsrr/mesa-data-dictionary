@@ -1,6 +1,6 @@
 {
   "id": "posn",
-  "display_name": "PSG QS: Signal Quality Issues Found Position Signal",
+  "display_name": "Signal Quality Issues Found Position Signal",
   "description": "",
   "type": "choices",
   "domain": "yesno"

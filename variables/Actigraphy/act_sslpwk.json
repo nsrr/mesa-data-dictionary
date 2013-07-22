@@ -1,6 +1,6 @@
 {
   "id": "sslpwk",
-  "display_name": "Actigraphy Report: Weekday Sleep Std Dev",
+  "display_name": "Weekday Sleep Std Dev",
   "description": "",
   "type": "numeric"
 }

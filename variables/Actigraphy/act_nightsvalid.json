@@ -1,6 +1,6 @@
 {
   "id": "nightsvalid",
-  "display_name": "Actigraphy QS: # of Valid Nights",
+  "display_name": "# of Valid Nights",
   "description": "",
   "type": "integer"
 }

@@ -1,6 +1,6 @@
 {
   "id": "oximdur",
-  "display_name": "PSG QS: SpO2 Signal Duration (hours)",
+  "display_name": "SpO2 Signal Duration (hours)",
   "description": "",
   "type": "integer"
 }

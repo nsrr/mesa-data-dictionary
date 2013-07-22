@@ -1,6 +1,6 @@
 {
   "id": "latency_avg_sleep",
-  "display_name": "Actigraphy Report: Average Sleep Onset Latency (minutes)",
+  "display_name": "Average Sleep Onset Latency (minutes)",
   "description": "",
   "type": "numeric"
 }

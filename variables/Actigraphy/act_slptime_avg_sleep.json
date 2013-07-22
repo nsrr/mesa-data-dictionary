@@ -1,6 +1,6 @@
 {
   "id": "slptime_avg_sleep",
-  "display_name": "Actigraphy Report: Average Sleep Sleep Time (minutes)",
+  "display_name": "Average Sleep Sleep Time (minutes)",
   "description": "",
   "type": "numeric"
 }
