@@ -2,5 +2,6 @@
   "id": "meffend",
   "display_name": "Weekend Efficiency Mean",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

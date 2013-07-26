@@ -2,5 +2,6 @@
   "id": "weekdays",
   "display_name": "# of Weekdays",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": "days"
 }

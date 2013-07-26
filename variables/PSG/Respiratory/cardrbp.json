@@ -2,5 +2,6 @@
   "id": "cardrbp",
   "display_name": "Cent. Apnea Per Hour (REM, Back, All Desats)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

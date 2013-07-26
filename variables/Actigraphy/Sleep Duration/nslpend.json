@@ -1,6 +1,7 @@
 {
   "id": "nslpend",
-  "display_name": "Number of Weekend Days Sleep",
+  "display_name": "# of Weekend Days Sleep",
   "description": "",
-  "type": "numeric"
+  "type": "integer",
+  "units": "days"
 }

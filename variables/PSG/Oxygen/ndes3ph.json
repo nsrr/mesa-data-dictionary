@@ -2,5 +2,6 @@
   "id": "ndes3ph",
   "display_name": "# of Desat with >=3% Desat (During Total Recording)",
   "description": "",
-  "type": "numeric"
+  "type": "integer",
+  "units": "event count"
 }

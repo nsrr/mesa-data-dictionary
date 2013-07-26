@@ -1,6 +1,7 @@
 {
   "id": "c4dur",
-  "display_name": "Cz-Oz Signal Duration (hours) EEG",
+  "display_name": "Cz-Oz Signal Duration EEG",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": "hours"
 }

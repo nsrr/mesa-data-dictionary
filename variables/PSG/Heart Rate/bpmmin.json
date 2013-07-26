@@ -1,6 +1,7 @@
 {
   "id": "bpmmin",
-  "display_name": "Lowest Heart Rate (bpm) During Sleep",
+  "display_name": "Lowest Heart Rate During Sleep",
   "description": "",
-  "type": "numeric"
+  "type": "integer",
+  "units": "beats per minute"
 }

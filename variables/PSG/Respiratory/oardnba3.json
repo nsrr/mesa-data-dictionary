@@ -1,6 +1,7 @@
 {
   "id": "oardnba3",
-  "display_name": "Obs. Apnea Per Hour w/ Arousals (NREM, Back, 3% Desat)",
+  "display_name": "Obs. Apnea w/ Arousals Per Hour (NREM, Back, 3% Desat)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

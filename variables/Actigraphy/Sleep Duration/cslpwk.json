@@ -2,5 +2,6 @@
   "id": "cslpwk",
   "display_name": "Weekday Sleep CV",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

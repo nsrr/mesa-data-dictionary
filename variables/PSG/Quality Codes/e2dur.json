@@ -1,6 +1,7 @@
 {
   "id": "e2dur",
-  "display_name": "E2 (EOGR) Signal Duration (hours)",
+  "display_name": "E2 (EOGR) Signal Duration",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": "hours"
 }

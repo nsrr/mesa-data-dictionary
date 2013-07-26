@@ -2,5 +2,6 @@
   "id": "oardnop",
   "display_name": "Obs. Apnea Per Hour (NREM, Other, All Desats)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

@@ -2,5 +2,6 @@
   "id": "ceffend",
   "display_name": "Weekend Efficiency CV",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

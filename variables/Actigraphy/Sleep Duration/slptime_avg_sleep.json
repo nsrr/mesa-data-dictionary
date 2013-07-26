@@ -1,6 +1,7 @@
 {
   "id": "slptime_avg_sleep",
-  "display_name": "Average Sleep Sleep Time (minutes)",
+  "display_name": "Average Sleep Sleep Time",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "minutes"
 }

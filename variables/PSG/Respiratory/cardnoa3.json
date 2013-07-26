@@ -1,6 +1,7 @@
 {
   "id": "cardnoa3",
-  "display_name": "Cent. Apnea Per Hour w/ Arousals (NREM, Other, 3% Desat)",
+  "display_name": "Cent. Apnea w/ Arousals Per Hour(NREM, Other, 3% Desat)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

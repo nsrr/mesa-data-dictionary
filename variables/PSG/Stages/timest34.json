@@ -1,6 +1,7 @@
 {
   "id": "timest34",
-  "display_name": "Calculated - Time Stage 3-4 (minutes)",
+  "display_name": "Calculated - Time Stage 3-4",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "minutes"
 }

@@ -1,6 +1,7 @@
 {
   "id": "neffend",
-  "display_name": "Number of Weekend Days Efficiency",
+  "display_name": "# of Weekend Days Efficiency",
   "description": "",
-  "type": "numeric"
+  "type": "integer",
+  "units": "days"
 }

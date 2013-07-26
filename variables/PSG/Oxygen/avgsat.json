@@ -2,5 +2,6 @@
   "id": "avgsat",
   "display_name": "Calculated - Avg. SaO2 in Sleep",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

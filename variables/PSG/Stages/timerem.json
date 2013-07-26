@@ -1,6 +1,7 @@
 {
   "id": "timerem",
-  "display_name": "Calculated - Time Stage REM (minutes)",
+  "display_name": "Calculated - Time Stage REM",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "minutes"
 }

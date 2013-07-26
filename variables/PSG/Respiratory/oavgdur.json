@@ -1,6 +1,7 @@
 {
   "id": "oavgdur",
-  "display_name": "Avg. Obs. Apnea Length (seconds)",
+  "display_name": "Avg. Obs. Apnea Length",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "seconds"
 }

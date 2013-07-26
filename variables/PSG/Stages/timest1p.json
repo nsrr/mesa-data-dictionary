@@ -2,5 +2,6 @@
   "id": "timest1p",
   "display_name": "Calculated - Pct Time Stage 1",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

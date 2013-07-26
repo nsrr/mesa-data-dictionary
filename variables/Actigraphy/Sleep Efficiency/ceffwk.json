@@ -2,5 +2,6 @@
   "id": "ceffwk",
   "display_name": "Weekday Efficiency CV",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

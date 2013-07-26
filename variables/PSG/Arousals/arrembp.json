@@ -2,5 +2,6 @@
   "id": "arrembp",
   "display_name": "# of Arousals (REM, Back, All Desats)",
   "description": "",
-  "type": "numeric"
+  "type": "integer",
+  "units": "event count"
 }

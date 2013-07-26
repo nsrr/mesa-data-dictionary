@@ -2,5 +2,6 @@
   "id": "nightsrec",
   "display_name": "# of Nights Recorded",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": "nights"
 }

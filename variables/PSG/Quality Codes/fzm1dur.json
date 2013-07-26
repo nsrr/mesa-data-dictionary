@@ -1,6 +1,7 @@
 {
   "id": "fzm1dur",
-  "display_name": "Fz-Cz Signal Duration (hours) EEG",
+  "display_name": "Fz-Cz Signal Duration EEG",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": "hours"
 }

@@ -2,5 +2,6 @@
   "id": "pslp_avg_sleep",
   "display_name": "Average Sleep % Sleep",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

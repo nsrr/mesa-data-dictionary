@@ -1,6 +1,7 @@
 {
   "id": "apavgdur",
-  "display_name": "Avg. Apnea Length (seconds)",
+  "display_name": "Avg. Apnea Length",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "seconds"
 }

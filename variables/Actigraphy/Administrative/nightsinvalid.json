@@ -2,5 +2,6 @@
   "id": "nightsinvalid",
   "display_name": "# of Invalid Nights",
   "description": "",
-  "type": "integer"
+  "type": "integer",
+  "units": "nights"
 }

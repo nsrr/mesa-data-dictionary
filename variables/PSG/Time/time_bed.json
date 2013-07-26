@@ -1,6 +1,7 @@
 {
   "id": "time_bed",
-  "display_name": "Calculated - Time in Bed (minutes)",
+  "display_name": "Calculated - Time in Bed",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "minutes"
 }

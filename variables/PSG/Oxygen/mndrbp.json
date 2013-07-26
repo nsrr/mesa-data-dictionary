@@ -1,6 +1,7 @@
 {
   "id": "mndrbp",
-  "display_name": "Min. SaO2 (REM, Back, All Desats) (%)",
+  "display_name": "Min. SaO2 (REM, Back, All Desats)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

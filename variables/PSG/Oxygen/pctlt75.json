@@ -2,5 +2,6 @@
   "id": "pctlt75",
   "display_name": "Calculated - Pct Time <75% Desat",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

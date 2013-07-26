@@ -1,0 +1,7 @@
+{
+  "id": "xflowdur",
+  "display_name": "Cannula Flow Signal Duration",
+  "description": "",
+  "type": "integer",
+  "units": "hours"
+}

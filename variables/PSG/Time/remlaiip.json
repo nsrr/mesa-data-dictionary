@@ -1,6 +1,7 @@
 {
   "id": "remlaiip",
-  "display_name": "REM Latency II - Excluding Wake (minutes)",
+  "display_name": "REM Latency II - Excluding Wake",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "minutes"
 }

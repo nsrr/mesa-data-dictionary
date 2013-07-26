@@ -2,5 +2,6 @@
   "id": "rdinbp",
   "display_name": "AASM Recommended Hypopnea Per Hour (NREM, Back, All Desats)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

@@ -1,6 +1,7 @@
 {
   "id": "havgdur",
-  "display_name": "Avg. AASM Recommended Hypopnea Length (seconds)",
+  "display_name": "Avg. AASM Recommended Hypopnea Length",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "seconds"
 }

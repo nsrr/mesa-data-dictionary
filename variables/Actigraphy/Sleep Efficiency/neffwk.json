@@ -1,6 +1,7 @@
 {
   "id": "neffwk",
-  "display_name": "Number of Weekday Days Efficiency",
+  "display_name": "# of Weekday Days Efficiency",
   "description": "",
-  "type": "numeric"
+  "type": "integer",
+  "units": "days"
 }

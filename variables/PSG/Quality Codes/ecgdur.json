@@ -1,6 +1,6 @@
 {
   "id": "ecgdur",
-  "display_name": "ECG Signal Duration (hours)",
+  "display_name": "ECG Signal Duration",
   "description": "",
   "type": "integer"
 }
