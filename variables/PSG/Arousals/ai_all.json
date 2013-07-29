@@ -2,5 +2,6 @@
   "id": "ai_all",
   "display_name": "Calculated - Overall Arousal Index",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

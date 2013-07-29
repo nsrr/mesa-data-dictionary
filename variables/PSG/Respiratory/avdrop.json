@@ -2,5 +2,6 @@
   "id": "avdrop",
   "display_name": "Avg. Desat (REM, Other, All Desats)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

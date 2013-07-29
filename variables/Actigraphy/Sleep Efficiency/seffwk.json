@@ -2,5 +2,6 @@
   "id": "seffwk",
   "display_name": "Weekday Efficiency Std Dev",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }
