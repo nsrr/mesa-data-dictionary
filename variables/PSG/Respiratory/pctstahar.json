@@ -1,0 +1,7 @@
+{
+  "id": "pctstahar",
+  "display_name": "% Sleep Time in Apnea + AASM Recommended Hypopnea w/ Arousal",
+  "description": "",
+  "type": "numeric",
+  "units": "percent"
+}

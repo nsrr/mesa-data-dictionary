@@ -1,0 +1,7 @@
+{
+  "id": "alpdel",
+  "display_name": "Physiologic Alpha Intrusion",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

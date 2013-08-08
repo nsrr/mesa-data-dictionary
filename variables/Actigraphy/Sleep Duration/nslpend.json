@@ -1,0 +1,7 @@
+{
+  "id": "nslpend",
+  "display_name": "# of Weekend Days Sleep",
+  "description": "",
+  "type": "integer",
+  "units": "days"
+}

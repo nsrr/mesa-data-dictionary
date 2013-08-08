@@ -1,0 +1,7 @@
+{
+  "id": "losbeg",
+  "display_name": "Data Lost at Beginning of Study",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

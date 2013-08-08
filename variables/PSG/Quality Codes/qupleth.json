@@ -1,0 +1,7 @@
+{
+  "id": "qupleth",
+  "display_name": "Plethysmography Signal Quality",
+  "description": "",
+  "type": "choices",
+  "domain": "signalqual"
+}

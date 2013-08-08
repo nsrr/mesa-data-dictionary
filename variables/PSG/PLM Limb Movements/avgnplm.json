@@ -1,0 +1,7 @@
+{
+  "id": "avgnplm",
+  "display_name": "# of PLM Per Hour of NREM Sleep",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour"
+}

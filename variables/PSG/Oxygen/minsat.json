@@ -1,0 +1,7 @@
+{
+  "id": "minsat",
+  "display_name": "Calculated - Min. SaO2 in Sleep",
+  "description": "",
+  "type": "numeric",
+  "units": "percent"
+}

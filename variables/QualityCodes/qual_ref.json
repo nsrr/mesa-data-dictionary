@@ -1,7 +1,0 @@
-{
-  "id": "ref",
-  "display_name": "PSG QS: Signal Quality Issues Found on Reference/Ground Signal",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno"
-}

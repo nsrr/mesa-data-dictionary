@@ -1,0 +1,7 @@
+{
+  "id": "oarop",
+  "display_name": "# of Obs. Apnea (REM, Other, All Desats)",
+  "description": "",
+  "type": "integer",
+  "units": "event count"
+}

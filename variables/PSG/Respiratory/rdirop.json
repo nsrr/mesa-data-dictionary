@@ -1,0 +1,7 @@
+{
+  "id": "rdirop",
+  "display_name": "AASM Recommended Hypopnea Per Hour (REM, Other, All Desats)",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour"
+}

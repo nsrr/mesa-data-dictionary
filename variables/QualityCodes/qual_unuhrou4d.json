@@ -1,7 +1,0 @@
-{
-  "id": "unuhrou4d",
-  "display_name": "PSG QS: Urgent Referral - Unusual HR: HR above 150 bpm for >=2min",
-  "description": "",
-  "type": "choices",
-  "domain": "check"
-}

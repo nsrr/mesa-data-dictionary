@@ -1,0 +1,7 @@
+{
+  "id": "que1",
+  "display_name": "E1 Signal Quality",
+  "description": "",
+  "type": "choices",
+  "domain": "signalqual"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "eff_avg_sleep",
+  "display_name": "Average Sleep Efficiency",
+  "description": "",
+  "type": "numeric",
+  "units": "percent"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "limbdur",
+  "display_name": "Limb Signal Duration",
+  "description": "",
+  "type": "integer",
+  "units": "hours"
+}

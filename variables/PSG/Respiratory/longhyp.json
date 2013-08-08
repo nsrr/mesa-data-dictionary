@@ -1,0 +1,7 @@
+{
+  "id": "longhyp",
+  "display_name": "Longest AASM Recommended Hypopnea",
+  "description": "",
+  "type": "integer",
+  "units": "seconds"
+}

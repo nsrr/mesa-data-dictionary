@@ -1,0 +1,7 @@
+{
+  "id": "wakslepr",
+  "display_name": "Scoring Stage Wake/Sleep Unreliable",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

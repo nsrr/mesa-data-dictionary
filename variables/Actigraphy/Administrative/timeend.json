@@ -1,0 +1,6 @@
+{
+  "id": "timeend",
+  "display_name": "Data Collection End Time",
+  "description": "",
+  "type": "time"
+}

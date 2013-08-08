@@ -1,0 +1,7 @@
+{
+  "id": "quxflow",
+  "display_name": "Cannula Flow Signal Quality",
+  "description": "",
+  "type": "choices",
+  "domain": "signalqual"
+}

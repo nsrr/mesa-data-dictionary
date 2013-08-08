@@ -1,0 +1,7 @@
+{
+  "id": "actquality",
+  "display_name": "Overall Quality Grading",
+  "description": "",
+  "type": "choices",
+  "domain": "qualgrade"
+}

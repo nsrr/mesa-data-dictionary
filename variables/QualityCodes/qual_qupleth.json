@@ -1,7 +1,0 @@
-{
-  "id": "qupleth",
-  "display_name": "PSG QS: Plethysmography Signal Quality",
-  "description": "",
-  "type": "choices",
-  "domain": "signalqual"
-}

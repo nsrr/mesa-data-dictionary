@@ -1,7 +1,0 @@
-{
-  "id": "losoth",
-  "display_name": "PSG QS: Data Lost During Study",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno"
-}

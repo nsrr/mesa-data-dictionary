@@ -1,0 +1,7 @@
+{
+  "id": "cardroa",
+  "display_name": "Cent. Apnea w/ Arousals Per Hour (REM, Other, All Desats)",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour"
+}

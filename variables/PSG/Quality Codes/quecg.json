@@ -1,0 +1,7 @@
+{
+  "id": "quecg",
+  "display_name": "ECG Signal Quality",
+  "description": "",
+  "type": "choices",
+  "domain": "signalqual"
+}

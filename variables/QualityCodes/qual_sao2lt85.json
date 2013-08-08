@@ -1,7 +1,0 @@
-{
-  "id": "sao2lt85",
-  "display_name": "PSG QS: Urgent Referral - O2 Sat < 85% for >10% Total Sleep Time",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno"
-}

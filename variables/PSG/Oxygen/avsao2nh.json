@@ -1,0 +1,7 @@
+{
+  "id": "avsao2nh",
+  "display_name": "Avg. SaO2 % During NREM Sleep",
+  "description": "",
+  "type": "numeric",
+  "units": "percent"
+}

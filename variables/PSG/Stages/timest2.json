@@ -1,0 +1,7 @@
+{
+  "id": "timest2",
+  "display_name": "Calculated - Time Stage 2",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

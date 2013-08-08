@@ -1,7 +1,0 @@
-{
-  "id": "remnrempr",
-  "display_name": "PSG QS: Scoring REM/NREM Unreliable",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno"
-}

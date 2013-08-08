@@ -1,0 +1,17 @@
+[
+  {
+    "value": "0",
+    "display_name": "Absent",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Incomplete (<75%)",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Mostly Complete (>=75%)",
+    "description": ""
+  }
+]

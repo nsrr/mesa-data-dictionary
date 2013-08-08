@@ -1,7 +1,0 @@
-{
-  "id": "ahiov50",
-  "display_name": "PSG QS: Abnormal Referral - AHI > 50",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno"
-}

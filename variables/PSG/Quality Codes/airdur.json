@@ -1,0 +1,7 @@
+{
+  "id": "airdur",
+  "display_name": "Airflow Signal Duration",
+  "description": "",
+  "type": "integer",
+  "units": "hours"
+}

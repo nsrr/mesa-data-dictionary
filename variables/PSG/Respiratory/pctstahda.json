@@ -1,0 +1,7 @@
+{
+  "id": "pctstahda",
+  "display_name": "% Sleep Time in Apnea + AASM Recommended Hypopnea w/ >3% Desat or Arousal",
+  "description": "",
+  "type": "numeric",
+  "units": "percent"
+}

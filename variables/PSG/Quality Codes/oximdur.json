@@ -1,0 +1,7 @@
+{
+  "id": "oximdur",
+  "display_name": "SpO2 Signal Duration",
+  "description": "",
+  "type": "integer",
+  "units": "hours"
+}

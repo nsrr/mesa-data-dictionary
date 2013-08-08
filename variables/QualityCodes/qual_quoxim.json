@@ -1,7 +1,0 @@
-{
-  "id": "quoxim",
-  "display_name": "PSG QS: SpO2 Signal Quality",
-  "description": "",
-  "type": "choices",
-  "domain": "signalqual"
-}

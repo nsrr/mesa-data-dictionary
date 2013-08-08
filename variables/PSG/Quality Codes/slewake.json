@@ -1,0 +1,7 @@
+{
+  "id": "slewake",
+  "display_name": "Study Scored Sleep / Wake Only",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

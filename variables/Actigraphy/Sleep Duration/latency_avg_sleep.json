@@ -1,0 +1,7 @@
+{
+  "id": "latency_avg_sleep",
+  "display_name": "Average Sleep Onset Latency",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

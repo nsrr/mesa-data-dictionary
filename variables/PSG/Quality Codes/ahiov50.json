@@ -1,0 +1,7 @@
+{
+  "id": "ahiov50",
+  "display_name": "Abnormal Referral - AHI > 50",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

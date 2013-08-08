@@ -1,0 +1,7 @@
+{
+  "id": "ai_nrem",
+  "display_name": "Calculated - Arousal Index NREM Sleep",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "sslpend",
+  "display_name": "Weekend Sleep Std Dev",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

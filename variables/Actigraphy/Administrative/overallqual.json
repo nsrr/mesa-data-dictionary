@@ -1,0 +1,7 @@
+{
+  "id": "overallqual",
+  "display_name": "Overall Quality Grading (QS",
+  "description": "",
+  "type": "choices",
+  "domain": "qualgrade"
+}

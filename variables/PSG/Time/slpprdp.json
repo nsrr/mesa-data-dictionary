@@ -1,0 +1,7 @@
+{
+  "id": "slpprdp",
+  "display_name": "Total Sleep Time",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

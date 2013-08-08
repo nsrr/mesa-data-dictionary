@@ -1,0 +1,7 @@
+{
+  "id": "abdodur",
+  "display_name": "Abdomen Signal Duration",
+  "description": "",
+  "type": "integer",
+  "units": "hours"
+}

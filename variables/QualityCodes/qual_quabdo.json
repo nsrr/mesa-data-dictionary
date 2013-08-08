@@ -1,7 +1,0 @@
-{
-  "id": "quabdo",
-  "display_name": "PSG QS: Abdomen Signal Quality",
-  "description": "",
-  "type": "choices",
-  "domain": "signalqual"
-}

@@ -1,0 +1,7 @@
+{
+  "id": "rdirba3",
+  "display_name": "AASM Recommended Hypopnea w/ Arousals Per Hour (REM, Back, 3% Desat)",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour"
+}

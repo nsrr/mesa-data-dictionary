@@ -1,0 +1,7 @@
+{
+  "id": "rdinoa",
+  "display_name": "AASM Recommended Hypopnea w/ Arousals Per Hour (NREM, Other, All Desats)",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour"
+}

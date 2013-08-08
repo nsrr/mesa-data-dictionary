@@ -1,0 +1,7 @@
+{
+  "id": "qucasn",
+  "display_name": "Cannula Store Signal Quality",
+  "description": "",
+  "type": "choices",
+  "domain": "signalqual"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "recbeaw",
+  "display_name": "Data Lost - Recording Ended Before Wake",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

@@ -1,7 +1,0 @@
-{
-  "id": "inhomepsgyn",
-  "display_name": "PSG: Test Was Conducted In-Home",
-  "description": "",
-  "type": "choices",
-  "domain": "yesno"
-}

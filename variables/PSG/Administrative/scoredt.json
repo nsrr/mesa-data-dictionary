@@ -1,0 +1,6 @@
+{
+  "id": "scoredt",
+  "display_name": "Date Scored",
+  "description": "",
+  "type": "date"
+}

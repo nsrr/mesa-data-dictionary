@@ -1,0 +1,7 @@
+{
+  "id": "cansdur",
+  "display_name": "Cannula Snore Signal Duration",
+  "description": "",
+  "type": "integer",
+  "units": "hours"
+}

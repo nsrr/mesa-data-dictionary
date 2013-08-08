@@ -1,0 +1,7 @@
+{
+  "id": "dur_avg_rest",
+  "display_name": "Average Duration Rest",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

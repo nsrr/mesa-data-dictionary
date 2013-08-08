@@ -1,0 +1,7 @@
+{
+  "id": "qulimb",
+  "display_name": "Limb Signal Quality",
+  "description": "",
+  "type": "choices",
+  "domain": "signalqual"
+}

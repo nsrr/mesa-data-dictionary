@@ -1,0 +1,7 @@
+{
+  "id": "remarunrel",
+  "display_name": "Scoring Arousals in REM (only) Unreliable",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
+}

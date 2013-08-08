@@ -1,0 +1,7 @@
+{
+  "id": "sleepjournal",
+  "display_name": "Sleep Journal Received",
+  "description": "",
+  "type": "choices",
+  "domain": "yesnoinc"
+}
