@@ -3,5 +3,5 @@
   "display_name": "Leg Movements in Wake",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

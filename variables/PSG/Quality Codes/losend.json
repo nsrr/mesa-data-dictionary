@@ -3,5 +3,5 @@
   "display_name": "Data Lost at End of Study",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

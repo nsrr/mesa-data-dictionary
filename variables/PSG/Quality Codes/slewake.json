@@ -3,5 +3,5 @@
   "display_name": "Study Scored Sleep / Wake Only",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

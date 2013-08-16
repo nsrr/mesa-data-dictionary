@@ -3,5 +3,5 @@
   "display_name": "SpO2 from Signal Verification Form - Reading at Time of Hookup",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

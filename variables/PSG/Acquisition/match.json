@@ -3,5 +3,5 @@
   "display_name": "PSG/Actigraphy Start Dates Match (i.e. no failures; tests were concurrent)",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

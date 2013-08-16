@@ -3,5 +3,5 @@
   "display_name": "Flow Limitation",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

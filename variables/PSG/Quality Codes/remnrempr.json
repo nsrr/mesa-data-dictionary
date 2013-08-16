@@ -3,5 +3,5 @@
   "display_name": "Scoring REM/NREM Unreliable",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

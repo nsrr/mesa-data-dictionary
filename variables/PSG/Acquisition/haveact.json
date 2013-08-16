@@ -3,5 +3,5 @@
   "display_name": "Has Actigraphy data (5+ valid nights)",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

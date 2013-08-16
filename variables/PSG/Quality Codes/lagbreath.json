@@ -3,5 +3,5 @@
   "display_name": "Periodic Large Breaths",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

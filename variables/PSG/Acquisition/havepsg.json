@@ -3,5 +3,5 @@
   "display_name": "Has PSG data (passed overnight study)",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

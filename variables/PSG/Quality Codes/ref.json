@@ -3,5 +3,5 @@
   "display_name": "Signal Quality Issues Found on Reference/Ground Signal",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

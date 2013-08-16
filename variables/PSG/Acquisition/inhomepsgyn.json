@@ -3,5 +3,5 @@
   "display_name": "Test Was Conducted In-Home",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

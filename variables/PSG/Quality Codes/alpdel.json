@@ -3,5 +3,5 @@
   "display_name": "Physiologic Alpha Intrusion",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

@@ -3,5 +3,5 @@
   "display_name": "Scoring Stage2/Deep Sleep Unreliable",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }

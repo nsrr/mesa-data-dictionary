@@ -3,5 +3,5 @@
   "display_name": "Scoring Respiratory Events (AHI) Unreliable",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes01"
 }
