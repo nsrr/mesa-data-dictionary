@@ -1,7 +1,0 @@
-{
-  "id": "que2",
-  "display_name": "E2 Signal Quality",
-  "description": "",
-  "type": "choices",
-  "domain": "signalqual"
-}

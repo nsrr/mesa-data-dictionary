@@ -1,7 +1,0 @@
-{
-  "id": "sao2rem",
-  "display_name": "Calculated - Avg. SaO2 REM",
-  "description": "",
-  "type": "numeric",
-  "units": "percent"
-}

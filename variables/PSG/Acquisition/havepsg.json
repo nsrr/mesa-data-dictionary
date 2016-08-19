@@ -1,7 +1,0 @@
-{
-  "id": "havepsg",
-  "display_name": "Has PSG data (passed overnight study)",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

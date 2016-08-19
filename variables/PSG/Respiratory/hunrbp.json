@@ -1,7 +1,0 @@
-{
-  "id": "hunrbp",
-  "display_name": "# AASM Alternative Hypopnea Per Hour (NREM, Back, All Desats)",
-  "description": "",
-  "type": "numeric",
-  "units": "events per hour"
-}

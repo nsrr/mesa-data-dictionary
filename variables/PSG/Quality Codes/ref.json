@@ -1,7 +1,0 @@
-{
-  "id": "ref",
-  "display_name": "Signal Quality Issues Found on Reference/Ground Signal",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "svspo2",
-  "display_name": "SpO2 from Signal Verification Form - Reading at Time of Hookup",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

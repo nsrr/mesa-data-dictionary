@@ -1,7 +1,0 @@
-{
-  "id": "remnrempr",
-  "display_name": "Scoring REM/NREM Unreliable",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

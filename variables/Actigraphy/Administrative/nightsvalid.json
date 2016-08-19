@@ -1,7 +1,0 @@
-{
-  "id": "nightsvalid",
-  "display_name": "# of Valid Nights",
-  "description": "",
-  "type": "integer",
-  "units": "nights"
-}

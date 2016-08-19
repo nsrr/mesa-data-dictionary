@@ -1,7 +1,0 @@
-{
-  "id": "slp_maint_eff",
-  "display_name": "Sleep Maintenance Efficency",
-  "description": "",
-  "type": "numeric",
-  "units": "percent"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "bpmmax",
-  "display_name": "Highest Heart Rate During Sleep",
-  "description": "",
-  "type": "integer",
-  "units": "beats per minute"
-}

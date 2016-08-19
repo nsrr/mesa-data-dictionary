@@ -1,7 +1,0 @@
-{
-  "id": "arremop",
-  "display_name": "# of Arousals (REM, Other, All Desats)",
-  "description": "",
-  "type": "integer",
-  "units": "event count"
-}

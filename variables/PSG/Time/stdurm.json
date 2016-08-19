@@ -1,7 +1,0 @@
-{
-  "id": "stdurm",
-  "display_name": "Study Length (Epoch 1 to Last Epoch)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

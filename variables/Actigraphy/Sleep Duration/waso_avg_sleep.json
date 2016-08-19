@@ -1,7 +1,0 @@
-{
-  "id": "waso_avg_sleep",
-  "display_name": "Average Sleep WASO",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

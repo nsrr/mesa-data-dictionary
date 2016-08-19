@@ -1,7 +1,0 @@
-{
-  "id": "lagbreath",
-  "display_name": "Periodic Large Breaths",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "posn",
-  "display_name": "Signal Quality Issues Found Position Signal",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

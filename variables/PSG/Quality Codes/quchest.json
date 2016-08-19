@@ -1,7 +1,0 @@
-{
-  "id": "quchest",
-  "display_name": "Chest Signal Quality",
-  "description": "",
-  "type": "choices",
-  "domain": "signalqual"
-}

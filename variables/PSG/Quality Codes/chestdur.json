@@ -1,7 +1,0 @@
-{
-  "id": "chestdur",
-  "display_name": "Chest Signal Duration",
-  "description": "",
-  "type": "integer",
-  "units": "hours"
-}

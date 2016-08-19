@@ -1,7 +1,0 @@
-{
-  "id": "haveact",
-  "display_name": "Has Actigraphy data (5+ valid nights)",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

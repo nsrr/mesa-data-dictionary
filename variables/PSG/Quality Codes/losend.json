@@ -1,7 +1,0 @@
-{
-  "id": "losend",
-  "display_name": "Data Lost at End of Study",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

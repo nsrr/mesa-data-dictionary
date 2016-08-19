@@ -1,7 +1,0 @@
-{
-  "id": "wake_avg_sleep",
-  "display_name": "Average Sleep Wake Time",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

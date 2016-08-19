@@ -1,7 +1,0 @@
-{
-  "id": "diarycomplete",
-  "display_name": "Diary Completeness",
-  "description": "",
-  "type": "choices",
-  "domain": "completeness"
-}

@@ -1,7 +1,0 @@
-{
-  "id": "pwake_avg_sleep",
-  "display_name": "Average % Wake",
-  "description": "",
-  "type": "numeric",
-  "units": "percent"
-}

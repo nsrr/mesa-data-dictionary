@@ -1,7 +1,0 @@
-{
-  "id": "fpz",
-  "display_name": "Signal Quality Issues Found on FPz Signal",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes01"
-}

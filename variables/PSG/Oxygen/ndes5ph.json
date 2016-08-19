@@ -1,7 +1,0 @@
-{
-  "id": "ndes5ph",
-  "display_name": "# of Desat with >=5% Desat (During Total Recording)",
-  "description": "",
-  "type": "integer",
-  "units": "event count"
-}

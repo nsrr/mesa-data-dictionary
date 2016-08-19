@@ -1,7 +1,0 @@
-{
-  "id": "plethdur",
-  "display_name": "Plethysmography Signal Duration",
-  "description": "",
-  "type": "integer",
-  "units": "hours"
-}

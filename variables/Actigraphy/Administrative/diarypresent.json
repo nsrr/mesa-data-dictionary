@@ -1,7 +1,0 @@
-{
-  "id": "diarypresent",
-  "display_name": "Diary Present",
-  "description": "",
-  "type": "choices",
-  "domain": "diarystatus"
-}

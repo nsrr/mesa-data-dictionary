@@ -1,7 +1,0 @@
-{
-  "id": "gooddays",
-  "display_name": "# of Good Days",
-  "description": "",
-  "type": "integer",
-  "units": "days"
-}

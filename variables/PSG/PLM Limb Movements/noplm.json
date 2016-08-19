@@ -1,7 +1,0 @@
-{
-  "id": "noplm",
-  "display_name": "# of PLM During Sleep",
-  "description": "",
-  "type": "integer",
-  "units": "event count"
-}

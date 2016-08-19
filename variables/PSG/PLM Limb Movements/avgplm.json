@@ -1,7 +1,0 @@
-{
-  "id": "avgplm",
-  "display_name": "# of PLM Per Hour of Sleep",
-  "description": "",
-  "type": "numeric",
-  "units": "events per hour"
-}

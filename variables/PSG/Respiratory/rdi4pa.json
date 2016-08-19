@@ -1,7 +1,0 @@
-{
-  "id": "rdi4pa",
-  "display_name": "Calculated - Overall AHI at 4% Desat or Arousal",
-  "description": "",
-  "type": "numeric",
-  "units": "events per hour"
-}
