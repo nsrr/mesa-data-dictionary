@@ -2,5 +2,5 @@
 
 ### Changes
 - **Gem Changes**
-  - Use of Ruby 2.1.2 is now recommended
-  - Updated to spout 0.8.0.rc2
+  - Use of Ruby 2.3.0 is now recommended
+  - Updated to spout 0.11.1
