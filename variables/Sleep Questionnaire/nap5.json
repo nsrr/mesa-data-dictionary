@@ -1,0 +1,10 @@
+{
+  "id": "nap5",
+  "display_name": "Usual Week: Number Of Naps (5 Minutes Or More)",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "10",
+    "Value Labels": "0: NONE"
+  }
+}

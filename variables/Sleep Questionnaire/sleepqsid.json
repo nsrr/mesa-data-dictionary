@@ -1,0 +1,10 @@
+{
+  "id": "sleepqsid",
+  "display_name": "Sleep Questionnaire Staff Id",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "48",
+    "Value Labels": null
+  }
+}

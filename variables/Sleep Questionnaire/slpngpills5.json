@@ -1,0 +1,10 @@
+{
+  "id": "slpngpills5",
+  "display_name": "Past 4 Weeks: Take Sleeping Pills To Help Sleep",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "15",
+    "Value Labels": "1: NO, NOT IN THE PAST 4 WEEKS"
+  }
+}

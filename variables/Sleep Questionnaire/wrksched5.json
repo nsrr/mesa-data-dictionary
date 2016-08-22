@@ -1,0 +1,10 @@
+{
+  "id": "wrksched5",
+  "display_name": "Usual Work Schedule",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "46",
+    "Value Labels": "1: DAY SHIFT"
+  }
+}

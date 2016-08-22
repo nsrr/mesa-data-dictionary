@@ -1,0 +1,10 @@
+{
+  "id": "waketmwkday5c",
+  "display_name": "Waketime Weekday (24 Hour Format)",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "3",
+    "Value Labels": null
+  }
+}

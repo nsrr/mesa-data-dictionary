@@ -1,0 +1,10 @@
+{
+  "id": "wrserest5",
+  "display_name": "Symptoms Worse When At Rest With Temporary Relief By Activity",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "33",
+    "Value Labels": "0: NO"
+  }
+}

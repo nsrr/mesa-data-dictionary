@@ -1,0 +1,10 @@
+{
+  "id": "cpap5",
+  "display_name": "Receive Treatment For Sleep Apnea: Cpap Or Bipap Machine",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "41",
+    "Value Labels": "0: NO"
+  }
+}

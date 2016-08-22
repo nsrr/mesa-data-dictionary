@@ -1,0 +1,10 @@
+{
+  "id": "dinner5",
+  "display_name": "Chance Of Dozing / Fall Asleep While: At Dinner Table",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "27",
+    "Value Labels": "1: NO CHANCE"
+  }
+}

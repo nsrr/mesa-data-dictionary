@@ -1,0 +1,10 @@
+{
+  "id": "extrahrs5",
+  "display_name": "Days Per Month Working Extra Hours Beyond Usual Schedule",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "47",
+    "Value Labels": null
+  }
+}

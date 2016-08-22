@@ -1,0 +1,10 @@
+{
+  "id": "wkendsleepdur5c",
+  "display_name": "Sleep Duration Weekend (Hours:Minutes)",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "8",
+    "Value Labels": null
+  }
+}

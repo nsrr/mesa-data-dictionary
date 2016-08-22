@@ -1,0 +1,10 @@
+{
+  "id": "feelngbstr5",
+  "display_name": "Time Of Day Feeling Best",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "35",
+    "Value Labels": "1: 5:00 - 6:30 AM"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "wrseltr5",
+  "display_name": "Symptoms Worse Later In Day Or Night",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "34",
+    "Value Labels": "0: NO"
+  }
+}

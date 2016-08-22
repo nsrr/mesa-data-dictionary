@@ -1,0 +1,10 @@
+{
+  "id": "tired5",
+  "display_name": "How Tired During First Half Hour After Having Woken In Morning",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "36",
+    "Value Labels": "1: VERY TIRED"
+  }
+}

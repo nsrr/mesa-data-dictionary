@@ -1,0 +1,10 @@
+{
+  "id": "wkdaysleepdur5c",
+  "display_name": "Sleep Duration Weekday (Hours:Minutes)",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "4",
+    "Value Labels": null
+  }
+}

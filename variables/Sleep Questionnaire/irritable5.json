@@ -1,0 +1,10 @@
+{
+  "id": "irritable5",
+  "display_name": "Past 4 Weeks: Have Sleep Difficulties Causing Irritability",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "16",
+    "Value Labels": "1: NO, NOT IN THE PAST 4 WEEKS"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "sittng5",
+  "display_name": "Chance Of Dozing / Fall Asleep While: Sitting Inactive In Public",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "21",
+    "Value Labels": "1: NO CHANCE"
+  }
+}

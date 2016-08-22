@@ -1,0 +1,10 @@
+{
+  "id": "types5",
+  "display_name": "Type Of Person: Morning Or Evening",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "39",
+    "Value Labels": "1: DEFINITELY A MORNING TYPE"
+  }
+}

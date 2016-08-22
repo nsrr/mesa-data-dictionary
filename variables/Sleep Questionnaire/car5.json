@@ -1,0 +1,10 @@
+{
+  "id": "car5",
+  "display_name": "Chance Of Dozing / Fall Asleep While: In Car Stopped In Traffic",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "26",
+    "Value Labels": "1: NO CHANCE"
+  }
+}

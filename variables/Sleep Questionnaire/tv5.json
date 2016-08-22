@@ -1,0 +1,10 @@
+{
+  "id": "tv5",
+  "display_name": "Chance Of Dozing / Fall Asleep While: Watching Tv",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "20",
+    "Value Labels": "1: NO CHANCE"
+  }
+}

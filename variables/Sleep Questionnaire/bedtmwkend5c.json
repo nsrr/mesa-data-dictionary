@@ -1,0 +1,10 @@
+{
+  "id": "bedtmwkend5c",
+  "display_name": "Bedtime Weekend (24 Hour Format)",
+  "description": "",
+  "type": null,
+  "other": {
+    "Order": "6",
+    "Value Labels": "Please note: Hour : Minute (HH:MM) date format may not have been preserved for STATA program users. Please contact CC for further guidance."
+  }
+}
