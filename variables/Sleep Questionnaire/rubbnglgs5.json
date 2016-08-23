@@ -2,9 +2,6 @@
   "id": "rubbnglgs5",
   "display_name": "Feel Need To Move To Relieve Discomfort By Walking Or Rub Legs",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "32",
-    "Value Labels": "0: NO"
-  }
+  "type": "choices",
+  "domain": "noyesdk"
 }

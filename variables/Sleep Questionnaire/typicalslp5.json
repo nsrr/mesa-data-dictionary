@@ -2,9 +2,6 @@
   "id": "typicalslp5",
   "display_name": "Past 4 Weeks: Overall Typical Night Sleep",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "18",
-    "Value Labels": "0: VERY SOUND OR RESTFUL"
-  }
+  "type": "choices",
+  "domain": "typicalsleep"
 }

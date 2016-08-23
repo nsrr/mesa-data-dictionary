@@ -1,0 +1,27 @@
+[
+  {
+    "value": "1",
+    "display_name": "Never",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Rarely (1-2 nights a week)",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Sometimes (3-5 nights a week)",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Always or almost always (6-7 nights a week)",
+    "description": ""
+  },
+  {
+    "value": "9",
+    "display_name": "Don't know",
+    "description": ""
+  }
+]

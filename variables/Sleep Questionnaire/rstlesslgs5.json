@@ -2,9 +2,6 @@
   "id": "rstlesslgs5",
   "display_name": "Told By Doctor As Having: Restless Legs",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "45",
-    "Value Labels": "0: NO"
-  }
+  "type": "choices",
+  "domain": "noyes"
 }

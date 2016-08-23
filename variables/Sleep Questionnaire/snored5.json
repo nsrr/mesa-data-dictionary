@@ -2,9 +2,6 @@
   "id": "snored5",
   "display_name": "Past 4 Weeks: Snored",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "29",
-    "Value Labels": "1: NEVER"
-  }
+  "type": "choices",
+  "domain": "freq4weeksdk"
 }

@@ -2,9 +2,6 @@
   "id": "epslpscl5c",
   "display_name": "Epworth Sleepiness Scale In Mesa",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "50",
-    "Value Labels": null
-  }
+  "type": "integer",
+  "units": ""
 }

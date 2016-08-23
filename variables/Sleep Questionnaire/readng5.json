@@ -2,9 +2,6 @@
   "id": "readng5",
   "display_name": "Chance Of Dozing / Fall Asleep While: Sitting And Reading",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "19",
-    "Value Labels": "1: NO CHANCE"
-  }
+  "type": "choices",
+  "domain": "dozingchance"
 }

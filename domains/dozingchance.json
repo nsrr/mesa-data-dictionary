@@ -1,0 +1,22 @@
+[
+  {
+    "value": "1",
+    "display_name": "No chance",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Slight chance",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Moderate chance",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "High chance",
+    "description": ""
+  }
+]

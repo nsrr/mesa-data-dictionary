@@ -2,9 +2,6 @@
   "id": "driving5",
   "display_name": "Chance Of Dozing / Fall Asleep While: While Driving",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "28",
-    "Value Labels": "1: NO CHANCE"
-  }
+  "type": "choices",
+  "domain": "dozingchance"
 }

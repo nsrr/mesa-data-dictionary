@@ -2,9 +2,5 @@
   "id": "bedtmwkday5c",
   "display_name": "Bedtime Weekday (24 Hour Format)",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "2",
-    "Value Labels": "Please note: Hour : Minute (HH:MM) date format may not have been preserved for STATA program users. Please contact CC for further guidance."
-  }
+  "type": "time"
 }

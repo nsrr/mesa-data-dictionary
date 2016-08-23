@@ -2,9 +2,6 @@
   "id": "wkdaysleepdur5t",
   "display_name": "Sleep Duration Weekday (Hours)",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "5",
-    "Value Labels": null
-  }
+  "type": "numeric",
+  "units": "hours"
 }

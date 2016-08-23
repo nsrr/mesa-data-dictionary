@@ -2,9 +2,6 @@
   "id": "legsdscmfrt5",
   "display_name": "Experience Desire To Move Legs Because Of Discomfort / Disagreeable Sensations In Legs",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "31",
-    "Value Labels": "0: NO"
-  }
+  "type": "choices",
+  "domain": "noyesdk"
 }

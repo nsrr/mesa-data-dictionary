@@ -1,10 +1,6 @@
 {
   "id": "idno",
-  "display_name": "Participant Id Number",
+  "display_name": "Participant ID Number",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "1",
-    "Value Labels": null
-  }
+  "type": "identifier"
 }

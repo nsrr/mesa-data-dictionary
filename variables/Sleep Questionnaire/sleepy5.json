@@ -2,9 +2,6 @@
   "id": "sleepy5",
   "display_name": "Past 4 Weeks: Feel Overly Sleepy During Day",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "17",
-    "Value Labels": "1: NO, NOT IN THE PAST 4 WEEKS"
-  }
+  "type": "choices",
+  "domain": "freq4weeks"
 }

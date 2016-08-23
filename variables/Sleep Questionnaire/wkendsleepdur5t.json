@@ -2,9 +2,6 @@
   "id": "wkendsleepdur5t",
   "display_name": "Sleep Duration Weekend (Hours)",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "9",
-    "Value Labels": null
-  }
+  "type": "numeric",
+  "units": "hours"
 }

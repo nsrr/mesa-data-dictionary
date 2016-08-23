@@ -2,9 +2,6 @@
   "id": "uvula5",
   "display_name": "Receive Treatment For Sleep Apnea: Throat/Uvula Surgery",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "43",
-    "Value Labels": "0: NO"
-  }
+  "type": "choices",
+  "domain": "noyes"
 }

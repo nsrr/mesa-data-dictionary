@@ -2,9 +2,6 @@
   "id": "insmnia5",
   "display_name": "Told By Doctor As Having: Insomnia",
   "description": "",
-  "type": null,
-  "other": {
-    "Order": "44",
-    "Value Labels": "0: NO"
-  }
+  "type": "choices",
+  "domain": "noyes"
 }
