@@ -1,0 +1,7 @@
+{
+  "id": "avgsleepnapssleep155",
+  "display_name": "Average Sleep Time Per Nap When Only Naps With >=15 Minutes Of Sleep Time Are Counted (Minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}

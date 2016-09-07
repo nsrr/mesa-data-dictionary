@@ -1,0 +1,7 @@
+{
+  "id": "avgredtalt5",
+  "display_name": "Average Red Light Time Above 1000 Microwatts Per Square Centimeter Threshold Per Day (Minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}

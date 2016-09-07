@@ -1,0 +1,7 @@
+{
+  "id": "sdsleepmidpoint5",
+  "display_name": "Standard Deviation Of The Midpoint Between Sleep Onset And Sleep Offset Times (Hh:Mm:Ss)",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}

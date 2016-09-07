@@ -1,0 +1,7 @@
+{
+  "id": "ndaysnapssleep15wo5",
+  "display_name": "Number Of Workday Days With Naps When Only Naps With >=15 Minutes Of Sleep Time Are Counted (Workday Days)",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}

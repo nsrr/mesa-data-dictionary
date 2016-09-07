@@ -1,6 +1,7 @@
 ## 0.1.0
 
 - Add 'SleepQ' (Sleep Questionnaire) dataset
+- Add 'SleepActigraphy' (Actigraphy results) dataset
 
 ### Changes
 - **Gem Changes**

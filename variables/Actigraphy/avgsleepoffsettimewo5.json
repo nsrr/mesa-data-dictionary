@@ -1,0 +1,7 @@
+{
+  "id": "avgsleepoffsettimewo5",
+  "display_name": "Average Time To Wake Up For Main Sleep Across All Workday Days In Minutes (Hh:Mm:Ss)",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}

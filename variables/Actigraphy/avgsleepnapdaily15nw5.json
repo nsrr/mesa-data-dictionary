@@ -1,0 +1,7 @@
+{
+  "id": "avgsleepnapdaily15nw5",
+  "display_name": "Average Sleep Time In Naps Per Day Across All Non-Workday Days In The Recording When Only Naps With >=15 Minutes Of Sleep Time Are Counted (Minutes)",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}

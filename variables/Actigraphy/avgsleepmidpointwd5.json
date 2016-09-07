@@ -1,0 +1,7 @@
+{
+  "id": "avgsleepmidpointwd5",
+  "display_name": "Average Time Midpoint Between Weekday Sleep Onset And Sleep Offset Times (Hh:Mm:Ss)",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}

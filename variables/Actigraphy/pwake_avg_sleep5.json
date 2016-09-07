@@ -1,0 +1,7 @@
+{
+  "id": "pwake_avg_sleep5",
+  "display_name": "Actigraphy Report: Average Sleep % Wake",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}
