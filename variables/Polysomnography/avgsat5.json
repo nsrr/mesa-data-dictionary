@@ -1,0 +1,7 @@
+{
+  "id": "avgsat5",
+  "display_name": "Calculated - Avg Sao2 In Sleep",
+  "description": "",
+  "type": "numeric",
+  "units": ""
+}

@@ -1,0 +1,6 @@
+{
+  "id": "stloutp5",
+  "display_name": "Lights Out Time (Hh:Mm:Ss)",
+  "description": "",
+  "type": "string"
+}
