@@ -3,5 +3,5 @@
   "display_name": "Actigraphy Report: Number Of Weekday Days Efficiency",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "weekdays"
 }

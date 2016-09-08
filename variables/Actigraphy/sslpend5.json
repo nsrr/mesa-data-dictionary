@@ -3,5 +3,5 @@
   "display_name": "Actigraphy Report: Weekend Sleep Std Dev",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

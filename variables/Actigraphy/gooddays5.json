@@ -3,5 +3,5 @@
   "display_name": "Actigraphy QS: # Of Good Days",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "good days"
 }

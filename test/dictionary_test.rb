@@ -9,7 +9,8 @@ class DictionaryTest < Minitest::Test
   # iterators that can be used to write custom tests
   include Spout::Helpers::Iterators
 
-  VALID_UNITS = ['', 'naps', 'days', 'nights', 'events per hour', 'event count', 'minutes', 'hours', 'beats per minute', 'seconds', 'percent']
+  VALID_UNITS = ['', 'naps', 'days', 'nights', 'events per hour', 'event count', 'minutes', 'hours',
+   'beats per minute', 'seconds', 'percent', 'good days', 'weekdays', 'weekend days', 'valid nights', 'invalid nights' ]
 
   @variables.select{|v| ['numeric','integer'].include?(v.type)}.each do |variable|
     define_method("test_units: "+variable.path) do

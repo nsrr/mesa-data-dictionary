@@ -3,5 +3,5 @@
   "display_name": "Actigraphy Report: Number Of Weekend Days Sleep",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "weekend days"
 }

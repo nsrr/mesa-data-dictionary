@@ -3,5 +3,5 @@
   "display_name": "Actigraphy Report: Std Dev Sleep Sleep Time (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

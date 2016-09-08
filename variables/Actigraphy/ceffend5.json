@@ -3,5 +3,5 @@
   "display_name": "Actigraphy Report: Weekday Efficiency Cv",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "percent"
 }

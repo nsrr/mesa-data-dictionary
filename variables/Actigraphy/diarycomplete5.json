@@ -2,6 +2,6 @@
   "id": "diarycomplete5",
   "display_name": "Actigraphy QS: Diary Completeness",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "choices",
+  "domain": "sleepdiarycomplete"
 }

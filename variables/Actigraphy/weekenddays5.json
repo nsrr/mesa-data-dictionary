@@ -3,5 +3,5 @@
   "display_name": "Actigraphy QS: # Of Weekend Days",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "weekend days"
 }

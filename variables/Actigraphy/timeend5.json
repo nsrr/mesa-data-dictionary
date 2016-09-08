@@ -2,6 +2,6 @@
   "id": "timeend5",
   "display_name": "Actigraphy QS: Data Collection End Time",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
+ 
 }

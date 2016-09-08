@@ -2,6 +2,6 @@
   "id": "overallqual5",
   "display_name": "Actigraphy QS: Overall Quality Grading (Qs)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "choices",
+  "domain": "overallqualitygrade"
 }

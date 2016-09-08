@@ -3,5 +3,5 @@
   "display_name": "Actigraphy QS: # Of Valid Nights",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "valid nights"
 }

@@ -3,5 +3,5 @@
   "display_name": "Actigraphy Report: Weekend Sleep Mean",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

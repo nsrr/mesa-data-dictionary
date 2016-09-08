@@ -3,5 +3,5 @@
   "display_name": "Actigraphy Report: Average Sleep % Sleep",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "percent"
 }
