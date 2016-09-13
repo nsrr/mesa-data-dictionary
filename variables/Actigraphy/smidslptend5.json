@@ -2,5 +2,5 @@
   "id": "smidslptend5",
   "display_name": "Actigraphy Report: Mean Mid-Sleep Time Weekend Std Dev",
   "description": "",
-  "type": "string"
+  "type": "time"
 }

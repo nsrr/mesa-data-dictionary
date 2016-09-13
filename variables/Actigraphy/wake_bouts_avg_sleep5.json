@@ -3,5 +3,5 @@
   "display_name": "Actigraphy Report: Average Sleep Number Of Wake Bouts",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "wake bouts"
 }

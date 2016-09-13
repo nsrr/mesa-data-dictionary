@@ -2,5 +2,5 @@
   "id": "mbedtwk5",
   "display_name": "Actigraphy Report: Mean Bedtime Weekdays",
   "description": "",
-  "type": "string"
+  "type": "time"
 }

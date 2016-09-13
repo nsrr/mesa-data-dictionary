@@ -3,5 +3,5 @@
   "display_name": "Number Of Days With Sleep Data In Recording. Also, Number Of Main Rest Intervals In Recording (Days)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "days"
 }

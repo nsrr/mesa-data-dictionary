@@ -2,5 +2,5 @@
   "id": "mbedtend5",
   "display_name": "Actigraphy Report: Mean Bedtime Weekend",
   "description": "",
-  "type": "string"
+  "type": "time"
 }

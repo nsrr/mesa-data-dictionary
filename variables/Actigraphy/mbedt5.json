@@ -2,5 +2,5 @@
   "id": "mbedt5",
   "display_name": "Actigraphy Report: Mean Bedtime",
   "description": "",
-  "type": "string"
+  "type": "time"
 }

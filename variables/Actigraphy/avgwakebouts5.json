@@ -3,5 +3,5 @@
   "display_name": "Average Wake Bouts In Main Sleep Periods Across All Days (Wake Bouts)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "wake bouts"
 }
