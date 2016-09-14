@@ -2,6 +2,5 @@
   "id": "losbeg5",
   "display_name": "Psg Qs: Data Lost At Beginning Of Study",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

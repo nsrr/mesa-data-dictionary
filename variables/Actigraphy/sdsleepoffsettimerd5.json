@@ -1,7 +1,6 @@
 {
   "id": "sdsleepoffsettimerd5",
-  "display_name": "Standard Deviation Of The Sleep Offset Time Across Reliable Days (Hh:Mm:Ss)",
+  "display_name": "Standard Deviation Of The Sleep Offset Time Across Reliable Days (hh:hm:ss)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
 }

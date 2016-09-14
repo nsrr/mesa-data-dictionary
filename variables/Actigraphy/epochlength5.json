@@ -3,5 +3,5 @@
   "display_name": "Original Epoch Length For Processed Actigraphy Study  (Seconds)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "seconds"
 }

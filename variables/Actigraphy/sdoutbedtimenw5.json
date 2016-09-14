@@ -1,7 +1,6 @@
 {
   "id": "sdoutbedtimenw5",
-  "display_name": "Standard Deviation Of The Non-Workday Out Of Bed Time (Hh:Mm:Ss)",
+  "display_name": "Standard Deviation Of The Non-Workday Out Of Bed Time (hh:hm:ss)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
 }

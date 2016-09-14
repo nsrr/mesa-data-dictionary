@@ -1,7 +1,6 @@
 {
   "id": "cslpend5",
-  "display_name": "Actigraphy Report: Weekday Sleep Cv",
+  "display_name": "Actigraphy Report: Weekday Sleep CV",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

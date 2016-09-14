@@ -2,6 +2,5 @@
   "id": "odi35",
   "display_name": "Psg: Filtered - Oxygen Desaturation Index At 3% (During Sleep Time)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

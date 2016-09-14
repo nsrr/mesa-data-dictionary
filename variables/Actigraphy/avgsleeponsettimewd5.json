@@ -1,7 +1,6 @@
 {
   "id": "avgsleeponsettimewd5",
-  "display_name": "Average Time To Fall Asleep For Main Sleep Across All Weekday Days (Hh:Mm:Ss)",
+  "display_name": "Average Time To Fall Asleep For Main Sleep Across All Weekday Days (hh:hm:ss)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
 }

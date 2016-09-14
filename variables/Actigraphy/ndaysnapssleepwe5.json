@@ -3,5 +3,5 @@
   "display_name": "Number Of Weekend Days With Naps When Only Naps With Some Sleep Time Are Counted (Weekend Days)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "weekend days"
 }

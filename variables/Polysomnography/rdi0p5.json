@@ -2,6 +2,5 @@
   "id": "rdi0p5",
   "display_name": "Calculated - Overall Rdi At 0% Desat",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

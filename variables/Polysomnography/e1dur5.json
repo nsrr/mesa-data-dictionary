@@ -2,6 +2,5 @@
   "id": "e1dur5",
   "display_name": "Psg Qs: E1 (Eogl) Signal Duration (Hours)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

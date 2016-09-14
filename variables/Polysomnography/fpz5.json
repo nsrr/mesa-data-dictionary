@@ -2,6 +2,5 @@
   "id": "fpz5",
   "display_name": "Psg Qs: Signal Quality Issues Found On Fpz Signal",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

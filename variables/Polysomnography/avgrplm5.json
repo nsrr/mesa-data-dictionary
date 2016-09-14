@@ -2,6 +2,5 @@
   "id": "avgrplm5",
   "display_name": "# Of Plm Per Hour Of Rem Sleep",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

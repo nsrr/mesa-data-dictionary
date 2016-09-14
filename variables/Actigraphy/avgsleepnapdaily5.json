@@ -3,5 +3,5 @@
   "display_name": "Average Sleep Time In Naps Per Day Across All Days In The Recording When Only Naps With Some Sleep Are Counted (Minutes/Day)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes per day"
 }

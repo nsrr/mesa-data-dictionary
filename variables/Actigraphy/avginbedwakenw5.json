@@ -3,5 +3,5 @@
   "display_name": "Average Total Time Spent Awake During The Non-Workday In Bed Interval (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

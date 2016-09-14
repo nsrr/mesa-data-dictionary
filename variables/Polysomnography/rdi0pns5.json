@@ -2,6 +2,5 @@
   "id": "rdi0pns5",
   "display_name": "Calculated - Overall Non-Supine Rdi At 0% Desat",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

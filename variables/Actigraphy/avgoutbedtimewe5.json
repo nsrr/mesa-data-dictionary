@@ -1,7 +1,6 @@
 {
   "id": "avgoutbedtimewe5",
-  "display_name": "Average Time To Get Out Of Bed After Main Sleep Across All Weekend Days In Minutes (Hh:Mm:Ss)",
+  "display_name": "Average Time To Get Out Of Bed After Main Sleep Across All Weekend Days In Minutes (hh:hm:ss)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
 }

@@ -3,5 +3,5 @@
   "display_name": "Average Sleep Time Per Nap Across Reliable Days When Only Naps With >=15 Minutes Of Sleep Time Are Counted  (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

@@ -2,6 +2,5 @@
   "id": "m15",
   "display_name": "Psg Qs: Signal Quality Issues Found On M1 Signal",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

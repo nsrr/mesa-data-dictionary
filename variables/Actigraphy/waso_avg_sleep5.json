@@ -3,5 +3,5 @@
   "display_name": "Actigraphy Report: Average Sleep Waso (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

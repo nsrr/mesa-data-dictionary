@@ -2,6 +2,5 @@
   "id": "svspo25",
   "display_name": "Psg Qs: Spo2 From Signal Verification Form - Reading At Time Of Hookup",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

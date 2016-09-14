@@ -2,6 +2,5 @@
   "id": "hurbp5",
   "display_name": "# Aasm Alternative Hypopnea Per Hour (Rem, Back, All Desats)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

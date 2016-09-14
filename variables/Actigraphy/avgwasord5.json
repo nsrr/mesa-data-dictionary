@@ -3,5 +3,5 @@
   "display_name": "Average Wake After Sleep Onset (Waso) In Reliable Day Main Sleeps (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

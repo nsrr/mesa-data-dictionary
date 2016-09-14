@@ -1,7 +1,6 @@
 {
   "id": "avginbedtime5",
-  "display_name": "Average Clock Time To Get In Bed For Main Sleep Across All Days (Hh:Mm:Ss)",
+  "display_name": "Average Clock Time To Get In Bed For Main Sleep Across All Days (hh:hm:ss)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
 }

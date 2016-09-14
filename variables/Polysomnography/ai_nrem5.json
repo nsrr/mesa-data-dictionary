@@ -2,6 +2,5 @@
   "id": "ai_nrem5",
   "display_name": "Calculated - Arousal Index Non-Rem",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

@@ -2,6 +2,5 @@
   "id": "que15",
   "display_name": "Psg Qs: E1 Signal Quality",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

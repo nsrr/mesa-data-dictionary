@@ -2,6 +2,5 @@
   "id": "rdi4ps5",
   "display_name": "Calculated - Overall Supine Rdi At 4% Desat",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

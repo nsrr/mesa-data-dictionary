@@ -2,6 +2,5 @@
   "id": "posn5",
   "display_name": "Psg Qs: Signal Quality Issues Found On Position Signal",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

@@ -1,7 +1,6 @@
 {
   "id": "sdsleeponsettimenw5",
-  "display_name": "Standard Deviation Of The Non-Workday Sleep Onset Time (Hh:Mm:Ss)",
+  "display_name": "Standard Deviation Of The Non-Workday Sleep Onset Time (hh:hm:ss)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
 }

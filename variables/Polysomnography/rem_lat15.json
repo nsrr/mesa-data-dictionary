@@ -2,6 +2,5 @@
   "id": "rem_lat15",
   "display_name": "Calculated - Rem Latency I In Minutes Slp Onset To First Rem",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

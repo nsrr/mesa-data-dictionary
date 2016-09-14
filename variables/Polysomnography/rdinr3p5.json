@@ -2,6 +2,5 @@
   "id": "rdinr3p5",
   "display_name": "Calculated - Overall Non-Rem Rdi At 3% Desat",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

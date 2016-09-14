@@ -3,5 +3,5 @@
   "display_name": "Number Of Reliable Days With Naps When Only Naps With Some Sleep Time Are Counted (Reliable Days)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "reliable days"
 }

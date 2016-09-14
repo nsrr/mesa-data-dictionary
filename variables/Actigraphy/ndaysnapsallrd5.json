@@ -3,5 +3,5 @@
   "display_name": "Number Of Days With Naps When All Naps Are Counted, Across Reliable Days (Reliable Days)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "reliable days"
 }

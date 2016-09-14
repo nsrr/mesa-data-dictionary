@@ -2,6 +2,5 @@
   "id": "quxflow5",
   "display_name": "Psg Qs: Cannula Flow Signal Quality",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

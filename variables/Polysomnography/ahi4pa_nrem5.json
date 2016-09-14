@@ -2,6 +2,5 @@
   "id": "ahi4pa_nrem5",
   "display_name": "(Previously Aasm2013ahi_nrem5) Ahi: Obstructive And Central Apneas (All Desats);  30% And 50% Hypopneas (4% Desat Or Arousal)  Index In Nrem",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

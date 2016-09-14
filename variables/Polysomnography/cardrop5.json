@@ -2,6 +2,5 @@
   "id": "cardrop5",
   "display_name": "Cent. Apnea Per Hour (Rem, Other, All Desats)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

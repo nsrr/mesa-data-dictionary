@@ -2,6 +2,5 @@
   "id": "avsao2rh5",
   "display_name": "Avg. Sao2 % During Rem Sleep",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

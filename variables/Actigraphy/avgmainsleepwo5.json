@@ -3,5 +3,5 @@
   "display_name": "Average Sleep Time In Main Sleep Periods Across All Workday Days (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

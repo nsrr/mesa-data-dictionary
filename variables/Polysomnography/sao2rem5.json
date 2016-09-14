@@ -2,6 +2,5 @@
   "id": "sao2rem5",
   "display_name": "Calculated - Avg Sao2 Rem",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

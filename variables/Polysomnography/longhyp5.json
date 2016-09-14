@@ -2,6 +2,5 @@
   "id": "longhyp5",
   "display_name": "Longest Aasm Recommended Hypopnea (Seconds)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

@@ -2,6 +2,5 @@
   "id": "scorerid5",
   "display_name": "Psg Report: Scorer Id",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

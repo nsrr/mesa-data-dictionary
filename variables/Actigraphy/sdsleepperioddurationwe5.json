@@ -3,5 +3,5 @@
   "display_name": "Standard Deviation Of The Weekend Sleep Period Duration (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

@@ -2,6 +2,5 @@
   "id": "c4dur5",
   "display_name": "Psg Qs: Cz-Oz Signal Duration (Hours)  Eeg",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

@@ -3,5 +3,5 @@
   "display_name": "Standard Deviation Of Sleep Time In Main Sleep Periods Across All Weekday Days (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

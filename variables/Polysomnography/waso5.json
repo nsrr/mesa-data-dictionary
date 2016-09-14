@@ -2,6 +2,5 @@
   "id": "waso5",
   "display_name": "Calculated - Wake After Sleep Onset (Minutes)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

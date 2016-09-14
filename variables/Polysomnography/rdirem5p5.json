@@ -2,6 +2,5 @@
   "id": "rdirem5p5",
   "display_name": "Calculated - Overall Rem Rdi At 5% Desat",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

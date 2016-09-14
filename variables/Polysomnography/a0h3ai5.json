@@ -1,7 +1,6 @@
 {
   "id": "a0h3ai5",
-  "display_name": "All Apneas + Hypopneas With >=3% Desat Or Arousal  Index (Ahi)",
+  "display_name": "All Apneas + Hypopneas With >=3% Desat Or Arousal â¬Ã» Index (Ahi)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

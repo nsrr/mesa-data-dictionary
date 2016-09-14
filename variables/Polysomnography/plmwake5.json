@@ -2,6 +2,5 @@
   "id": "plmwake5",
   "display_name": "Psg Qs: Leg Movements In Wake",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

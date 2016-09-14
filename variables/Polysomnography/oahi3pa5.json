@@ -2,6 +2,5 @@
   "id": "oahi3pa5",
   "display_name": "Calculated - Obstructive Apnea (All Desats) Aasm Recommended And Alternative Hypopnea (3% Desat Or Arousal) Index",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

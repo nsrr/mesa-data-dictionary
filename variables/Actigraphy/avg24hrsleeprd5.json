@@ -3,5 +3,5 @@
   "display_name": "Average 24 Hour Sleep Across All Reliable Days (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

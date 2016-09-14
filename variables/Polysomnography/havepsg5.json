@@ -2,6 +2,5 @@
   "id": "havepsg5",
   "display_name": "Mesa Sleep: Has Psg Data (Passed Overnight Study)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

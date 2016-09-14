@@ -2,6 +2,5 @@
   "id": "pctsa85h5",
   "display_name": "% Sleep Time Sao2 Is < 85%",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

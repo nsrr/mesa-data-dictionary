@@ -2,6 +2,5 @@
   "id": "qupleth5",
   "display_name": "Psg Qs: Pleth Signal Quality",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

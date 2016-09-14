@@ -2,6 +2,5 @@
   "id": "oahi3pa_rem5",
   "display_name": "Obstructive Apnea/Hypopnea 3% Index (Or Arousal) In Rem: All Obstructive Apneas And Hypopneas With A >=3% Desat Or Arousal",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

@@ -3,5 +3,5 @@
   "display_name": "Average Sleep Efficiency In Main Sleeps Across All Workday Days (Percent)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "percent"
 }

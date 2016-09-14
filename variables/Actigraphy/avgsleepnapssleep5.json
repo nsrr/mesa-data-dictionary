@@ -3,5 +3,5 @@
   "display_name": "Average Sleep Time Per Nap When Only Naps With Some Sleep Are Counted (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

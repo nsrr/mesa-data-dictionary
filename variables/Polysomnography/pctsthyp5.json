@@ -2,6 +2,5 @@
   "id": "pctsthyp5",
   "display_name": "% Sleep Time In Aasm Recommended Hypopnea",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

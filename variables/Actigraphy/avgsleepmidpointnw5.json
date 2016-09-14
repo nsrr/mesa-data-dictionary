@@ -1,7 +1,6 @@
 {
   "id": "avgsleepmidpointnw5",
-  "display_name": "Average Time Midpoint Between Non-Workday Sleep Onset And Sleep Offset Times (Hh:Mm:Ss)",
+  "display_name": "Average Time Midpoint Between Non-Workday Sleep Onset And Sleep Offset Times (hh:hm:ss)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
 }

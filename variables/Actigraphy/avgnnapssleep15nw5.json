@@ -3,5 +3,5 @@
   "display_name": "Average Number Of Naps Per Non-Workday Day When Only Naps With >=15 Minutes Of Sleep Time Are Counted (Naps)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "naps"
 }

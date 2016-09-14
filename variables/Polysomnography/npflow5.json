@@ -2,6 +2,5 @@
   "id": "npflow5",
   "display_name": "Psg Qs: Flow Limitation",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

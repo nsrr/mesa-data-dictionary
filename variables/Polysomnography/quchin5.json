@@ -2,6 +2,5 @@
   "id": "quchin5",
   "display_name": "Psg Qs: Chin Signal Quality",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

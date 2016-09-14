@@ -2,6 +2,5 @@
   "id": "rdirbp5",
   "display_name": "Aasm Recommended Hypopnea Per Hour (Rem, Back, All Desats)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

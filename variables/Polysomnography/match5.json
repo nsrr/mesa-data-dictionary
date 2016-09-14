@@ -2,6 +2,5 @@
   "id": "match5",
   "display_name": "Mesa Sleep: Psg/Actigraphy Start Dates Match (I.E. No Failures; Tests Were Concurrent)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

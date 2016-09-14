@@ -2,6 +2,5 @@
   "id": "ahiov505",
   "display_name": "Psg Qs: Abnormal Referral - Ahi> 50",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

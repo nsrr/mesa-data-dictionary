@@ -3,5 +3,5 @@
   "display_name": "Number Of Non-Workday Days With Naps When Only Naps With >=15 Minutes Of Sleep Time Are Counted (Non-Workday Days)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "non-workdays"
 }

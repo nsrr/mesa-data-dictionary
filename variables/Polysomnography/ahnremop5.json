@@ -2,6 +2,5 @@
   "id": "ahnremop5",
   "display_name": "Arousals Per Hour (Nrem, Other, All Desats)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

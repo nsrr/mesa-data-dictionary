@@ -3,5 +3,5 @@
   "display_name": "Average Sleep Time Per Non-Workday Nap When All Naps Are Counted (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

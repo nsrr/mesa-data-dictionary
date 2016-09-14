@@ -2,6 +2,5 @@
   "id": "oahi4pa_sup5",
   "display_name": "Obstructive Apnea/Hypopnea 4% Index (Or Arousal) In Supine Position: All Obstructive Apneas And Hypopneas With A >=4% Desat Or Arousal",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

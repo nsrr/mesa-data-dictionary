@@ -1,7 +1,6 @@
 {
   "id": "sdsleepmidpointwo5",
-  "display_name": "Standard Deviation Of The Midpoint Between Workday Sleep Onset And Sleep Offset Times (Hh:Mm:Ss)",
+  "display_name": "Standard Deviation Of The Midpoint Between Workday Sleep Onset And Sleep Offset Times (hh:hm:ss)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
 }

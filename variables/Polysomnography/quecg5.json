@@ -2,6 +2,5 @@
   "id": "quecg5",
   "display_name": "Psg Qs: Ecg Signal Quality",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

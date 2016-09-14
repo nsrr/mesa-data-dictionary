@@ -2,6 +2,5 @@
   "id": "mnsao2rh5",
   "display_name": "Min. Sao2 % During Rem Sleep",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

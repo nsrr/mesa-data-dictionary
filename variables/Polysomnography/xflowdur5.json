@@ -2,6 +2,5 @@
   "id": "xflowdur5",
   "display_name": "Psg Qs: Cannula Flow Signal Duration (Hours)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

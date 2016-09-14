@@ -2,6 +2,5 @@
   "id": "siteid5",
   "display_name": "Psg Qs: Site Id",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

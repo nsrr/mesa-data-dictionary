@@ -1,7 +1,6 @@
 {
   "id": "avgsleepmidpointrd5",
-  "display_name": "Average Time Midpoint Between Sleep Onset And Sleep Offset Times Across Reliable Days (Hh:Mm:Ss)",
+  "display_name": "Average Time Midpoint Between Sleep Onset And Sleep Offset Times Across Reliable Days (hh:hm:ss)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
 }

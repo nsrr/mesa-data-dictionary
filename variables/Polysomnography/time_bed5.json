@@ -2,6 +2,5 @@
   "id": "time_bed5",
   "display_name": "Calculated - Time In Bed (Minutes)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

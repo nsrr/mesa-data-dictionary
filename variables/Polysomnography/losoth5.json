@@ -2,6 +2,5 @@
   "id": "losoth5",
   "display_name": "Psg Qs: Data Lost During Study",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

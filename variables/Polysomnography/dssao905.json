@@ -2,6 +2,5 @@
   "id": "dssao905",
   "display_name": "# Of Desats With Sao2 Drops Below 90% In Sleep",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

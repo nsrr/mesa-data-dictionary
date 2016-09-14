@@ -2,6 +2,5 @@
   "id": "rdirba5",
   "display_name": "Aasm Recommended Hypopnea Per Hour W/ Arousals (Rem, Back, All Desats)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

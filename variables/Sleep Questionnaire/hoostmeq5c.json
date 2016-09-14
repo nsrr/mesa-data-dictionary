@@ -2,6 +2,5 @@
   "id": "hoostmeq5c",
   "display_name": "Modified Horne-Ostberg Morningness-Eveningness Questionnaire (Meq) Score",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

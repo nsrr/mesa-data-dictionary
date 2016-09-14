@@ -2,6 +2,5 @@
   "id": "cardrba5",
   "display_name": "Cent. Apnea Per Hour W/ Arousals (Rem, Back, All Desats)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

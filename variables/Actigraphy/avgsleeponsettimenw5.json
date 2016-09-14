@@ -1,7 +1,6 @@
 {
   "id": "avgsleeponsettimenw5",
-  "display_name": "Average Time To Fall Asleep For Main Sleep Across All Non-Workday Days (Hh:Mm:Ss)",
+  "display_name": "Average Time To Fall Asleep For Main Sleep Across All Non-Workday Days (hh:hm:ss)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
 }

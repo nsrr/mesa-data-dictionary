@@ -2,6 +2,5 @@
   "id": "pcstahar5",
   "display_name": "% Sleep Time In Apnea+Aasm Recommended Hypopnea With Arousal",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

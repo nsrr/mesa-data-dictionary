@@ -3,5 +3,5 @@
   "display_name": "Average Activity Count Per Minute In Active Intervals Across All Days (Activity Counts)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "activity counts"
 }

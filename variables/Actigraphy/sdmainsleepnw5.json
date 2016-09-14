@@ -3,5 +3,5 @@
   "display_name": "Standard Deviation Of Sleep Time In Main Sleep Periods Across All Non-Workday Days (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

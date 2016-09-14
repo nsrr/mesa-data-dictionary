@@ -2,6 +2,5 @@
   "id": "apnhyppr5",
   "display_name": "Psg Qs: Scoring Apnea/Hypopnea Unreliable",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

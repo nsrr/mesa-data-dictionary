@@ -2,6 +2,5 @@
   "id": "period5",
   "display_name": "Psg Qs: Periodic Breathing >=10 Min",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

@@ -2,6 +2,5 @@
   "id": "rdi5pa5",
   "display_name": "Calculated - Overall Rdi At 5% Desat Or Arousal",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

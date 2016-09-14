@@ -1,7 +1,6 @@
 {
   "id": "avgsleepoffsettime5",
-  "display_name": "Average Time To Wake Up For Main Sleep Across All Days In Minutes (Hh:Mm:Ss)",
+  "display_name": "Average Time To Wake Up For Main Sleep Across All Days In Minutes (hh:hm:ss)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
 }

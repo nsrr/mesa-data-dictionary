@@ -2,6 +2,5 @@
   "id": "pcoslp5",
   "display_name": "Psg: Filtered - % Sleep Time In Apnea [Ca+Oa]",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

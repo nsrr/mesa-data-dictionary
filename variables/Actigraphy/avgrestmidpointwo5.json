@@ -1,7 +1,6 @@
 {
   "id": "avgrestmidpointwo5",
-  "display_name": "Average Time Midpoint Between Workday In Bed And Out Of Bed Times (Hh:Mm:Ss)",
+  "display_name": "Average Time Midpoint Between Workday In Bed And Out Of Bed Times (hh:hm:ss)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
 }

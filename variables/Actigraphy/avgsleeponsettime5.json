@@ -1,7 +1,6 @@
 {
   "id": "avgsleeponsettime5",
-  "display_name": "Average Time To Fall Asleep For Main Sleep Across All Days (Hh:Mm:Ss)",
+  "display_name": "Average Time To Fall Asleep For Main Sleep Across All Days (hh:hm:ss)",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "time"
 }

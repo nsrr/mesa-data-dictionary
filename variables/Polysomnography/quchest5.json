@@ -2,6 +2,5 @@
   "id": "quchest5",
   "display_name": "Psg Qs: Chest Signal Quality",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }
