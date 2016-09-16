@@ -1,6 +1,7 @@
 {
   "id": "quair5",
-  "display_name": "Psg Qs: Airflow Signal Quality",
+  "display_name": "PSG QS: Airflow Signal Quality",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "psgsignalquality"
 }

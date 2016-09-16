@@ -1,6 +1,6 @@
 {
   "id": "bpmmax5",
-  "display_name": "Highest Heart Rate (Bpm) During Sleep",
+  "display_name": "Highest Heart Rate (BPM) During Sleep",
   "description": "",
   "type": "numeric"
 }

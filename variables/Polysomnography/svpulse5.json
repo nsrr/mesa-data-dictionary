@@ -1,6 +1,6 @@
 {
   "id": "svpulse5",
-  "display_name": "Psg Qs: Manual Pulse At Time Of Hookup From Sv Form",
+  "display_name": "PSG QS: Manual Pulse At Time Of Hookup From Sv Form",
   "description": "",
   "type": "numeric"
 }

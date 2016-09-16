@@ -1,6 +1,7 @@
 {
   "id": "rsnco5",
-  "display_name": "Psg Qs: Reason For Study Failure",
+  "display_name": "PSG QS: Reason For Study Failure",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "psgreasonfail"
 }

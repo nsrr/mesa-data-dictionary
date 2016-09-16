@@ -1,6 +1,7 @@
 {
   "id": "que15",
-  "display_name": "Psg Qs: E1 Signal Quality",
+  "display_name": "PSG QS: E1 Signal Quality",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "psgsignalquality"
 }

@@ -1,6 +1,7 @@
 {
   "id": "m15",
-  "display_name": "Psg Qs: Signal Quality Issues Found On M1 Signal",
+  "display_name": "PSG QS: Signal Quality Issues Found On M1 Signal",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "noyes"
 }

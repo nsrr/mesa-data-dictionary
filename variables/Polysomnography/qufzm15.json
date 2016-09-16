@@ -1,6 +1,7 @@
 {
   "id": "qufzm15",
-  "display_name": "Psg Qs: Fz-Cz Signal Quality - Eeg -  Mismatched Variable Name And Label. Confirmed As \"Fz-Cz\" Signal.",
+  "display_name": "PSG QS: Fz-Cz Signal Quality - EEG -  Mismatched Variable Name And Label. Confirmed As \"Fz-Cz\" Signal.",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "psgsignalquality"
 }

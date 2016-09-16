@@ -1,6 +1,6 @@
 {
   "id": "nightsrec5",
-  "display_name": "Actigraphy QS: # Of Nights Recorded",
+  "display_name": "Actigraphy QS: # of Nights Recorded",
   "description": "",
   "type": "numeric",
   "units": "nights"

@@ -1,6 +1,6 @@
 {
   "id": "gooddays5",
-  "display_name": "Actigraphy QS: # Of Good Days",
+  "display_name": "Actigraphy QS: # of Good Days",
   "description": "",
   "type": "numeric",
   "units": "good days"

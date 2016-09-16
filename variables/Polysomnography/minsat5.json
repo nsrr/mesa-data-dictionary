@@ -1,6 +1,6 @@
 {
   "id": "minsat5",
-  "display_name": "Psg Report: Calculated - Min Sao2 In Sleep",
+  "display_name": "PSG Report: Calculated - Min SaO2 In Sleep",
   "description": "",
   "type": "numeric"
 }

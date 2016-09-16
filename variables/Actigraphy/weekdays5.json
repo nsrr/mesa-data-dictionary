@@ -1,6 +1,6 @@
 {
   "id": "weekdays5",
-  "display_name": "Actigraphy QS: # Of Weekdays",
+  "display_name": "Actigraphy QS: # of Weekdays",
   "description": "",
   "type": "numeric",
   "units": "weekdays"

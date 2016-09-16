@@ -1,6 +1,7 @@
 {
   "id": "qucasn5",
-  "display_name": "Psg Qs: Cannula Snore Signal Quality",
+  "display_name": "PSG QS: Cannula Snore Signal Quality",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "psgsignalquality"
 }

@@ -1,6 +1,6 @@
 {
   "id": "ecgdur5",
-  "display_name": "Psg Qs: Ecg Signal Duration (Hours)",
+  "display_name": "PSG QS: ECG Signal Duration (Hours)",
   "description": "",
   "type": "numeric"
 }

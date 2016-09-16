@@ -1,6 +1,7 @@
 {
   "id": "quchin5",
-  "display_name": "Psg Qs: Chin Signal Quality",
+  "display_name": "PSG QS: Chin Signal Quality",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "psgsignalquality"
 }

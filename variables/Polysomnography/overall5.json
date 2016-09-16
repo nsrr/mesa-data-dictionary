@@ -1,6 +1,7 @@
 {
   "id": "overall5",
-  "display_name": "Psg Qs: Overall Study Quality Grade",
+  "display_name": "PSG QS: Overall Study Quality Grade",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "overallstudyqualitygrade"
 }

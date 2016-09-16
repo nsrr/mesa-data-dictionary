@@ -1,6 +1,6 @@
 {
   "id": "pctsa85h5",
-  "display_name": "% Sleep Time Sao2 Is < 85%",
+  "display_name": "% Sleep Time SaO2 Is < 85%",
   "description": "",
   "type": "numeric"
 }

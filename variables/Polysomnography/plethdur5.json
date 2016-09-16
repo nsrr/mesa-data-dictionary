@@ -1,6 +1,6 @@
 {
   "id": "plethdur5",
-  "display_name": "Psg Qs: Pleth Signal Duration (Hours)",
+  "display_name": "PSG QS: Pleth Signal Duration (Hours)",
   "description": "",
   "type": "numeric"
 }

@@ -1,0 +1,22 @@
+[
+  {
+    "value": "0",
+    "display_name": "No heart rate issues",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Abnormalitites seen-not clinically",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Potential urgent- A-fib/flutter HR",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Urgent referral- heart rate (No A-Fib) ",
+    "description": ""
+  }
+]

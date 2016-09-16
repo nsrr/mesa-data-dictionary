@@ -1,6 +1,7 @@
 {
   "id": "status_psg5",
-  "display_name": "Psg Qs: Pass/Fail Status",
+  "display_name": "PSG QS: Pass/Fail Status",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "psgpassfail"
 }

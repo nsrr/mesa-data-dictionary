@@ -1,6 +1,6 @@
 {
   "id": "period5",
-  "display_name": "Psg Qs: Periodic Breathing >=10 Min",
+  "display_name": "PSG QS: Periodic Breathing >=10 Min",
   "description": "",
   "type": "numeric"
 }

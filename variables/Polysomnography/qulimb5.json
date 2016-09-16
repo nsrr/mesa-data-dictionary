@@ -1,6 +1,7 @@
 {
   "id": "qulimb5",
-  "display_name": "Psg Qs: Limb Signal Quality",
+  "display_name": "PSG QS: Limb Signal Quality",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "psgsignalquality"
 }
