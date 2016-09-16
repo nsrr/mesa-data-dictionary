@@ -2,5 +2,6 @@
   "id": "arunrel5",
   "display_name": "PSG QS: Scoring Arousals Unreliable",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "noyes"
 }

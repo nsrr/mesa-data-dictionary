@@ -2,5 +2,6 @@
   "id": "unuhrou4f5",
   "display_name": "PSG QS: Urgent Referral - Unusual HR: Other",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "checkednotchecked"
 }

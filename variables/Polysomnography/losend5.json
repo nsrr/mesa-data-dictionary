@@ -2,5 +2,6 @@
   "id": "losend5",
   "display_name": "PSG QS: Data Lost At End Of Study",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "noyes"
 }

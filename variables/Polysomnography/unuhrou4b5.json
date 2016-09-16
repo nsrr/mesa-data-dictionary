@@ -2,5 +2,6 @@
   "id": "unuhrou4b5",
   "display_name": "PSG QS: Urgent Referral - Unusual HR: Acute St Segment",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "checkednotchecked"
 }

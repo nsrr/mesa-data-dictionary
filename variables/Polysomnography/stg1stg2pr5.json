@@ -2,5 +2,6 @@
   "id": "stg1stg2pr5",
   "display_name": "PSG QS: Scoring Stage1/Stage2 Unreliable",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "noyes"
 }

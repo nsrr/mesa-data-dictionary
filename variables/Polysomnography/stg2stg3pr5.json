@@ -2,5 +2,6 @@
   "id": "stg2stg3pr5",
   "display_name": "PSG QS: Scoring Stage2/Deep Sleep Unreliable",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "noyes"
 }

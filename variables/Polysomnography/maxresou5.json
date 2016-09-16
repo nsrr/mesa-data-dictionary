@@ -2,5 +2,6 @@
   "id": "maxresou5",
   "display_name": "PSG QS: Long Respiratory Events Verified",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "noyes"
 }

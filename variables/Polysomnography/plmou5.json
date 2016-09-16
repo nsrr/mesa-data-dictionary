@@ -2,5 +2,6 @@
   "id": "plmou5",
   "display_name": "PSG QS: PLM > 100 Verified",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "noyes"
 }

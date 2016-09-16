@@ -2,5 +2,6 @@
   "id": "remarunrel5",
   "display_name": "PSG QS: Scoring Arousals In REM (Only) Unreliable",
   "description": "",
-  "type": "numeric"
+  "type": "choices",
+  "domain": "noyes"
 }
