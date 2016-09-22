@@ -1,8 +1,15 @@
-visit: visit
-charts: []
-# - chart: age
-#   title: Age
-# - chart: gender
-#   title: Gender
-# - chart: race
-#   title: Race
+---
+slug: mesa
+visit: examnumber
+charts:
+- chart: age5c
+  title: Age at Exam 5
+- chart: gender1
+  title: Gender
+- chart: race1c
+  title: Race
+webservers:
+  - name: production
+    url: https://sleepdata.org
+  - name: staging
+    url: https://staging.partners.org/sleepdata.org

@@ -11,7 +11,7 @@ class DictionaryTest < Minitest::Test
 
   VALID_UNITS = [nil, '', 'naps', 'days', 'nights', 'events per hour', 'event count', 'minutes', 'hours',
    'beats per minute', 'seconds', 'percent', 'good days', 'weekdays', 'weekend days', 'valid nights', 'invalid nights' , 'wake bouts' , 'sleep bouts' , 'activity counts' , 'non-workdays' ,
-    'naps per day' , 'minutes per day' , 'reliable days' , 'workdays']
+    'naps per day' , 'minutes per day' , 'reliable days' , 'workdays', 'years']
 
    @variables.select{|v| ['numeric','integer'].include?(v.type)}.each do |variable|
      define_method("test_units: "+variable.path) do

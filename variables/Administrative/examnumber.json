@@ -1,0 +1,7 @@
+{
+  "id": "examnumber",
+  "display_name": "MESA Exam Number",
+  "description": "Note: The MESA Sleep ancillary study took place during MESA Exam 5.",
+  "type": "choices",
+  "domain": "examnumber"
+}
