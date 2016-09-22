@@ -1,0 +1,7 @@
+{
+  "id": "gender1",
+  "display_name": "Gender",
+  "description": "",
+  "type": "choices",
+  "domain": "gender"
+}

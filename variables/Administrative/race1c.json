@@ -1,0 +1,7 @@
+{
+  "id": "race1c",
+  "display_name": "Race / ethnicity",
+  "description": "Note from MESA Coordinating Center: It is recommended that Investigators make use of the terminology “race/ethnicity” when publishing or presenting variable race1c results (e.g. descriptive summaries, associations, …).”  It has been noted that Chinese and Hispanic are not race groups, and that race itself is an ill-defined, non-scientific concept.",
+  "type": "choices",
+  "domain": "race"
+}
