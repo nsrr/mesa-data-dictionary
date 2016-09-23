@@ -2,5 +2,6 @@
   "id": "timest15",
   "display_name": "Calculated - Time Stage 1 Minutes",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "minutes"
 }

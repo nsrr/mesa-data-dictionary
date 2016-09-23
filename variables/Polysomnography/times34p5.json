@@ -2,5 +2,6 @@
   "id": "times34p5",
   "display_name": "Calculated - Pct Time Stage 3-4",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

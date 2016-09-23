@@ -2,5 +2,6 @@
   "id": "hbavgdur5",
   "display_name": "PSG: Filtered - Avg. Hypopnea Length (Seconds)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "seconds"
 }

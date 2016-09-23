@@ -2,5 +2,6 @@
   "id": "slp_lat5",
   "display_name": "Sleep Onset Latency (Minutes): Time Between Getting In Bed And Falling Asleep",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "minutes"
 }

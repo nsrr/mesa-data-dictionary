@@ -2,5 +2,6 @@
   "id": "hunropa35",
   "display_name": "# AASM Alternative Hypopnea With Arousal Per Hour (NREM, Other, 3% Desat)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

@@ -6,8 +6,8 @@
 - Incorporate BioLINCC ID to replace primary MESA subject identifier
 - Include race/ethnicity and gender variables from Exam 1
 - The CSV datasets generated from a SAS export is located here:
-  - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.1.0.beta1\`
-    - `mesa-sleep-dataset-0.1.0.beta1.csv`
+  - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.1.0.beta2\`
+    - `mesa-sleep-dataset-0.1.0.beta2.csv`
 
 ### Changes
 - **Gem Changes**

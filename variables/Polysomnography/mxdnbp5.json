@@ -2,5 +2,6 @@
   "id": "mxdnbp5",
   "display_name": "Max. Desat (NREM, Back, All Desats)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

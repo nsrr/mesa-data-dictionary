@@ -2,5 +2,6 @@
   "id": "airdur5",
   "display_name": "PSG QS: Airflow Signal Duration (Hours)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "hours"
 }

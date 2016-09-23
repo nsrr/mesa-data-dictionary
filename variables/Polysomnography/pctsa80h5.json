@@ -2,5 +2,6 @@
   "id": "pctsa80h5",
   "display_name": "% Sleep Time SaO2 Is < 80%",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

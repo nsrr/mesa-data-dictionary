@@ -2,5 +2,6 @@
   "id": "ahiu35",
   "display_name": "RDI - Apnea/AASM Recommended Hypopnea/AASM Alternative Hypopneas With >= 3% Desat As Used On Short Report Sent To Sites",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

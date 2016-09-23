@@ -2,6 +2,6 @@
   "id": "neffend5",
   "display_name": "Actigraphy Report: Number Of Weekend Days Efficiency",
   "description": "",
-  "type": "numeric",
+  "type": "integer",
   "units": "weekend days"
 }

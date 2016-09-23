@@ -3,5 +3,6 @@
   "display_name": "Average Sleep Time In Main Sleep Periods Across All Days (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": "minutes"
+  "units": "minutes",
+  "commonly_used": true
 }

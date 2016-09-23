@@ -2,5 +2,6 @@
   "id": "oahi4_nsup5",
   "display_name": "Calculated - Obstructive Apnea (All Desats); 30% And 50% Hypopnea (4% Desat) Index Non Supine",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

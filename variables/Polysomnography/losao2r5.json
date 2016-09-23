@@ -2,5 +2,6 @@
   "id": "losao2r5",
   "display_name": "Calculated - Min SaO2 REM",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

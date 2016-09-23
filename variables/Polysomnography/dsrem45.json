@@ -2,5 +2,6 @@
   "id": "dsrem45",
   "display_name": "# of Desats Per Hour (REM, >= 4%)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

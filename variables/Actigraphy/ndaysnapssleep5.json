@@ -2,6 +2,6 @@
   "id": "ndaysnapssleep5",
   "display_name": "Number Of Days With Naps When Only Naps With Some Sleep Time Are Counted (Days)",
   "description": "",
-  "type": "numeric",
+  "type": "integer",
   "units": "days"
 }

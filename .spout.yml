@@ -2,8 +2,8 @@
 slug: mesa
 visit: examnumber
 charts:
-- chart: age5c
-  title: Age at Exam 5
+- chart: sleepage5c
+  title: Age at MESA Sleep
 - chart: gender1
   title: Gender
 - chart: race1c

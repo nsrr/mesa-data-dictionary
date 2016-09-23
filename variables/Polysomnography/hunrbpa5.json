@@ -2,5 +2,6 @@
   "id": "hunrbpa5",
   "display_name": "# AASM Alternative Hypopnea With Arousal Per Hour (NREM, Back, All Desats)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

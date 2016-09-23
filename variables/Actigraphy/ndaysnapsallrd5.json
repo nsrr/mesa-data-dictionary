@@ -2,6 +2,6 @@
   "id": "ndaysnapsallrd5",
   "display_name": "Number Of Days With Naps When All Naps Are Counted, Across Reliable Days (Reliable Days)",
   "description": "",
-  "type": "numeric",
+  "type": "integer",
   "units": "reliable days"
 }

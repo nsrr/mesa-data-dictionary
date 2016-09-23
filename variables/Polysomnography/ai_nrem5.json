@@ -2,5 +2,6 @@
   "id": "ai_nrem5",
   "display_name": "Calculated - Arousal Index Non-REM",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

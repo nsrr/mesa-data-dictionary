@@ -2,5 +2,6 @@
   "id": "ndes4ph5",
   "display_name": "# of Desat With >= 4% Desat (During Total Recording)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events"
 }

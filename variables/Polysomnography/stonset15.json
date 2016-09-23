@@ -2,5 +2,5 @@
   "id": "stonset15",
   "display_name": "Sleep Onset (Start Of Sleep- hh:mm:ss) - Scorer",
   "description": "",
-  "type": "string"
+  "type": "time"
 }

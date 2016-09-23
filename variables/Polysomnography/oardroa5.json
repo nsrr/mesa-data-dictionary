@@ -2,5 +2,6 @@
   "id": "oardroa5",
   "display_name": "Obs. Apnea Per Hour w/ Arousals (REM, Other, All Desats)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

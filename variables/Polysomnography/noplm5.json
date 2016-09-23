@@ -2,5 +2,6 @@
   "id": "noplm5",
   "display_name": "# of PLM During Sleep",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events"
 }

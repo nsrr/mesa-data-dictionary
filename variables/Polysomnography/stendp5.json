@@ -2,5 +2,5 @@
   "id": "stendp5",
   "display_name": "Study End Time (hh:hm:ss)",
   "description": "",
-  "type": "string"
+  "type": "time"
 }

@@ -2,5 +2,6 @@
   "id": "avgplma5",
   "display_name": "Number Of PLM w/ Arousals Per Hour Of Sleep",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

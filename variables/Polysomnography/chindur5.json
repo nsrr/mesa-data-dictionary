@@ -2,5 +2,6 @@
   "id": "chindur5",
   "display_name": "PSG QS: Chin (Lchin-Cchin)  Signal Duration (Hours)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "hours"
 }

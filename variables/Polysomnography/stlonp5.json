@@ -2,5 +2,5 @@
   "id": "stlonp5",
   "display_name": "Lights On Set By Scorer (hh:hm:ss) (Not Script Variable)",
   "description": "",
-  "type": "string"
+  "type": "time"
 }

@@ -5,7 +5,7 @@ libname mesacc "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets";
 options nofmterr;
 
 *set dataset version number;
-%let release = 0.1.0.beta1;
+%let release = 0.1.0.beta2;
 
 *import sas datasets from mesa coordinating center;
 data mesa_bridge;
@@ -22,9 +22,9 @@ data mesa_e1;
 run;
 
 data mesa_e5;
-  set mesacc.mesae5_finallabel_20160520;
+  set mesacc.Mesasleep_age_idno_20160922;
 
-  keep idno age5c;
+  keep idno sleepage5c;
 run;
 
 data mesa_sleepq;
@@ -57,6 +57,10 @@ data mesa_nsrr;
 
   *drop 'idno' in favor of using 'mesaid' for dataset and files;
   drop idno;
+
+  *drop other variables, reasons specified;
+  drop qcomments5 /* actigraphy comments, includes dates for a handful of studies and is otherwise not useful */
+    siteid5 /* site identifier */;
 run;
 
 proc sort data=mesa_nsrr;
