@@ -2,5 +2,6 @@
   "id": "losao2nr5",
   "display_name": "Calculated - Min SaO2 NREM",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

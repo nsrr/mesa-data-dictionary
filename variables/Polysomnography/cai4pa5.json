@@ -2,5 +2,6 @@
   "id": "cai4pa5",
   "display_name": "Calculated - Central Apnea Index 4% Or Arousal",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

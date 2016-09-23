@@ -2,5 +2,6 @@
   "id": "oardnba5",
   "display_name": "Obs. Apnea Per Hour w/ Arousals (NREM, Back, All Desats)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

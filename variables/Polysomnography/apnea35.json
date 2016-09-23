@@ -2,5 +2,6 @@
   "id": "apnea35",
   "display_name": "# of Apnea Events With >= 3% Desat",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events"
 }

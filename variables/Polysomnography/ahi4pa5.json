@@ -2,5 +2,6 @@
   "id": "ahi4pa5",
   "display_name": "(Previously AASM2013ahi5) AHI: Obstructive And Central Apneas (All Desats);  30% And 50% Hypopneas (4% Desat Or Arousal)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

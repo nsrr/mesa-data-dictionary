@@ -2,5 +2,6 @@
   "id": "oardnoa35",
   "display_name": "Obs. Apnea Per Hour w/ Arousals (NREM, Other, 3% Desat)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

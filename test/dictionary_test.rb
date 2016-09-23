@@ -9,7 +9,7 @@ class DictionaryTest < Minitest::Test
   # iterators that can be used to write custom tests
   include Spout::Helpers::Iterators
 
-  VALID_UNITS = [nil, '', 'naps', 'days', 'nights', 'events per hour', 'event count', 'minutes', 'hours',
+  VALID_UNITS = [nil, '', 'naps', 'days', 'nights', 'events per hour', 'events', 'minutes', 'hours',
    'beats per minute', 'seconds', 'percent', 'good days', 'weekdays', 'weekend days', 'valid nights', 'invalid nights' , 'wake bouts' , 'sleep bouts' , 'activity counts' , 'non-workdays' ,
     'naps per day' , 'minutes per day' , 'reliable days' , 'workdays', 'years']
 

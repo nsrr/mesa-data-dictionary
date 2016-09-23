@@ -2,5 +2,6 @@
   "id": "slp_eff5",
   "display_name": "Calculated - Sleep Efficiency %",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

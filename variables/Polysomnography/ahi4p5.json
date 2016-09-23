@@ -2,5 +2,7 @@
   "id": "ahi4p5",
   "display_name": "(Previously Medicareahi5) AHI: Obstructive And Central Apneas (All Desats); 30% And 50% Hypopneas (4% Desat)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour",
+  "commonly_used": true
 }

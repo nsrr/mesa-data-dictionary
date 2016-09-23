@@ -2,5 +2,6 @@
   "id": "oardrba35",
   "display_name": "Obs. Apnea Per Hour w/ Arousals (REM, Back, 3% Desat)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

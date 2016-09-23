@@ -2,5 +2,6 @@
   "id": "mesaid",
   "display_name": "MESA BioLINCC ID",
   "description": "This subject identifier code matches what has been used previously in MESA datasets on BioLINCC.",
-  "type": "identifier"
+  "type": "identifier",
+  "commonly_used": true
 }

@@ -2,6 +2,6 @@
   "id": "ndaysnapssleepnw5",
   "display_name": "Number Of Non-Workday Days With Naps When Only Naps With Some Sleep Time Are Counted (Non-Workday Days)",
   "description": "",
-  "type": "numeric",
+  "type": "integer",
   "units": "non-workdays"
 }

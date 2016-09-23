@@ -2,5 +2,6 @@
   "id": "longhypb5",
   "display_name": "PSG: Filtered - Longest Hypopnea (Seconds)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "seconds"
 }

@@ -2,6 +2,6 @@
   "id": "ndaysnapsallwo5",
   "display_name": "Number Of Workday Days With Naps When All Naps Are Counted (Workday Days)",
   "description": "",
-  "type": "numeric",
+  "type": "integer",
   "units": "workdays"
 }

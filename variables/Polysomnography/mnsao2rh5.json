@@ -2,5 +2,6 @@
   "id": "mnsao2rh5",
   "display_name": "Min. SaO2 % During REM Sleep",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

@@ -2,5 +2,6 @@
   "id": "fzm1dur5",
   "display_name": "PSG QS: Fz-Cz  Signal Duration (Hours)   EEG",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "hours"
 }

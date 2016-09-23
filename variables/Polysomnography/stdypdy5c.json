@@ -2,5 +2,6 @@
   "id": "stdypdy5c",
   "display_name": "PSG QS: Days From Exam 5 To Study Date",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "days"
 }

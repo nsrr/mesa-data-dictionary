@@ -1,0 +1,8 @@
+{
+  "id": "sleepage5c",
+  "display_name": "Participant Age at MESA Sleep Visit",
+  "description": "",
+  "type": "integer",
+  "units": "years",
+  "commonly_used": true
+}

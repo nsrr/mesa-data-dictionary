@@ -2,5 +2,6 @@
   "id": "cai0p_sup5",
   "display_name": "Central Apnea Index In Supine Position: All Central Apneas",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

@@ -2,5 +2,6 @@
   "id": "rdirem3p5",
   "display_name": "Calculated - Overall REM RDI At 3% Desat",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

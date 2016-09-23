@@ -2,5 +2,6 @@
   "id": "casndur5",
   "display_name": "PSG QS: Cannula Snore Signal Duration (Hours)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

@@ -2,5 +2,6 @@
   "id": "rdinr5p5",
   "display_name": "Calculated - Overall Non-REM RDI At 5% Desat",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

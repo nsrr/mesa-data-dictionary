@@ -2,5 +2,6 @@
   "id": "phbslp5",
   "display_name": "PSG: Filtered - % Sleep Time In Hypopnea",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

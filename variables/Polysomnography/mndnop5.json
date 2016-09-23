@@ -2,5 +2,6 @@
   "id": "mndnop5",
   "display_name": "Min. SaO2 (NREM, Other, All Desats) (%)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }

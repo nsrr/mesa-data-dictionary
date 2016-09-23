@@ -2,6 +2,6 @@
   "id": "ndaysnapssleeprd5",
   "display_name": "Number Of Reliable Days With Naps When Only Naps With Some Sleep Time Are Counted (Reliable Days)",
   "description": "",
-  "type": "numeric",
+  "type": "integer",
   "units": "reliable days"
 }

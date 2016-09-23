@@ -2,6 +2,6 @@
   "id": "ndaysnw5",
   "display_name": "Number Of Non-Workday Days With Sleep Data In Recording (Non-Workday Days)",
   "description": "",
-  "type": "numeric",
+  "type": "integer",
   "units": "non-workdays"
 }

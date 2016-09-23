@@ -2,5 +2,6 @@
   "id": "ai_rem5",
   "display_name": "Calculated - Arousal Index REM Sleep",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

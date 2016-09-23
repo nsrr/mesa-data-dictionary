@@ -1,7 +1,0 @@
-{
-  "id": "siteid5",
-  "display_name": "PSG QS: Site ID",
-  "description": "",
-  "type": "choices",
-  "domain": "psgsiteid"
-}

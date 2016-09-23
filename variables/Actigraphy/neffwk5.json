@@ -2,6 +2,6 @@
   "id": "neffwk5",
   "display_name": "Actigraphy Report: Number Of Weekday Days Efficiency",
   "description": "",
-  "type": "numeric",
+  "type": "integer",
   "units": "weekdays"
 }

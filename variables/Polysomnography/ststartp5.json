@@ -2,5 +2,5 @@
   "id": "ststartp5",
   "display_name": "Study Start Time (hh:hm:ss)",
   "description": "",
-  "type": "string"
+  "type": "time"
 }

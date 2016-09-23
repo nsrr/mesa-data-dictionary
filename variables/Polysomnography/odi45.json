@@ -2,5 +2,6 @@
   "id": "odi45",
   "display_name": "PSG: Filtered - Oxygen Desaturation Index At 4% (During Sleep Time)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

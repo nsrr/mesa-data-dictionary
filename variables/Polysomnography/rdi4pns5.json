@@ -2,5 +2,6 @@
   "id": "rdi4pns5",
   "display_name": "Calculated - Overall Non-Supine RDI At 4% Desat",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "events per hour"
 }

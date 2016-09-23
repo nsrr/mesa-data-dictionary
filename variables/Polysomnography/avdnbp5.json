@@ -2,5 +2,6 @@
   "id": "avdnbp5",
   "display_name": "Avg. Desat (NREM, Back, All Desats)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "percent"
 }
