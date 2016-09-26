@@ -2,5 +2,6 @@
   "id": "avgsleepmidpoint5",
   "display_name": "Average Time Midpoint Between Sleep Onset And Sleep Offset Times (hh:hm:ss)",
   "description": "",
-  "type": "time"
+  "type": "time",
+  "commonly_used": true
 }

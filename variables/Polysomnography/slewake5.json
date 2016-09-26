@@ -3,5 +3,6 @@
   "display_name": "PSG QS: Study Scored Sleep / Wake Only (All Sleep Scored As N2 And No Arousals Scored Due To Poor Quality EEG)",
   "description": "",
   "type": "choices",
-  "domain": "noyes"
+  "domain": "noyes",
+  "commonly_used": true
 }

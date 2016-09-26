@@ -3,5 +3,6 @@
   "display_name": "PSG QS: Overall Study Quality Grade",
   "description": "",
   "type": "choices",
-  "domain": "overallstudyqualitygrade"
+  "domain": "overallstudyqualitygrade",
+  "commonly_used": true
 }

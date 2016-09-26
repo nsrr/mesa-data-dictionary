@@ -5,7 +5,7 @@ libname mesacc "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets";
 options nofmterr;
 
 *set dataset version number;
-%let release = 0.1.0.beta2;
+%let release = 0.1.0.rc;
 
 *import sas datasets from mesa coordinating center;
 data mesa_bridge;
@@ -50,7 +50,7 @@ data mesa_nsrr;
   by idno;
 
   *only keep subjects with sleep-related data;
-  if a or b or c;
+  if b or c;
 
   *recode values for clarity;
   if inhomepsgyn5 = -9 then inhomepsgyn5 = .; /* missing code, set to nil */

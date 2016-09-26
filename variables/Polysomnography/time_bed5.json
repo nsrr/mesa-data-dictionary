@@ -3,5 +3,6 @@
   "display_name": "Calculated - Time In Bed (Minutes)",
   "description": "",
   "type": "numeric",
-  "units": "minutes"
+  "units": "minutes",
+  "commonly_used": true
 }

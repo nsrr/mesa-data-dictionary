@@ -3,11 +3,11 @@ slug: mesa
 visit: examnumber
 charts:
 - chart: sleepage5c
-  title: Age at MESA Sleep
+  title: Age
 - chart: gender1
   title: Gender
 - chart: race1c
-  title: Race
+  title: Race/ethnicity
 webservers:
   - name: production
     url: https://sleepdata.org
