@@ -1,6 +1,6 @@
 {
   "id": "avgsleepmidpointwo5",
-  "display_name": "Average Time Midpoint Between Workday Sleep Onset And Sleep Offset Times (hh:hm:ss)",
+  "display_name": "Average Time Midpoint Between Workday Sleep Onset And Sleep Offset Times (hh:mm:ss)",
   "description": "",
   "type": "time"
 }

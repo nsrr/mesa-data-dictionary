@@ -1,6 +1,6 @@
 {
   "id": "sdoutbedtimerd5",
-  "display_name": "Standard Deviation Of The Out Of Bed Time Across Reliable Days (hh:hm:ss)",
+  "display_name": "Standard Deviation Of The Out Of Bed Time Across Reliable Days (hh:mm:ss)",
   "description": "",
   "type": "time"
 }

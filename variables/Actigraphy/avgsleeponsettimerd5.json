@@ -1,6 +1,6 @@
 {
   "id": "avgsleeponsettimerd5",
-  "display_name": "Average Time To Fall Asleep For Main Sleep Across All Reliable Days (hh:hm:ss)",
+  "display_name": "Average Time To Fall Asleep For Main Sleep Across All Reliable Days (hh:mm:ss)",
   "description": "",
   "type": "time"
 }

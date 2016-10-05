@@ -1,6 +1,6 @@
 {
   "id": "sdsleepoffsettimewd5",
-  "display_name": "Standard Deviation Of The Weekday Sleep Offset Time (hh:hm:ss)",
+  "display_name": "Standard Deviation Of The Weekday Sleep Offset Time (hh:mm:ss)",
   "description": "",
   "type": "time"
 }

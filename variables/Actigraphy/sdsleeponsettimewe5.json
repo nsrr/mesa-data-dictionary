@@ -1,6 +1,6 @@
 {
   "id": "sdsleeponsettimewe5",
-  "display_name": "Standard Deviation Of The Weekend Sleep Onset Time (hh:hm:ss)",
+  "display_name": "Standard Deviation Of The Weekend Sleep Onset Time (hh:mm:ss)",
   "description": "",
   "type": "time"
 }

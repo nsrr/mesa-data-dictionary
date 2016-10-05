@@ -1,6 +1,6 @@
 {
   "id": "ststartp5",
-  "display_name": "Study Start Time (hh:hm:ss)",
+  "display_name": "Study Start Time (hh:mm:ss)",
   "description": "",
   "type": "time"
 }

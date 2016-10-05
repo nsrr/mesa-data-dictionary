@@ -1,6 +1,6 @@
 {
   "id": "avgoutbedtimerd5",
-  "display_name": "Average Time To Get Out Of Bed After Main Sleep Across All Reliable Days In Minutes (hh:hm:ss)",
+  "display_name": "Average Time To Get Out Of Bed After Main Sleep Across All Reliable Days In Minutes (hh:mm:ss)",
   "description": "",
   "type": "time"
 }

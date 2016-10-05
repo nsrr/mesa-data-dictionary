@@ -1,6 +1,6 @@
 {
   "id": "stendp5",
-  "display_name": "Study End Time (hh:hm:ss)",
+  "display_name": "Study End Time (hh:mm:ss)",
   "description": "",
   "type": "time"
 }

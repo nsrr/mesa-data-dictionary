@@ -1,6 +1,6 @@
 {
   "id": "stloutp5",
-  "display_name": "Lights Out Time (hh:hm:ss)",
+  "display_name": "Lights Out Time (hh:mm:ss)",
   "description": "",
   "type": "time"
 }

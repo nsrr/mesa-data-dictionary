@@ -1,6 +1,6 @@
 {
   "id": "avgsleepoffsettimewe5",
-  "display_name": "Average Time To Wake Up For Main Sleep Across All Weekend Days In Minutes (hh:hm:ss)",
+  "display_name": "Average Time To Wake Up For Main Sleep Across All Weekend Days In Minutes (hh:mm:ss)",
   "description": "",
   "type": "time"
 }

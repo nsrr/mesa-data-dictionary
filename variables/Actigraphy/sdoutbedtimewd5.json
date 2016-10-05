@@ -1,6 +1,6 @@
 {
   "id": "sdoutbedtimewd5",
-  "display_name": "Standard Deviation Of The Weekday Out Of Bed Time (hh:hm:ss)",
+  "display_name": "Standard Deviation Of The Weekday Out Of Bed Time (hh:mm:ss)",
   "description": "",
   "type": "time"
 }

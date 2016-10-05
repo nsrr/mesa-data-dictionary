@@ -1,6 +1,6 @@
 {
   "id": "sdinbedtimenw5",
-  "display_name": "Standard Deviation Of The Non-Workday In Bed Time (hh:hm:ss)",
+  "display_name": "Standard Deviation Of The Non-Workday In Bed Time (hh:mm:ss)",
   "description": "",
   "type": "time"
 }

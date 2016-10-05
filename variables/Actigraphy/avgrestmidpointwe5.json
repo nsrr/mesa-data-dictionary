@@ -1,6 +1,6 @@
 {
   "id": "avgrestmidpointwe5",
-  "display_name": "Average Time Midpoint Between Weekend In Bed And Out Of Bed Times (hh:hm:ss)",
+  "display_name": "Average Time Midpoint Between Weekend In Bed And Out Of Bed Times (hh:mm:ss)",
   "description": "",
   "type": "time"
 }

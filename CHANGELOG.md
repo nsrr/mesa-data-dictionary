@@ -1,5 +1,7 @@
 ## 0.1.1
 
+- Correct typo for time variables
+
 ## 0.1.0 (October 4, 2016)
 
 - Add `SleepQ` (Sleep Questionnaire) dataset
