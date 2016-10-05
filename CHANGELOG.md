@@ -1,3 +1,5 @@
+## 0.1.1
+
 ## 0.1.0 (October 4, 2016)
 
 - Add `SleepQ` (Sleep Questionnaire) dataset
