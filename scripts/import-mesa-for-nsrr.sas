@@ -5,7 +5,7 @@ libname mesacc "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets";
 options nofmterr;
 
 *set dataset version number;
-%let release = 0.1.0;
+%let release = 0.1.2.beta1;
 
 *import sas datasets from mesa coordinating center;
 data mesa_bridge;
@@ -18,7 +18,10 @@ run;
 data mesa_e1;
   set mesacc.mesae1finallabel02092016;
 
-  keep idno race1c gender1;
+  *limit dataset to subjects who have consented to have data shared;
+  if cucmcn1c = 1;
+
+  keep idno race1c gender1 cucmcn1c;
 run;
 
 data mesa_e5;
@@ -42,7 +45,7 @@ run;
 *merge datasets;
 data mesa_nsrr;
   merge mesa_bridge
-    mesa_e1
+    mesa_e1 (in=d)
     mesa_e5
     mesa_sleepq (in=a)
     mesa_polysomnography (in=b)
@@ -50,7 +53,7 @@ data mesa_nsrr;
   by idno;
 
   *only keep subjects with sleep-related data;
-  if b or c;
+  if d and (b or c);
 
   *recode values for clarity;
   if inhomepsgyn5 = -9 then inhomepsgyn5 = .; /* missing code, set to nil */
