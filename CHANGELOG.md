@@ -1,11 +1,8 @@
-## 0.1.2
-
-- Limits dataset to participants who consented to have their data used for commercial purposes
-
-## 0.1.1 (October 11, 2016)
+## 0.1.1 (December 22, 2016)
 
 - Add more commonly used variables
 - Correct typo for time variables
+- Limits dataset to participants who consented to have their data used for commercial purposes
 
 ## 0.1.0 (October 4, 2016)
 
