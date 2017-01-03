@@ -5,7 +5,7 @@ libname mesacc "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets";
 options nofmterr;
 
 *set dataset version number;
-%let release = 0.1.2.beta1;
+%let release = 0.1.1.rc;
 
 *import sas datasets from mesa coordinating center;
 data mesa_bridge;
@@ -73,7 +73,7 @@ run;
 *export to csv for depositing on nsrr;
 proc export
   data=mesa_nsrr
-  outfile="\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\&release\mesa-sleep-dataset-&release..csv"
+  outfile="\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\commercial\&release\mesa-sleep-dataset-&release..csv"
   dbms=csv
   replace;
 run;
