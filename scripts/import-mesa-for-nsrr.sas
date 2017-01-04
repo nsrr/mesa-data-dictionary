@@ -5,7 +5,7 @@ libname mesacc "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets";
 options nofmterr;
 
 *set dataset version number;
-%let release = 0.1.1.rc;
+%let release = 0.1.1;
 
 *import sas datasets from mesa coordinating center;
 data mesa_bridge;

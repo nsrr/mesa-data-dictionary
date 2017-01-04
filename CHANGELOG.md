@@ -1,4 +1,4 @@
-## 0.1.1 (December 22, 2016)
+## 0.1.1 (January 4, 2017)
 
 - Add more commonly used variables
 - Correct typo for time variables
