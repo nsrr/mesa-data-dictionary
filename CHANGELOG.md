@@ -1,5 +1,7 @@
 ## 0.2.0
 
+- Add ICSD AHI variables
+- Add indicator variable for commercial use (cucmcn1c)
 - **Gem Changes**
   - Updated to spout 0.12.0
 
