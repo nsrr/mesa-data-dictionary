@@ -1,5 +1,8 @@
 ## 0.2.0
 
+- **Gem Changes**
+  - Updated to spout 0.12.0
+
 ## 0.1.1 (October 11, 2016)
 
 - Add more commonly used variables
