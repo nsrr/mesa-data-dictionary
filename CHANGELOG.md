@@ -2,6 +2,8 @@
 
 - Add ICSD AHI variables
 - Add indicator variable for commercial use (cucmcn1c)
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.2.0.beta1\`
 - **Gem Changes**
   - Updated to spout 0.12.0
 
