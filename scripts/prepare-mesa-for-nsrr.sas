@@ -5,9 +5,13 @@
 *******************************************************************************;
 * establish options and libnames ;
 *******************************************************************************;
-  *set library name and options;
-  libname mesacc "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets";
   options nofmterr;
+  data _null_;
+    call symput("sasfiledate",put(year("&sysdate"d),4.)||put(month("&sysdate"d),z2.)||put(day("&sysdate"d),z2.));
+  run;
+
+  libname mesacc "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets\mesa-master";
+  libname mesansrr "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets";
 
   *set data dictionary version;
   %let version = 0.2.0.pre;
@@ -24,9 +28,6 @@
 
   data mesa_e1;
     set mesacc.mesae1finallabel02092016;
-
-    *limit dataset to subjects who have consented to have data shared;
-    if cucmcn1c = 1;
 
     keep idno race1c gender1 cucmcn1c;
   run;
@@ -45,6 +46,51 @@
     set mesacc.mesae5_sleeppolysomn_20150630;
   run;
 
+  data mesa_poly_icsd;
+    set mesacc.mesasleepdata_20140904;
+
+    rename pptid = idno;
+
+    *create new AHI variables for icsd3;
+    ahi_a0h3 = 60 * (hrembp3 + hrop3 + hnrbp3 + hnrop3 +
+                    carbp + carop + canbp + canop +
+                    oarbp + oarop + oanbp + oanop ) / slpprdp;
+    ahi_a0h4 = 60 * (hrembp4 + hrop4 + hnrbp4 + hnrop4 +
+                    carbp + carop + canbp + canop +
+                    oarbp + oarop + oanbp + oanop ) / slpprdp;
+    ahi_a0h3a = 60 * (hremba3 + hroa3 + hnrba3 + hnroa3 +
+                      carbp + carop + canbp + canop +
+                      oarbp + oarop + oanbp + oanop ) / slpprdp;
+    ahi_a0h4a = 60 * (hremba4 + hroa4 + hnrba4 + hnroa4 +
+                      carbp + carop + canbp + canop +
+                      oarbp + oarop + oanbp + oanop ) / slpprdp;
+
+    ahi_o0h3 = 60 * (hrembp3 + hrop3 + hnrbp3 + hnrop3 +
+                    oarbp + oarop + oanbp + oanop ) / slpprdp;
+    ahi_o0h4 = 60 * (hrembp4 + hrop4 + hnrbp4 + hnrop4 +
+                    oarbp + oarop + oanbp + oanop ) / slpprdp;
+    ahi_o0h3a = 60 * (hremba3 + hroa3 + hnrba3 + hnroa3 +
+                      oarbp + oarop + oanbp + oanop ) / slpprdp;
+    ahi_o0h4a = 60 * (hremba4 + hroa4 + hnrba4 + hnroa4 +
+                      oarbp + oarop + oanbp + oanop ) / slpprdp;
+
+    ahi_c0h3 = 60 * (hrembp3 + hrop3 + hnrbp3 + hnrop3 +
+                    carbp + carop + canbp + canop ) / slpprdp;
+    ahi_c0h4 = 60 * (hrembp4 + hrop4 + hnrbp4 + hnrop4 +
+                    carbp + carop + canbp + canop ) / slpprdp;
+    ahi_c0h3a = 60 * (hremba3 + hroa3 + hnrba3 + hnroa3 +
+                    carbp + carop + canbp + canop ) / slpprdp;
+    ahi_c0h4a = 60 * (hremba4 + hroa4 + hnrba4 + hnroa4 +
+                    carbp + carop + canbp + canop ) / slpprdp;
+
+    cent_obs_ratio = (carbp + carop + canbp + canop) /
+                      (oarbp + oarop + oanbp + oanop);
+    cent_obs_ratioa = (carba + caroa + canba + canoa) /
+                      (oarba + oaroa + oanba + oanoa);
+
+    keep pptid ahi_a0h3--cent_obs_ratioa;
+  run;
+
   data mesa_actigraphy;
     set mesacc.mesae5_sleepactigraphy_20140617;
   run;
@@ -56,6 +102,7 @@
       mesa_e5
       mesa_sleepq (in=a)
       mesa_polysomnography (in=b)
+      mesa_poly_icsd
       mesa_actigraphy (in=c);
     by idno;
 
@@ -97,18 +144,19 @@
 
   %lowcase(mesa_nsrr);
 
-
 *******************************************************************************;
 * create permanent sas datasets ;
 *******************************************************************************;
-
+  data mesansrr.mesansrr_&sasfiledate;
+    set mesa_nsrr;
+  run;
 
 *******************************************************************************;
 * export nsrr csv datasets ;
 *******************************************************************************;
   proc export
     data=mesa_nsrr
-    outfile="\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\&release\mesa-sleep-dataset-&release..csv"
+    outfile="\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\&version\mesa-sleep-dataset-&version..csv"
     dbms=csv
     replace;
   run;
