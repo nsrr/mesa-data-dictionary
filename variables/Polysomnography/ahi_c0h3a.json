@@ -4,7 +4,7 @@
   "description": "",
   "type": "numeric",
   "units": "events per hour",
-  "calculation": "60 * (hremba3 + hroa3 + hnrba3 + hnroa3 + carbp + carop + canbp + canop) / slpprdp",
+  "calculation": "60 * (hremba3 + hroa3 + hnrba3 + hnroa3 + urbpa3 + uropa3 + unrbpa3 + unropa3 + carbp + carop + canbp + canop) / slpprdp",
   "commonly_used": true,
   "labels": [
     "icsd",
