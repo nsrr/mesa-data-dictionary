@@ -5,7 +5,7 @@
 - The CSV datasets generated from a SAS export is located here:
   - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.2.0.beta2\`
 - **Gem Changes**
-  - Updated to spout 0.12.0
+  - Updated to spout 0.12.1
 
 ## 0.1.1 (October 11, 2016)
 
