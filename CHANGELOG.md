@@ -1,3 +1,16 @@
+## 0.2.0.commercial (April 12, 2017)
+
+- Release of commercial dataset
+
+## 0.2.0 (April 10, 2017)
+
+- Add ICSD AHI variables
+- Add indicator variable for commercial use (cucmcn1c)
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.2.0\`
+- **Gem Changes**
+  - Updated to spout 0.12.1
+
 ## 0.1.1.commercial (January 4, 2017)
 
 - Limits dataset to participants who consented to have their data used for commercial purposes
