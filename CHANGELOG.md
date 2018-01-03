@@ -1,3 +1,5 @@
+## 0.3.0
+
 ## 0.2.0 (April 10, 2017)
 
 - Add ICSD AHI variables
