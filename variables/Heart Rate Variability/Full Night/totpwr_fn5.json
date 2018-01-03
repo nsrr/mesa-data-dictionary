@@ -1,0 +1,7 @@
+{
+  "id": "totpwr_fn5",
+  "display_name": "Total spectral power of all NN intervals up to 0.04 Hz",
+  "description": "",
+  "type": "numeric",
+  "units": "milliseconds squared"
+}

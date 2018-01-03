@@ -1,0 +1,7 @@
+{
+  "id": "ihr_5m5",
+  "display_name": "Average instantaneous heart rate. For a given NN interval, IHR=60/NN",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute"
+}
