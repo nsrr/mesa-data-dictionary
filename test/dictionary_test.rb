@@ -18,7 +18,7 @@ class DictionaryTest < Minitest::Test
     'hours', 'beats per minute', 'seconds', 'percent', 'good days', 'weekdays',
     'weekend days', 'valid nights', 'invalid nights', 'wake bouts',
     'sleep bouts' , 'activity counts' , 'non-workdays', 'naps per day',
-    'minutes per day', 'reliable days', 'workdays', 'years']
+    'minutes per day', 'reliable days', 'workdays', 'years', 'milliseconds', 'milliseconds squared']
 
   @variables.select { |v| %w(numeric integer).include?(v.type) }.each do |variable|
     define_method("test_units: #{variable.path}") do
