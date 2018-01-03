@@ -14,7 +14,7 @@
   libname mesansrr "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets";
 
   *set data dictionary version;
-  %let version = 0.2.0;
+  %let version = 0.3.0.beta1;
 
 *******************************************************************************;
 * import and process master datasets from source ;
@@ -107,6 +107,14 @@
     set mesacc.mesae5_sleepactigraphy_20140617;
   run;
 
+  data mesa_hrvfull;
+    set mesacc.Mesae5_sleephrvfull_20171215;
+  run;
+
+  data mesa_hrv5min;
+    set mesacc.Mesae5_sleephrv5min_20171215;
+  run;
+
   *merge datasets;
   data mesa_nsrr;
     merge mesa_bridge
@@ -115,6 +123,8 @@
       mesa_sleepq (in=a)
       mesa_polysomnography (in=b)
       mesa_poly_icsd
+      mesa_hrvfull
+      mesa_hrv5min
       mesa_actigraphy (in=c);
     by idno;
 
