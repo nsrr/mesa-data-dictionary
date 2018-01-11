@@ -1,5 +1,10 @@
 ## 0.3.0
 
+- Create HRV variables
+- Update ICSD variable definitions
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.3.0\`
+
 ## 0.2.0 (April 10, 2017)
 
 - Add ICSD AHI variables
