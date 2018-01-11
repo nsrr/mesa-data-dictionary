@@ -1,4 +1,4 @@
-## 0.3.0
+## 0.3.0 (January 11, 2018)
 
 - Create HRV variables
 - Update ICSD variable definitions
