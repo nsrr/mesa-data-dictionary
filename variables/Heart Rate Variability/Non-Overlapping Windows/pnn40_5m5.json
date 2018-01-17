@@ -1,0 +1,7 @@
+{
+  "id": "pnn40_5m5",
+  "display_name": "Percentage of differences between adjacent NN intervals that are greater than 40 ms; a member of the larger pNNx family",
+  "description": "",
+  "type": "numeric",
+  "units": "percent"
+}

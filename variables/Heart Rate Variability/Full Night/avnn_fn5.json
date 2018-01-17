@@ -1,0 +1,7 @@
+{
+  "id": "avnn_fn5",
+  "display_name": "Mean of all normal sinus to normal sinus interbeat intervals (NN)",
+  "description": "",
+  "type": "numeric",
+  "units": "milliseconds"
+}

@@ -1,6 +1,13 @@
-## 0.2.0.commercial (April 12, 2017)
+## 0.3.0.commercial (January 16, 2018)
 
 - Release of commercial dataset
+
+## 0.3.0 (January 11, 2018)
+
+- Create HRV variables
+- Update ICSD variable definitions
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.3.0\`
 
 ## 0.2.0 (April 10, 2017)
 
