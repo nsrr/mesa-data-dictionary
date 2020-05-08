@@ -1,5 +1,9 @@
 ## 0.4.0
 
+- **Gem Changes**
+  - Update to ruby 2.6.1
+  - Update to spout 1.0.0
+
 ## 0.3.0 (January 11, 2018)
 
 - Create HRV variables
