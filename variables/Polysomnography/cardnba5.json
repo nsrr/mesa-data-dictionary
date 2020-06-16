@@ -1,7 +1,10 @@
 {
   "id": "cardnba5",
-  "display_name": "Cent. Apnea Per Hour w/ Arousals (NREM, Back, All Desats)",
+  "display_name": "Central Apnea Index (NREM, Supine): (central apneas with no oxygen desaturation threshold used or with arousal) / hour of NREM sleep in supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "cai_snpb_ca0r_f1t2"
+  ]
 }

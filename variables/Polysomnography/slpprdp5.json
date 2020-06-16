@@ -1,7 +1,11 @@
 {
   "id": "slpprdp5",
-  "display_name": "Total Sleep Time (Minutes)",
-  "description": "",
+  "display_name": "Polysomnography: Total Sleep Duration - the interval between sleep onset and sleep offset while the participant is asleep.",
+  "description": "Conventionally this variable would be called total sleep time (TST).",
   "type": "numeric",
-  "units": "minutes"
+  "units": "minutes",
+  "labels": [
+    "tst",
+    "ttldursp_f1t2"
+  ]
 }

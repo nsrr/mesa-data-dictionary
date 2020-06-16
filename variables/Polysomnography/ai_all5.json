@@ -1,8 +1,11 @@
 {
   "id": "ai_all5",
-  "display_name": "Calculated - Overall Arousal Index",
-  "description": "",
+  "display_name": "Arousal Index: number of arousals per hour of sleep",
+  "description": "Calculated",
   "type": "numeric",
   "units": "events per hour",
+  "labels": [
+    "phrnumrs_f1t2"
+  ],
   "commonly_used": true
 }

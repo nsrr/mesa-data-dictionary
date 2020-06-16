@@ -1,7 +1,10 @@
 {
   "id": "oahi4pa5",
-  "display_name": "Calculated - Obstructive Apnea (All Desats) AASM Recommended And Alternative Hypopnea (4% Desat Or Arousal) Index",
-  "description": "",
+  "display_name": "Obstructive Apnea Hypopnea Index: (obstructive apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with > 30% flow reduction and >= 4% oxygen desaturation or with arousal) / hour of sleep",
+  "description": "Calculated - Summary metric of sleep disordered breathing events",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "oahi_oa0uhp3x4r_f1t2"
+  ]
 }

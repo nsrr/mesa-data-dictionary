@@ -1,7 +1,10 @@
 {
   "id": "havgdur5",
-  "display_name": "Avg. AASM Recommended Hypopnea Length (Seconds)",
+  "display_name": "Average duration of hypopneas: hypopneas with 30 - 50% flow reduction and no oxygen desaturation threshold used and with or without arousal",
   "description": "",
   "type": "numeric",
-  "units": "seconds"
+  "units": "seconds",
+  "labels": [
+    "avgdurhp_hp3x5x0u_f1t2"
+  ]
 }

@@ -1,7 +1,10 @@
 {
   "id": "oavgdur5",
-  "display_name": "Avg. Obs. Apnea Length (Seconds)",
+  "display_name": "Average duration of obstructive apneas: obstructive apneas with no oxygen desaturation threshold and with or without arousal",
   "description": "",
   "type": "numeric",
-  "units": "seconds"
+  "units": "seconds",
+  "labels": [
+    "avgduroa_oa0u_f1t2"
+  ]
 }

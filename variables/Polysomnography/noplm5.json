@@ -1,7 +1,10 @@
 {
   "id": "noplm5",
-  "display_name": "# of PLM During Sleep",
+  "display_name": "Total number of periodic limb movements during total sleep duration",
   "description": "",
   "type": "numeric",
-  "units": "events"
+  "units": "events",
+  "labels": [
+    "ttlnumpl_f1t2"
+  ]
 }

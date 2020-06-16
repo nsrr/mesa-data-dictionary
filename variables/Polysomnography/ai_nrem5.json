@@ -1,7 +1,10 @@
 {
   "id": "ai_nrem5",
-  "display_name": "Calculated - Arousal Index Non-REM",
-  "description": "",
+  "display_name": "Arousal Index (NREM): number of arousals per hour of NREM sleep",
+  "description": "Calculated",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "phrnumrs_sn_f1t2"
+  ]
 }

@@ -1,7 +1,10 @@
 {
   "id": "oardrba35",
-  "display_name": "Obs. Apnea Per Hour w/ Arousals (REM, Back, 3% Desat)",
+  "display_name": "Obstructive Apnea Index (REM, Supine): (obstructive apneas with >= 3% oxygen desaturation or with arousal) / hour of REM sleep in supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "oai_srpb_oa3r_f1t2"
+  ]
 }

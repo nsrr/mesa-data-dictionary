@@ -1,7 +1,10 @@
 {
   "id": "bpmavg5",
-  "display_name": "Average Heart Rate (BPM) During Sleep",
+  "display_name": "Average heart rate during total sleep duration",
   "description": "",
   "type": "numeric",
-  "units": "beats per minute"
+  "units": "beats per minute",
+  "labels": [
+    "avglvlhr_f1t2"
+  ]
 }

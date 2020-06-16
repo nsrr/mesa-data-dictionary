@@ -1,8 +1,11 @@
 {
   "id": "timest1p5",
-  "display_name": "Calculated - Pct Time Stage 1",
-  "description": "",
+  "display_name": "Percent of total sleep duration in Stage 1",
+  "description": "Calculated",
   "type": "numeric",
   "units": "percent",
+  "labels": [
+    "pctdursp_s1_f1t2"
+  ],
   "commonly_used": true
 }

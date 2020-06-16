@@ -1,7 +1,10 @@
 {
   "id": "oahi4_nrem5",
-  "display_name": "Calculated - Obstructive Apnea (All Desats); 30 % And 50% Hypopnea (4% Desat) Index In NREM",
-  "description": "",
+  "display_name": "Obstructive Apnea Hypopnea Index (NREM): (obstructive apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with 30 - 50% flow reduction and >= 4% oxygen desaturation and with or without arousal) / hour of NREM sleep",
+  "description": "Calculated - Summary metric of sleep disordered breathing events",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "oahi_sn_oa0uhp3x5x4u_f1t2"
+  ]
 }

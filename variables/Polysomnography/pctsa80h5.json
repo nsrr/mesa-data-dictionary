@@ -1,7 +1,10 @@
 {
   "id": "pctsa80h5",
-  "display_name": "% Sleep Time SaO2 Is < 80%",
+  "display_name": "Percent total sleep duration with below 80% oxygen saturation",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "pctdursp_o80_f1t2"
+  ]
 }

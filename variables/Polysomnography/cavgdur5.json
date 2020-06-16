@@ -1,7 +1,10 @@
 {
   "id": "cavgdur5",
-  "display_name": "Avg. Cent. Apnea Length (Seconds)",
+  "display_name": "Average duration of central apneas during total sleep duration",
   "description": "",
   "type": "numeric",
-  "units": "seconds"
+  "units": "seconds",
+  "labels": [
+    "avgdurca_ca0u_f1t2"
+  ]
 }

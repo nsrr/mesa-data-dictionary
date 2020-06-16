@@ -1,7 +1,10 @@
 {
   "id": "bpmmax5",
-  "display_name": "Highest Heart Rate (BPM) During Sleep",
+  "display_name": "Maximum heart rate during total sleep duration",
   "description": "",
   "type": "numeric",
-  "units": "beats per minute"
+  "units": "beats per minute",
+  "labels": [
+    "maxlvlhr_f1t2"
+  ]
 }

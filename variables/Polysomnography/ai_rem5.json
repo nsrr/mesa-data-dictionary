@@ -1,7 +1,10 @@
 {
   "id": "ai_rem5",
-  "display_name": "Calculated - Arousal Index REM Sleep",
-  "description": "",
+  "display_name": "Arousal Index (REM): number of arousals per hour of REM sleep",
+  "description": "Calculated",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "phrnumrs_sr_f1t2"
+  ]
 }

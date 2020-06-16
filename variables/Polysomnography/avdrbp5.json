@@ -1,7 +1,10 @@
 {
   "id": "avdrbp5",
-  "display_name": "Avg. Desat (REM, Back, All Desats)",
+  "display_name": "Average level of oxygen desaturation during REM sleep in supine position",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "avglvlds_srpb_ds0u_f1t2"
+  ]
 }

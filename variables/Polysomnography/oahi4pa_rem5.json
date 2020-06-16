@@ -1,7 +1,10 @@
 {
   "id": "oahi4pa_rem5",
-  "display_name": "Obstructive Apnea/Hypopnea 4% Index (Or Arousal) In REM: All Obstructive Apneas And Hypopneas With A >=4% Desat Or Arousal",
+  "display_name": "Obstructive Apnea Hypopnea Index (REM): (obstructive apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with 30 - 50% flow reduction and >= 4% oxygen desaturation or with arousal) / hour of REM sleep",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "oahi_sr_oa0uhp3x5x4r_f1t2"
+  ]
 }

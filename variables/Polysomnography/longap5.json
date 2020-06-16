@@ -1,7 +1,10 @@
 {
   "id": "longap5",
-  "display_name": "Longest Apnea (Seconds)",
+  "display_name": "Maximum duration of apneas: apneas with no oxygen desaturation threshold used an with or without arousal",
   "description": "",
   "type": "numeric",
-  "units": "seconds"
+  "units": "seconds",
+  "labels": [
+    "maxdurap_ap0u"
+  ]
 }

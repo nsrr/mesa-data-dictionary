@@ -1,7 +1,10 @@
 {
   "id": "dssao905",
-  "display_name": "# of Desats With SaO2 Drops Below 90% In Sleep",
+  "display_name": "Total number of < 90% oxygen desaturations during total sleep duration",
   "description": "",
   "type": "numeric",
-  "units": "events"
+  "units": "events",
+  "labels": [
+    "ttlnumds_o90_f1t2"
+  ]
 }

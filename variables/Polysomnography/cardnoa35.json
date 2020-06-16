@@ -1,7 +1,10 @@
 {
   "id": "cardnoa35",
-  "display_name": "Cent. Apnea Per Hour w/ Arousals (NREM, Other, 3% Desat)",
+  "display_name": "Central Apnea Index (NREM, Non-Supine): (central apneas with >= 3% oxygen desaturation or with arousal) / hour of NREM sleep in non-supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "cai_snpo_ca3r_f1t2"
+  ]
 }

@@ -1,7 +1,10 @@
 {
   "id": "mndrop5",
-  "display_name": "Min. SaO2 (REM, Other, All Desats) (%)",
+  "display_name": "Minimum oxygen saturation during REM sleep in non-supine position",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "minlvlsa_srpo_f1t2"
+  ]
 }

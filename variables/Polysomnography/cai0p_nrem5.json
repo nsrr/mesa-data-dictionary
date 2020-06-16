@@ -1,7 +1,10 @@
 {
   "id": "cai0p_nrem5",
-  "display_name": "Central Apnea Index In NREM: All Central Apneas",
+  "display_name": "Central Apnea Index (NREM): (central apneas with no oxygen desaturation threshold used and with or without arousal) / hour of NREM sleep",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "cai_sn_ca0u_f1t2"
+  ]
 }

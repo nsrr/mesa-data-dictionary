@@ -1,7 +1,10 @@
 {
   "id": "hunropa35",
-  "display_name": "# AASM Alternative Hypopnea With Arousal Per Hour (NREM, Other, 3% Desat)",
+  "display_name": "Hypopnea Index (NREM, Non-Supine): (hypopneas with > 50% flow reduction and >= 3% oxygen desaturation or with arousal) / hour of NREM sleep in non-supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "hi_snpo_hp5x3r_f1t2"
+  ]
 }

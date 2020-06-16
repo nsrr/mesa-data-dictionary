@@ -1,7 +1,10 @@
 {
   "id": "ahi4p_sup5",
-  "display_name": "(Previously Medicareahi_sup5) AHI: Obstructive And Central Apneas (All Desats); 30% And 50% Hypopneas (4% Desat) Index Supine",
+  "display_name": "Apnea-Hypopnea Index (Supine): (apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with 30 - 50% flow reduction and >= 4% oxygen desaturation and with or without arousal) / hour of sleep in supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "ahi_pb_ap0uhp3x5x4u_f1t2"
+  ]
 }

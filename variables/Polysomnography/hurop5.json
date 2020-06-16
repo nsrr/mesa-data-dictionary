@@ -1,7 +1,10 @@
 {
   "id": "hurop5",
-  "display_name": "# AASM Alternative Hypopnea Per Hour (REM, Other, All Desats)",
+  "display_name": "Hypopnea Index (REM, Non-Supine): (hypopneas with > 50% flow reduction and no oxygen desaturation threshold used and with or without arousal) / hour of REM sleep in non-supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "hi_srpo_hp5x0u_f1t2"
+  ]
 }

@@ -1,6 +1,9 @@
 {
   "id": "ststartp5",
-  "display_name": "Study Start Time (hh:mm:ss)",
+  "display_name": "Polysomnography: Clock time when the recording (study) begins",
   "description": "",
-  "type": "time"
+  "type": "time",
+  "labels": [
+    "begtimrd_f1t2"
+  ]
 }

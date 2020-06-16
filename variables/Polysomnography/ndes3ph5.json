@@ -1,7 +1,10 @@
 {
   "id": "ndes3ph5",
-  "display_name": "# of Desat With >= 3% Desat (During Total Recording)",
+  "display_name": "Total number of >=3% oxygen desaturations during total sleep duration",
   "description": "",
   "type": "numeric",
-  "units": "events"
+  "units": "events",
+  "labels": [
+    "ttlnumds_ds3u_f1t2"
+  ]
 }

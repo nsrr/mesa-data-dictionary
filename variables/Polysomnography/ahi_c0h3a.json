@@ -1,12 +1,13 @@
 {
   "id": "ahi_c0h3a",
-  "display_name": "Central Apnea-Hypopnea Index (AHI) >= 3% - number of [central apneas] and [hypopneas with >= 3% oxygen desaturation or arousal] per hour of sleep",
+  "display_name": "Central Apnea-Hypopnea Index: (central apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with > 30% flow reduction and >= 3% oxygen desaturation or with arousal) / hour of sleep",
   "description": "",
   "type": "numeric",
   "units": "events per hour",
   "calculation": "60 * (hremba3 + hroa3 + hnrba3 + hnroa3 + urbpa3 + uropa3 + unrbpa3 + unropa3 + carbp + carop + canbp + canop) / slpprdp",
-  "commonly_used": true,
   "labels": [
-    "icsd"
-  ]
+    "icsd",
+    "cahi_ca0uhp3x3r_f1t2"
+  ],
+  "commonly_used": true
 }

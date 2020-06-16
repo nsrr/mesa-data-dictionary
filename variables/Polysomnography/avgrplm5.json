@@ -1,7 +1,10 @@
 {
   "id": "avgrplm5",
-  "display_name": "# of PLM Per Hour Of REM Sleep",
+  "display_name": "Number of periodic limb movements per hour of REM sleep",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "phrnumpl_sr_f1t2"
+  ]
 }

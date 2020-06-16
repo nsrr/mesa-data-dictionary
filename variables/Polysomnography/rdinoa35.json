@@ -1,7 +1,10 @@
 {
   "id": "rdinoa35",
-  "display_name": "AASM Recommended Hypopnea Per Hour w/ Arousals (NREM, Other, 3% Desat)",
+  "display_name": "Hypopnea Index (NREM, Non-Supine): (hypopneas with 30 - 50% flow reduction and >= 3% oxygen desaturation or with arousal) / hour of NREM sleep in non-supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "hi_snpo_hp3x5x3r_f1t2"
+  ]
 }

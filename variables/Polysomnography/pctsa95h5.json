@@ -1,7 +1,10 @@
 {
   "id": "pctsa95h5",
-  "display_name": "% Sleep Time SaO2 Is < 95%",
+  "display_name": "Percent total sleep duration with below 95% oxygen saturation",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "pctdursp_o95_f1t2"
+  ]
 }

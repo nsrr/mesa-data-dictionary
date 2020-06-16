@@ -1,7 +1,10 @@
 {
   "id": "rdirem4p5",
-  "display_name": "Calculated - Overall REM RDI At 4% Desat",
-  "description": "",
+  "display_name": "Apnea Hypopnea Index (REM): (apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with > 30% flow reduction and >= 4% oxygen desaturation and with or without arousal) / hour of REM sleep",
+  "description": "Calculated - Summary metric of sleep disordered breathing events",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "ahi_sr_ap0uhp3x4u_f1t2"
+  ]
 }

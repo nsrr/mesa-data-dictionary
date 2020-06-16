@@ -1,7 +1,10 @@
 {
   "id": "cai4p5",
-  "display_name": "Calculated - Central Apnea Index 4% Desats",
-  "description": "",
+  "display_name": "Central Apnea Index: (central apneas with >= 4% oxygen desaturation threshold used and with or without arousal) / hour of sleep ",
+  "description": "Calculated - Summary metric of sleep disordered breathing events",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "cai_ca4u_f1t2"
+  ]
 }

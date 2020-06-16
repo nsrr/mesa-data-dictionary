@@ -1,7 +1,10 @@
 {
   "id": "rdi2p5",
-  "display_name": "Calculated - Overall RDI At 2% Desat",
-  "description": "",
+  "display_name": "Apnea Hypopnea Index: (apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with > 30% flow reduction and >= 2% oxygen desaturation and with or without arousal) / hour of sleep",
+  "description": "Calculated - Summary metric of sleep disordered breathing events",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "ahi_ap0uhp3x2u_f1t2"
+  ]
 }

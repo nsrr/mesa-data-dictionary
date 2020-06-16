@@ -1,8 +1,11 @@
 {
   "id": "times34p5",
-  "display_name": "Calculated - Pct Time Stage 3-4",
-  "description": "",
+  "display_name": "Percent of total sleep duration in Stage 3 and 4",
+  "description": "Calculated",
   "type": "numeric",
   "units": "percent",
+  "labels": [
+    "pctdursp_s3_f1t2"
+  ],
   "commonly_used": true
 }

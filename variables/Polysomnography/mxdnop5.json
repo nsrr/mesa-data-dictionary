@@ -1,7 +1,10 @@
 {
   "id": "mxdnop5",
-  "display_name": "Max. Desat (NREM, Other, All Desats)",
+  "display_name": "Maximum oxygen desaturation during NREM sleep in non-supine position",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "maxlvlds_snpo_f1t2"
+  ]
 }

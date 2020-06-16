@@ -1,7 +1,7 @@
 {
   "id": "rem_lat15",
   "display_name": "Calculated - REM Latency I In Minutes Slp Onset To First REM",
-  "description": "",
+  "description": "Calculated",
   "type": "numeric",
   "units": "minutes"
 }

@@ -1,8 +1,11 @@
 {
   "id": "time_bed5",
-  "display_name": "Calculated - Time In Bed (Minutes)",
-  "description": "",
+  "display_name": "Polysomnography: Total in-bed period - the interval between lights out/in-bed time and lights off/out-bed time.",
+  "description": "Calculated. Conventionally this variable would be called time in bed (TIB).",
   "type": "numeric",
   "units": "minutes",
+  "labels": [
+    "ttlprdbd_f1t2"
+  ],
   "commonly_used": true
 }

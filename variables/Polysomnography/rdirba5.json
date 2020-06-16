@@ -1,7 +1,10 @@
 {
   "id": "rdirba5",
-  "display_name": "AASM Recommended Hypopnea Per Hour w/ Arousals (REM, Back, All Desats)",
+  "display_name": "Hypopnea Index (REM, Supine): (hypopneas with 30 - 50% flow reduction and no oxygen desaturation threshold used or with arousal) / hour of REM sleep in supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "hi_srpb_hp3x5x0r_f1t2"
+  ]
 }

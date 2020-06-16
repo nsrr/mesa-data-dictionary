@@ -1,7 +1,10 @@
 {
   "id": "pcstah3d5",
-  "display_name": "% Sleep Time In Apnea+AASM Recommended Hypopnea With >3% Desat",
+  "display_name": "Percent total sleep duration with apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with 30 - 50% flow reduction and >= 3% oxygen desaturation and with or without arousal",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "pctdursp_ap0uhp3x5x3u_f1t2"
+  ]
 }

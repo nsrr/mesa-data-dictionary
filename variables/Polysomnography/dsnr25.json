@@ -1,7 +1,10 @@
 {
   "id": "dsnr25",
-  "display_name": "# of Desats Per Hour (NREM, >= 2%)",
+  "display_name": "Number of >= 2 % oxygen desaturations / hour of NREM sleep",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "phrnumds_sn_ds2u_f1t2"
+  ]
 }

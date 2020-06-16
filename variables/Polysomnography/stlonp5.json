@@ -1,6 +1,9 @@
 {
   "id": "stlonp5",
-  "display_name": "Lights On Set By Scorer (hh:mm:ss) (Not Script Variable)",
-  "description": "",
-  "type": "time"
+  "display_name": "Polysomnography: Clock time when the participant is out of bed or lights are on",
+  "description": "Conventionally, this variable would be called the end of time in bed (TIB) in polysomnography data.",
+  "type": "time",
+  "labels": [
+    "endtimbd_f1t2"
+  ]
 }

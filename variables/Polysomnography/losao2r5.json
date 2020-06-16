@@ -1,7 +1,10 @@
 {
   "id": "losao2r5",
-  "display_name": "Calculated - Min SaO2 REM",
-  "description": "",
+  "display_name": "Minimum oxygen saturation during REM sleep",
+  "description": "Calculated",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "minlvlsa_sr_f1t2"
+  ]
 }

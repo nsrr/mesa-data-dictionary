@@ -1,7 +1,10 @@
 {
   "id": "ahremop5",
-  "display_name": "Arousals Per Hour (REM, Other, All Desats)",
+  "display_name": "Arousal Index (REM, Non-Supine): number of arousals per hour of REM sleep in non-supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "phrnumrs_srpo_f1t2"
+  ]
 }

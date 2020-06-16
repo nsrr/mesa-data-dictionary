@@ -1,7 +1,10 @@
 {
   "id": "plmaslp5",
-  "display_name": "# PLMs With Arousal (Sleep)",
+  "display_name": "Number of periodic limb movements during total sleep duration",
   "description": "",
   "type": "numeric",
-  "units": "events"
+  "units": "events",
+  "labels": [
+    "ttlnumpl_f1t2"
+  ]
 }

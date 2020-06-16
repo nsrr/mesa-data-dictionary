@@ -1,7 +1,10 @@
 {
   "id": "cardrbp5",
-  "display_name": "Cent. Apnea Per Hour (REM, Back, All Desats)",
+  "display_name": "Central Apnea Index (REM, Supine): (central apneas with no oxygen desaturation threshold used and with or without arousal) / hour of REM sleep in supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "cai_srpb_ca0u_f1t2"
+  ]
 }

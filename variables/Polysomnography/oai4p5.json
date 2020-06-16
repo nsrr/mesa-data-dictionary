@@ -1,7 +1,10 @@
 {
   "id": "oai4p5",
-  "display_name": "Calculated - Obstructive Apnea Index 4% Desats",
-  "description": "",
+  "display_name": "Obstructive Apnea Index: (obstructive apneas with >= 4% oxygen desaturation and with or without arousal) / hour of sleep",
+  "description": "Calculated - Summary metric of sleep disordered breathing events",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "oai_oa4u_f1t2"
+  ]
 }

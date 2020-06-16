@@ -1,7 +1,10 @@
 {
   "id": "timest25",
-  "display_name": "Calculated - Time Stage 2 Minutes",
-  "description": "",
+  "display_name": "Total duration of Stage 2 sleep",
+  "description": "Calculated",
   "type": "numeric",
-  "units": "minutes"
+  "units": "minutes",
+  "labels": [
+    "ttldursp_s2_f1t2"
+  ]
 }

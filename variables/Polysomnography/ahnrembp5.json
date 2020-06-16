@@ -1,7 +1,10 @@
 {
   "id": "ahnrembp5",
-  "display_name": "Arousals Per Hour (NREM, Back, All Desats)",
+  "display_name": "Arousal Index (NREM, Supine): number of arousals per hour of NREM sleep in supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "phrnumrs_snpb_f1t2"
+  ]
 }

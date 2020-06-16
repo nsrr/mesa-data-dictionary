@@ -1,7 +1,10 @@
 {
   "id": "mxsao2rh5",
-  "display_name": "Max. SaO2 % During REM Sleep",
+  "display_name": "Maximum oxygen saturation during REM sleep",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "maxlvlsa_sr_f1t2"
+  ]
 }

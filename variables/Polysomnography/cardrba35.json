@@ -1,7 +1,10 @@
 {
   "id": "cardrba35",
-  "display_name": "Cent. Apnea Per Hour w/ Arousals (REM, Back, 3% Desat)",
+  "display_name": "Central Apnea Index (REM, Supine): (central apneas with >= 3% oxygen desaturation threshold or with arousal) / hour of REM sleep in supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "cai_srpb_ca3r_f1t2"
+  ]
 }

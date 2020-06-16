@@ -1,8 +1,11 @@
 {
   "id": "pctlt905",
-  "display_name": "Calculated - Pct Time < 90% Desat",
-  "description": "",
+  "display_name": "Percent total sleep duration with below 90% oxygen saturation",
+  "description": "Calculated",
   "type": "numeric",
   "units": "percent",
+  "labels": [
+    "pctdursp_o90_f1t2"
+  ],
   "commonly_used": true
 }

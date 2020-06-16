@@ -1,7 +1,10 @@
 {
   "id": "dsrem35",
-  "display_name": "# of Desats Per Hour (REM, >= 3%)",
+  "display_name": "Number of >= 3 % oxygen desaturations / hour of REM sleep",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "phrnumds_sr_ds3u_f1t2"
+  ]
 }

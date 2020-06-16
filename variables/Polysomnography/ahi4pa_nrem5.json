@@ -1,7 +1,10 @@
 {
   "id": "ahi4pa_nrem5",
-  "display_name": "(Previously AASM2013ahi_nrem5) AHI: Obstructive And Central Apneas (All Desats);  30% And 50% Hypopneas (4% Desat Or Arousal)  Index In NREM",
+  "display_name": "Apnea-Hypopnea Index (NREM): (apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with 30 - 50% flow reduction and >= 4% oxygen desaturation or with arousal) / hour of NREM sleep",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "ahi_sn_ap0uhp3x5x4r_f1t2"
+  ]
 }

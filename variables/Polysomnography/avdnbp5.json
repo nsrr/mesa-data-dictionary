@@ -1,7 +1,10 @@
 {
   "id": "avdnbp5",
-  "display_name": "Avg. Desat (NREM, Back, All Desats)",
+  "display_name": "Average level of oxygen desaturation during NREM sleep in supine position",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "avglvlds_snpb_ds0u_f1t2"
+  ]
 }

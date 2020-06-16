@@ -1,7 +1,10 @@
 {
   "id": "oahi4pa_nsup5",
-  "display_name": "Obstructive Apnea/Hypopnea 4% Index (Or Arousal) In Non-Supine Position: All Obstructive Apneas And Hypopneas With A >=4% Desat Or Arousal",
+  "display_name": "Obstructive Apnea Hypopnea Index (Non-Supine): (obstructive apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with 30 - 50% flow reduction and >= 4% oxygen desaturation or with arousal) / hour of sleep in non-supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "oahi_po_oa0uhp3x5x4r_f1t2"
+  ]
 }

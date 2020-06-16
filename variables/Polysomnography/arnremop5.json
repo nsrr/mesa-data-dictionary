@@ -1,7 +1,10 @@
 {
   "id": "arnremop5",
-  "display_name": "# of Arousals (NREM, Other, All Desats)",
+  "display_name": "Total number of arousals during NREM sleep in non-supine position",
   "description": "",
   "type": "numeric",
-  "units": "events"
+  "units": "events",
+  "labels": [
+    "ttlnumrs_snpo_f1t2"
+  ]
 }

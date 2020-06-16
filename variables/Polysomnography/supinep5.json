@@ -1,7 +1,10 @@
 {
   "id": "supinep5",
-  "display_name": "Calculated - Pct Time Supine",
-  "description": "",
+  "display_name": "Percent of total sleep duration in supine",
+  "description": "Calculated",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "pctdursp_pb_f1t2"
+  ]
 }

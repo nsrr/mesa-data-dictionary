@@ -1,7 +1,10 @@
 {
   "id": "pctsthyp5",
-  "display_name": "% Sleep Time In AASM Recommended Hypopnea",
+  "display_name": "Percent total sleep duration with hypopneas with 30 - 50% flow reduction and no oxygen desaturation threshold used and with or without arousal",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "pctdursp_hp3x5x0u_f1t2"
+  ]
 }

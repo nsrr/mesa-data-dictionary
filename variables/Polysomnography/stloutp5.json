@@ -1,6 +1,9 @@
 {
   "id": "stloutp5",
-  "display_name": "Lights Out Time (hh:mm:ss)",
-  "description": "",
-  "type": "time"
+  "display_name": "Polysomnography: Clock time when the participant is in bed or lights are out",
+  "description": "Conventionally, this variable would be called the start of time in bed (TIB).",
+  "type": "time",
+  "labels": [
+    "begtimbd_f1t2"
+  ]
 }

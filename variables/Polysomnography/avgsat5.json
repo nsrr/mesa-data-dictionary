@@ -1,7 +1,10 @@
 {
   "id": "avgsat5",
-  "display_name": "Calculated - Avg SaO2 In Sleep",
-  "description": "",
+  "display_name": "Average level of oxygen saturation during total sleep duration",
+  "description": "Calculated",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "avglvlsa_f1t2"
+  ]
 }

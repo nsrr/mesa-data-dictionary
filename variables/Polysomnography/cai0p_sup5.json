@@ -1,7 +1,10 @@
 {
   "id": "cai0p_sup5",
-  "display_name": "Central Apnea Index In Supine Position: All Central Apneas",
+  "display_name": "Central Apnea Index (Supine): (central apeneas with no oxygen desaturation threshold used and with or without arousal) / hour of sleep in supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "cai_pb_ca0u_f1t2"
+  ]
 }

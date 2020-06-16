@@ -1,7 +1,10 @@
 {
   "id": "oardnba35",
-  "display_name": "Obs. Apnea Per Hour w/ Arousals (NREM, Back, 3% Desat)",
+  "display_name": "Obstructive Apnea Index (NREM, Supine): (obstructive apneas with >= 3% oxygen desaturation or with arousal) / hour of NREM sleep in supine position",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "labels": [
+    "oai_snpb_oa3r_f1t2"
+  ]
 }
