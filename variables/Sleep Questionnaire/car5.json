@@ -1,7 +1,0 @@
-{
-  "id": "car5",
-  "display_name": "Chance Of Dozing / Fall Asleep While: In Car Stopped In Traffic",
-  "description": "",
-  "type": "choices",
-  "domain": "dozingchance"
-}

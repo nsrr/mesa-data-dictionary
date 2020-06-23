@@ -1,0 +1,10 @@
+{
+  "id": "avgwakeboutswo5",
+  "display_name": "Average daily number of wake bouts in main sleep in workdays  from actigraphy",
+  "description": "Wake bouts is also referred to as \"nocturnal awakenings\". There are always comparable number of wake bouts to sleep bouts.",
+  "type": "numeric",
+  "units": "wake bouts",
+  "labels": [
+    "avgbotwk_im_ww_f2"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "wrserest5",
+  "display_name": "Symptoms worse when at rest with temporary relief by activity",
+  "description": "Are these symptoms worse when you are at rest, with at least temporary relief by activity?",
+  "type": "choices",
+  "domain": "noyesdk",
+  "labels": [
+    "RLS_PLMS"
+  ]
+}

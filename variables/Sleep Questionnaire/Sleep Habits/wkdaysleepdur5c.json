@@ -1,0 +1,10 @@
+{
+  "id": "wkdaysleepdur5c",
+  "display_name": "Self-reported daily sleep duration on weekdays from survey questionnaires",
+  "description": "",
+  "type": "time",
+  "labels": [
+    "sleep_duration",
+    "avgdursp_w5_f3"
+  ]
+}

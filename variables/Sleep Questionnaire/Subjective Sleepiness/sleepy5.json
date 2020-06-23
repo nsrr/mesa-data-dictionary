@@ -1,0 +1,11 @@
+{
+  "id": "sleepy5",
+  "display_name": "Frequency of excessive sleepiness during the day in the last 4 weeks",
+  "description": "How often you experienced the situation in the past 4 weeks - did you feel overly sleepy during the day?",
+  "type": "choices",
+  "domain": "freq4weeks",
+  "labels": [
+    "subjective_sleepiness",
+    "nhanes_15sleepy"
+  ]
+}

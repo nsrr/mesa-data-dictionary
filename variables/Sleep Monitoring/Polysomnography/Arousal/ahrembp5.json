@@ -1,0 +1,10 @@
+{
+  "id": "ahrembp5",
+  "display_name": "Arousal Index (REM, Supine): Number of arousals per hour of REM sleep in supine position from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "phrnumrs_srpb_f1t2"
+  ]
+}

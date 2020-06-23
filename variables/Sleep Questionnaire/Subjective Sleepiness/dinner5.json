@@ -1,0 +1,11 @@
+{
+  "id": "dinner5",
+  "display_name": "Chance of dozing while at dinner table",
+  "description": "",
+  "type": "choices",
+  "domain": "dozingchance",
+  "labels": [
+    "ess_diner",
+    "subjective_sleepiness"
+  ]
+}

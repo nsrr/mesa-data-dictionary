@@ -1,7 +1,0 @@
-{
-  "id": "que25",
-  "display_name": "PSG QS: E2 Signal Quality",
-  "description": "",
-  "type": "choices",
-  "domain": "psgsignalquality"
-}

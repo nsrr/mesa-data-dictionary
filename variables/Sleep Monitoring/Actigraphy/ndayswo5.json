@@ -1,0 +1,10 @@
+{
+  "id": "ndayswo5",
+  "display_name": "Total number of days with sleep data in the entire actigraphy recording period in workdays  from actigraphy",
+  "description": "",
+  "type": "integer",
+  "units": "workdays",
+  "labels": [
+    "ttldaysp_ir_ww_f2"
+  ]
+}

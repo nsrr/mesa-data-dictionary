@@ -1,7 +1,0 @@
-{
-  "id": "sdinbedduration5",
-  "display_name": "Standard Deviation Of The In Bed Interval Duration (Minutes)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

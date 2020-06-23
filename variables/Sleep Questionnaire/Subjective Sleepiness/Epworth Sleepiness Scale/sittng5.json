@@ -1,0 +1,12 @@
+{
+  "id": "sittng5",
+  "display_name": "Epworth Sleepiness Scale: Chance of dozing while sitting, inactive in a public place",
+  "description": "Item from the Epworth Sleepiness Scale [Johns MW 1991 (PubMed ID: 1798888)](https://www.ncbi.nlm.nih.gov/pubmed/1798888) [All ESS variables from this study](https://sleepdata.org/datasets/mesa/variables?search=epworth)",
+  "type": "choices",
+  "domain": "dozingchance",
+  "labels": [
+    "subjective_sleepiness",
+    "epworth",
+    "ess_3sitinactive"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "avgsleeponsettimewo5",
+  "display_name": "Average daily sleep onset time in workdays  from actigraphy",
+  "description": "Sleep onset time is the start time of main sleep.",
+  "type": "time",
+  "labels": [
+    "avgbptsp_im_ww_f2"
+  ]
+}

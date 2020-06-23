@@ -1,0 +1,7 @@
+{
+  "id": "losbeg5",
+  "display_name": "PSG QS: Data Lost At Beginning Of Study from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

@@ -1,7 +1,0 @@
-{
-  "id": "ndaysnapsallwe5",
-  "display_name": "Number Of Weekend Days With Naps When All Naps Are Counted (Weekend Days)",
-  "description": "",
-  "type": "integer",
-  "units": "weekend days"
-}

@@ -1,0 +1,11 @@
+{
+  "id": "slpapnea5",
+  "display_name": "Sleep Apnea: Self-reported diagnosis by a physician",
+  "description": "Have you been told by a doctor that you have any of the following: Sleep Apnea (or obstructive sleep apnea, OSA)?",
+  "type": "choices",
+  "domain": "noyes",
+  "labels": [
+    "sdb",
+    "nhanes_07apnea"
+  ]
+}

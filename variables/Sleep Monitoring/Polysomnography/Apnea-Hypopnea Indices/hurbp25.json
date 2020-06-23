@@ -1,0 +1,10 @@
+{
+  "id": "hurbp25",
+  "display_name": "Hypopnea Index (REM, Supine): (Hypopneas with > 50% flow reduction and >= 2% oxygen desaturation and with or without arousal) / hour of REM sleep in supine position from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "hi_srpb_hp5x2u_f1t2"
+  ]
+}

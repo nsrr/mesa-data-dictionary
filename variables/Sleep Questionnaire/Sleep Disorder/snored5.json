@@ -1,0 +1,11 @@
+{
+  "id": "snored5",
+  "display_name": "Frequency of snoring in the past 4 weeks",
+  "description": "Over the past 4 weeks, how often have you snored? ",
+  "type": "choices",
+  "domain": "freq4weeksdk",
+  "labels": [
+    "sdb",
+    "nhanes_03snore"
+  ]
+}

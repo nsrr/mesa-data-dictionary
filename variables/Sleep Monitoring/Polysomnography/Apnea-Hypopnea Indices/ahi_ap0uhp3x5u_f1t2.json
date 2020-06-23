@@ -1,0 +1,10 @@
+{
+  "id": "ahi_ap0uhp3x5u_f1t2",
+  "display_name": "Apnea Hypopnea Index: (Apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with > 30% flow reduction and >= 5% oxygen desaturation and with or without arousal) / hour of sleep from type II polysomnography",
+  "description": "Calculated - Summary metric of sleep disordered breathing events",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "rdi5p5"
+  ]
+}

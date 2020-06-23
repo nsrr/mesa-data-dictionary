@@ -1,7 +1,0 @@
-{
-  "id": "avgredtaltnw5",
-  "display_name": "Average Red Light Time Above 1000 Microwatts Per Square Centimeter Threshold Per Non-Workday Day (Minutes)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

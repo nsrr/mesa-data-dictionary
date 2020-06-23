@@ -1,7 +1,0 @@
-{
-  "id": "avgact24hr5",
-  "display_name": "Average Activity Count Per Minute Over 24-Hour Periods Across All Days (Activity Counts)",
-  "description": "",
-  "type": "numeric",
-  "units": "activity counts"
-}

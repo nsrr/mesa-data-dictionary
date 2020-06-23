@@ -1,7 +1,0 @@
-{
-  "id": "ndaysrd5",
-  "display_name": "Number Of Reliable Days With Sleep Data In Recording (Reliable Days)",
-  "description": "",
-  "type": "integer",
-  "units": "reliable days"
-}

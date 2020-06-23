@@ -1,0 +1,10 @@
+{
+  "id": "sdmainsleepnw5",
+  "display_name": "Standard deviation of daily total sleep duration in main sleep in non-workdays  from actigraphy",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "stddursp_im_wn_f2"
+  ]
+}

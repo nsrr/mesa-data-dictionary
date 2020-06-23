@@ -1,0 +1,10 @@
+{
+  "id": "ndays5",
+  "display_name": "Total number of days with sleep data in the entire actigraphy recording period in all days  from actigraphy",
+  "description": "",
+  "type": "integer",
+  "units": "days",
+  "labels": [
+    "ttldaysp_ir_w7_f2"
+  ]
+}

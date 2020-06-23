@@ -1,0 +1,10 @@
+{
+  "id": "waketmwkday5c",
+  "display_name": "Self-reported end time of the in-bed period on weekdays in 24-hour format from survey questionnaires",
+  "description": "Conventionally this variable would be called wake time.",
+  "type": "time",
+  "labels": [
+    "sleep_timing",
+    "endtimbd_w5_f3"
+  ]
+}

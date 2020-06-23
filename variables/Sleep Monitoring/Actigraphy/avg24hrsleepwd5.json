@@ -1,0 +1,10 @@
+{
+  "id": "avg24hrsleepwd5",
+  "display_name": "Average daily total sleep duration in main sleep and naps combined in weekdays  from actigraphy",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "avgdursp_ib_w5_f2"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mosttired4",
+  "display_name": "Horne-Ostberg Morningness-Eveningness Questionnaire: Time of evening you need sleep",
+  "description": "At what time in the evening do you feel most tired and, as a result, most in need of sleep?<br><br>Item from the Horne-Ostberg Morningness-Eveningness Questionnaire. [Horne JA and Ostberg O, 1976 (PubMed ID: 1027738)](https://www.ncbi.nlm.nih.gov/pubmed/1027738)<br><br> [Search for all HOMEQ variables within this dataset](https://sleepdata.org/datasets/mesa/variables?search=homeq)",
+  "type": "choices",
+  "domain": "mosttired",
+  "labels": [
+    "chronotype",
+    "homeq",
+    "homeq_09needslp"
+  ]
+}

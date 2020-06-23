@@ -1,7 +1,0 @@
-{
-  "id": "ndaysnapssleepwo5",
-  "display_name": "Number Of Workday Days With Naps When Only Naps With Some Sleep Time Are Counted (Workday Days)",
-  "description": "",
-  "type": "integer",
-  "units": "workdays"
-}

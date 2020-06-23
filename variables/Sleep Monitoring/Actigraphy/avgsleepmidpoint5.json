@@ -1,0 +1,10 @@
+{
+  "id": "avgsleepmidpoint5",
+  "display_name": "Average daily midpoint for sleep period in all days  from actigraphy",
+  "description": "Sleep period is the interval between sleep onset time and sleep offset time in main sleep.",
+  "type": "time",
+  "labels": [
+    "avgmptsp_im_w7_f2"
+  ],
+  "commonly_used": true
+}

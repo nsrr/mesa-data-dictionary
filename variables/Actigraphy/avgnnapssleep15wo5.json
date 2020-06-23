@@ -1,7 +1,0 @@
-{
-  "id": "avgnnapssleep15wo5",
-  "display_name": "Average Number Of Naps Per Workday Day When Only Naps With >=15 Minutes Of Sleep Time Are Counted (Naps)",
-  "description": "",
-  "type": "numeric",
-  "units": "naps"
-}

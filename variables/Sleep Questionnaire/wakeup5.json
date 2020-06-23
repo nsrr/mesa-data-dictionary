@@ -1,7 +1,0 @@
-{
-  "id": "wakeup5",
-  "display_name": "Past 4 Weeks: Wake Up Several Times A Night",
-  "description": "",
-  "type": "choices",
-  "domain": "freq4weeks"
-}

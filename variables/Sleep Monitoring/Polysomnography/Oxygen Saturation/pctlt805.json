@@ -1,0 +1,10 @@
+{
+  "id": "pctlt805",
+  "display_name": "Percent total sleep duration with below 80% oxygen saturation from type II polysomnography",
+  "description": "Calculated",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "pctdursp_o80_f1t2"
+  ]
+}

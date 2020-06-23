@@ -1,0 +1,7 @@
+{
+  "id": "avgnnapssleep15nw5",
+  "display_name": "Average daily number of naps (>= 15 minutes) in non-workdays  from actigraphy",
+  "description": "",
+  "type": "numeric",
+  "units": "naps"
+}

@@ -1,7 +1,0 @@
-{
-  "id": "avgnnapssleep155",
-  "display_name": "Average Number Of Naps Per Day When Only Naps With >=15 Minutes Of Sleep Time Are Counted (Naps/Day)",
-  "description": "",
-  "type": "numeric",
-  "units": "naps per day"
-}

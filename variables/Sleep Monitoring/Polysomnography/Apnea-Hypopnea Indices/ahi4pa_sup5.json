@@ -1,0 +1,10 @@
+{
+  "id": "ahi4pa_sup5",
+  "display_name": "Apnea-Hypopnea Index (Supine): (Apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with > 30% flow reduction and >= 4% oxygen desaturation or with arousal) / hour of sleep in supine position from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "ahi_pb_ap0uhp3x4r_f1t2"
+  ]
+}

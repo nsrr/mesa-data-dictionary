@@ -1,0 +1,9 @@
+{
+  "id": "avgrestmidpointwe5",
+  "display_name": "Average daily midpoint for rest period in main sleep in weekends  from actigraphy",
+  "description": "In this study, rest period (i.e. rest interval) is defined as in-bed period (i.e. time in bed). ",
+  "type": "time",
+  "labels": [
+    "avgmptbd_im_w2_f2"
+  ]
+}

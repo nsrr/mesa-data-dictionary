@@ -1,0 +1,10 @@
+{
+  "id": "sdefficiencynw5",
+  "display_name": "Standard deviation of the daily sleep efficiency in non-workdays  from actigraphy",
+  "description": "Sleep efficiency is the proportion of sleep duration (i.e. total sleep time, tst) in total rest period (i.e. rest interval) in main sleep. Sleep duration is the interval between sleep onset time and sleep offset time while asleep. In this study, rest interval is the same as in-bed period. ",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "stdeffbd_im_wn_f2"
+  ]
+}

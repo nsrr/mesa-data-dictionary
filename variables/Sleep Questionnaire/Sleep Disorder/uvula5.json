@@ -1,0 +1,10 @@
+{
+  "id": "uvula5",
+  "display_name": "Throat/Uvula Surgery for Sleep Apnea: Self-reported",
+  "description": "Did you receive treatment for sleep apnea with any of the following: Throat/Uvula Surgery?",
+  "type": "choices",
+  "domain": "noyes",
+  "labels": [
+    "sdb"
+  ]
+}

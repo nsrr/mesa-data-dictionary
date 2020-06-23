@@ -1,0 +1,10 @@
+{
+  "id": "dntaldv5",
+  "display_name": "Dental (Oral) Device for Sleep Apnea: Self-reported",
+  "description": "Did you receive treatment for sleep apnea with any of the following: Dental (Oral) Device?",
+  "type": "choices",
+  "domain": "noyes",
+  "labels": [
+    "sdb"
+  ]
+}

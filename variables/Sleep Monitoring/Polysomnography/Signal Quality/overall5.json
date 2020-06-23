@@ -1,0 +1,8 @@
+{
+  "id": "overall5",
+  "display_name": "PSG QS: Overall Study Quality Grade from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "overallstudyqualitygrade",
+  "commonly_used": true
+}

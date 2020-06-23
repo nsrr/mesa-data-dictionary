@@ -1,0 +1,10 @@
+{
+  "id": "noplm5",
+  "display_name": "Total number of periodic limb movements during total sleep duration from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "events",
+  "labels": [
+    "ttlnumpl_f1t2"
+  ]
+}

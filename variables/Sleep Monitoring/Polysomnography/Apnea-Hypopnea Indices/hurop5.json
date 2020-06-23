@@ -1,0 +1,10 @@
+{
+  "id": "hurop5",
+  "display_name": "Hypopnea Index (REM, Non-Supine): (Hypopneas with > 50% flow reduction and no oxygen desaturation threshold used and with or without arousal) / hour of REM sleep in non-supine position from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "hi_srpo_hp5x0u_f1t2"
+  ]
+}

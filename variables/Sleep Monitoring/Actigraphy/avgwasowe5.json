@@ -1,0 +1,10 @@
+{
+  "id": "avgwasowe5",
+  "display_name": "Average daily duration of wake after sleep onset (waso) in weekends  from actigraphy",
+  "description": "WASO is the duration of being awake between sleep onset and offset time in main sleep.",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "avgdurws_im_w2_f2"
+  ]
+}

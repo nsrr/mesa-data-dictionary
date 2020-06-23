@@ -1,0 +1,7 @@
+{
+  "id": "chestdur5",
+  "display_name": "PSG QS: Chest Signal Duration (Hours) from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

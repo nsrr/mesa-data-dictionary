@@ -1,0 +1,10 @@
+{
+  "id": "ndaysnapsallnw5",
+  "display_name": "Total number of days with naps in the entire actigraphy recording period in non-workdays  from actigraphy",
+  "description": "",
+  "type": "integer",
+  "units": "non-workdays",
+  "labels": [
+    "ttldaynp_ir_wn_f2"
+  ]
+}

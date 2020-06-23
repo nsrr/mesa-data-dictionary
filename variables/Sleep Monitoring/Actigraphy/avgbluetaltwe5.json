@@ -1,0 +1,10 @@
+{
+  "id": "avgbluetaltwe5",
+  "display_name": "Average blue light time above 1,000 µW/cm² threshold over 24-hour periods in weekends  from actigraphy",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "avgtallb_ib_w2_f2"
+  ]
+}

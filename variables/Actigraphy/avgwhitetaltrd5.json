@@ -1,7 +1,0 @@
-{
-  "id": "avgwhitetaltrd5",
-  "display_name": "Average White Light Time Above 1000 Lux Threshold Per Reliable Day (Minutes)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

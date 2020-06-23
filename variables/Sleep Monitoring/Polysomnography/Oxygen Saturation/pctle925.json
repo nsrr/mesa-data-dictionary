@@ -1,0 +1,10 @@
+{
+  "id": "pctle925",
+  "display_name": "Percent of total sleep duration with < 92% oxygen saturation from type II polysomnography",
+  "description": "Calculated",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "pctdursp_o92_f1t2"
+  ]
+}

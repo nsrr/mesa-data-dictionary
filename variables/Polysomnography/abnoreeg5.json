@@ -1,7 +1,0 @@
-{
-  "id": "abnoreeg5",
-  "display_name": "PSG QS: Abnormal Awake EEG",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes"
-}

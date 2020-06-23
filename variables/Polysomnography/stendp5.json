@@ -1,9 +1,0 @@
-{
-  "id": "stendp5",
-  "display_name": "Polysomnography: Clock time when the recording (study) ends",
-  "description": "",
-  "type": "time",
-  "labels": [
-    "endtimrd_f1t2"
-  ]
-}

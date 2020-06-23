@@ -1,0 +1,10 @@
+{
+  "id": "apavgdur5",
+  "display_name": "Average length of apnea with no oxygen desaturation threshold used and with or without arousal during sleep from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "seconds",
+  "labels": [
+    "avgdurap_ap0u_f1t2"
+  ]
+}

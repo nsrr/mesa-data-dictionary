@@ -1,0 +1,10 @@
+{
+  "id": "bedtmwkend5c",
+  "display_name": "Self-reported start time of the in-bed period on weekends in 24-hour format",
+  "description": "Conventionally this variable would be called time to bed.",
+  "type": "time",
+  "labels": [
+    "sleep_timing",
+    "begtimbd_w2_f3"
+  ]
+}

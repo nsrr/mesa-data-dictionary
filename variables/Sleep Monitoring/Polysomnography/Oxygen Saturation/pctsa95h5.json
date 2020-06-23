@@ -1,0 +1,10 @@
+{
+  "id": "pctsa95h5",
+  "display_name": "Percent total sleep duration with below 95% oxygen saturation from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "pctdursp_o95_f1t2"
+  ]
+}

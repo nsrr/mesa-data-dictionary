@@ -1,7 +1,0 @@
-{
-  "id": "avginbeddurationnw5",
-  "display_name": "Average In Bed Interval Duration From Main Sleeps Across All Non-Workday Days (Minutes)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

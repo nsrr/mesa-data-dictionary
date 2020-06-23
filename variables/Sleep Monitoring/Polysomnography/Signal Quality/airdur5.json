@@ -1,0 +1,7 @@
+{
+  "id": "airdur5",
+  "display_name": "PSG QS: Airflow Signal Duration (Hours) from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

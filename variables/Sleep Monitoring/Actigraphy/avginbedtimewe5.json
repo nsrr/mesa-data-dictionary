@@ -1,0 +1,9 @@
+{
+  "id": "avginbedtimewe5",
+  "display_name": "Average daily start time for rest period in weekends  from actigraphy",
+  "description": "In this study, rest period (i.e. rest interval) is defined as in-bed period (i.e. time in bed, TIB), therefore the start time of rest period is in-bed time.",
+  "type": "time",
+  "labels": [
+    "avgbptrt_im_w2_f2"
+  ]
+}

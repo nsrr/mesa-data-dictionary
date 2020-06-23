@@ -1,0 +1,11 @@
+{
+  "id": "driving5",
+  "display_name": "Chance of dozing while driving",
+  "description": "",
+  "type": "choices",
+  "domain": "dozingchance",
+  "labels": [
+    "ess_driving",
+    "subjective_sleepiness"
+  ]
+}

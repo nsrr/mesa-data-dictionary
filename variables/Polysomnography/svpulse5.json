@@ -1,7 +1,0 @@
-{
-  "id": "svpulse5",
-  "display_name": "PSG QS: Manual Pulse At Time Of Hookup From Sv Form",
-  "description": "",
-  "type": "integer",
-  "units": "beats per minute"
-}

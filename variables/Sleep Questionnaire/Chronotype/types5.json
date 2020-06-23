@@ -1,0 +1,12 @@
+{
+  "id": "types5",
+  "display_name": "Horne-Ostberg Morningness-Eveningness Questionnaire: Morning or evening type",
+  "description": "One hears about \"morning\" and \"evening\" types of people. Which ONE of these types do you consider yourself to be?<br><br>Item from the Horne-Ostberg Morningness-Eveningness Questionnaire. [Horne JA and Ostberg O, 1976 (PubMed ID: 1027738)](https://www.ncbi.nlm.nih.gov/pubmed/1027738)<br><br> [Search for all HOMEQ variables within this dataset](https://sleepdata.org/datasets/mesa/variables?search=homeq)",
+  "type": "choices",
+  "domain": "persontype",
+  "labels": [
+    "chronotype",
+    "homeq",
+    "homeq_04type"
+  ]
+}

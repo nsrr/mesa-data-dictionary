@@ -1,7 +1,0 @@
-{
-  "id": "minsat5",
-  "display_name": "PSG Report: Calculated - Min SaO2 In Sleep",
-  "description": "",
-  "type": "numeric",
-  "units": "percent"
-}

@@ -1,0 +1,12 @@
+{
+  "id": "cent_obs_ratio",
+  "display_name": "Ratio of the number of central apneas with no oxygen desaturation threshold used and with or without arousal to the number of obstructive apneas with no oxygen desaturation threshold used and with or without arousal from type II polysomnography",
+  "description": "Calculated",
+  "type": "numeric",
+  "calculation": "(carbp + carop + canbp + canop) / (oarbp + oarop + oanbp + oanop)",
+  "labels": [
+    "icsd",
+    "ratnumap_ca0u_oa0u"
+  ],
+  "commonly_used": true
+}

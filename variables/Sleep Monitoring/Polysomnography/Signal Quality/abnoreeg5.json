@@ -1,0 +1,7 @@
+{
+  "id": "abnoreeg5",
+  "display_name": "PSG QS: Abnormal Awake EEG from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

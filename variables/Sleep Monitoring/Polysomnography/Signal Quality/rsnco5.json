@@ -1,0 +1,7 @@
+{
+  "id": "rsnco5",
+  "display_name": "PSG QS: Reason For Study Failure from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "psgreasonfail"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "npflow5",
+  "display_name": "PSG QS: Flow Limitation from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

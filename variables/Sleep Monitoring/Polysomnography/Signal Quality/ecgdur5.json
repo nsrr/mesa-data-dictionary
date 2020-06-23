@@ -1,0 +1,7 @@
+{
+  "id": "ecgdur5",
+  "display_name": "PSG QS: ECG Signal Duration (Hours) from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

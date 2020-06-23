@@ -1,0 +1,10 @@
+{
+  "id": "avdnbp5",
+  "display_name": "Average level of oxygen desaturation during NREM sleep in supine position from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "avglvlds_snpb_ds0u_f1t2"
+  ]
+}

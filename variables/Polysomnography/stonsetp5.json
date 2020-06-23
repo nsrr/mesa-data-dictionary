@@ -1,9 +1,0 @@
-{
-  "id": "stonsetp5",
-  "display_name": "Polysomnography: Sleep onset time",
-  "description": "Conventionally this variable would be called the start of total sleep time (TST).",
-  "type": "time",
-  "labels": [
-    "begtimsp_f1t2"
-  ]
-}

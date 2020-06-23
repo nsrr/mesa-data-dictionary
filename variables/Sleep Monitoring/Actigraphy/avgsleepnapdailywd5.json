@@ -1,0 +1,7 @@
+{
+  "id": "avgsleepnapdailywd5",
+  "display_name": "Average daily total sleep duration in naps (with some sleep are counted) in weekdays  from actigraphy",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes"
+}

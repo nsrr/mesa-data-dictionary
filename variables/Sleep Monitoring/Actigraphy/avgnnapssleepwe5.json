@@ -1,0 +1,7 @@
+{
+  "id": "avgnnapssleepwe5",
+  "display_name": "Average daily number of naps (with some sleep are counted) in weekends  from actigraphy",
+  "description": "",
+  "type": "numeric",
+  "units": "naps"
+}

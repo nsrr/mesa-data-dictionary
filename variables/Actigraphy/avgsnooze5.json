@@ -1,7 +1,0 @@
-{
-  "id": "avgsnooze5",
-  "display_name": "Average Snooze Time In Main Sleeps Across All Days (Minutes)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}
