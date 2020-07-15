@@ -1,0 +1,7 @@
+{
+  "id": "rmssd_5m5",
+  "display_name": "Adjacent normal-to-normal intervals, non-overlapping windows: Square root of the mean of the squares of differences",
+  "description": "",
+  "type": "numeric",
+  "units": "milliseconds"
+}

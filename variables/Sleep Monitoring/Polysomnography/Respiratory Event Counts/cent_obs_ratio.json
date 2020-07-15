@@ -6,7 +6,7 @@
   "calculation": "(carbp + carop + canbp + canop) / (oarbp + oarop + oanbp + oanop)",
   "labels": [
     "icsd",
-    "ratnumap_ca0u_oa0u"
+    "ratnumap_ca0u_oa0u_f1t2"
   ],
   "commonly_used": true
 }
