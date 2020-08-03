@@ -1,5 +1,6 @@
 ## 0.4.0
 
+- Update many variable display names and labels
 - **Gem Changes**
   - Update to ruby 2.6.1
   - Update to spout 1.0.0
