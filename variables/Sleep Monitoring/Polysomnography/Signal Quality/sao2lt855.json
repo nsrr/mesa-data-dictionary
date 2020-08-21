@@ -1,6 +1,6 @@
 {
   "id": "sao2lt855",
-  "display_name": "PSG QS: Urgent Referral - O2sat < 85% For >10% Total Sleep Time from type II polysomnography",
+  "display_name": "Urgent Referral - O2sat < 85% For >10% Total Sleep Time from type II polysomnography",
   "description": "",
   "type": "choices",
   "domain": "noyes"

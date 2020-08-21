@@ -1,6 +1,6 @@
 {
   "id": "stg1stg2pr5",
-  "display_name": "PSG QS: Scoring Stage1/Stage2 Unreliable from type II polysomnography",
+  "display_name": "Scoring Stage1/Stage2 Unreliable from type II polysomnography",
   "description": "",
   "type": "choices",
   "domain": "noyes"

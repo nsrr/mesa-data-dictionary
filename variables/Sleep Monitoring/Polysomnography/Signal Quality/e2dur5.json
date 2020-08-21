@@ -1,6 +1,6 @@
 {
   "id": "e2dur5",
-  "display_name": "PSG QS: E2 (Eogr) Signal Duration (Hours) from type II polysomnography",
+  "display_name": "E2 (Eogr) Signal Duration (Hours) from type II polysomnography",
   "description": "",
   "type": "numeric",
   "units": "hours"

@@ -1,6 +1,6 @@
 {
   "id": "avggreentalt5",
-  "display_name": "Average green light time above 1,000 µW/cm² threshold over 24-hour periods in all days  from actigraphy",
+  "display_name": "Average green light time above 1,000 ÂµW/cmÂ² threshold over 24-hour periods in all days  from actigraphy",
   "description": "",
   "type": "numeric",
   "units": "minutes",

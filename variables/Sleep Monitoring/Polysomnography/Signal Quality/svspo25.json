@@ -1,6 +1,6 @@
 {
   "id": "svspo25",
-  "display_name": "PSG QS: Spo2 From Signal Verification Form - Reading At Time Of Hookup from type II polysomnography",
+  "display_name": "Spo2 From Signal Verification Form - Reading At Time Of Hookup from type II polysomnography",
   "description": "",
   "type": "integer",
   "units": "percent"

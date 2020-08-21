@@ -5,6 +5,6 @@
   "type": "choices",
   "domain": "noyesdk",
   "labels": [
-    "RLS_PLMS"
+    "rls_plms"
   ]
 }

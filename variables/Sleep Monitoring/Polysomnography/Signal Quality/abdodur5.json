@@ -1,6 +1,6 @@
 {
   "id": "abdodur5",
-  "display_name": "PSG QS: Abdo Signal Duration (Hours) from type II polysomnography",
+  "display_name": "Abdo Signal Duration (Hours) from type II polysomnography",
   "description": "",
   "type": "numeric",
   "units": "hours"

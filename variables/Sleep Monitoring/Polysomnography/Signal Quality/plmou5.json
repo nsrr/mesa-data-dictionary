@@ -1,6 +1,6 @@
 {
   "id": "plmou5",
-  "display_name": "PSG QS: PLM > 100 Verified from type II polysomnography",
+  "display_name": "PLM > 100 Verified from type II polysomnography",
   "description": "",
   "type": "choices",
   "domain": "noyes"

@@ -1,6 +1,6 @@
 {
   "id": "svpulse5",
-  "display_name": "PSG QS: Manual Pulse At Time Of Hookup From Sv Form from type II polysomnography",
+  "display_name": "Manual Pulse At Time Of Hookup From Sv Form from type II polysomnography",
   "description": "",
   "type": "integer",
   "units": "beats per minute"

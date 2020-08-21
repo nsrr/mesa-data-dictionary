@@ -1,6 +1,6 @@
 {
   "id": "quoxim5",
-  "display_name": "PSG QS: Spo2 Signal Quality from type II polysomnography",
+  "display_name": "Spo2 Signal Quality from type II polysomnography",
   "description": "",
   "type": "choices",
   "domain": "psgsignalquality"

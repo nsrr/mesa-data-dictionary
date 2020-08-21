@@ -1,6 +1,6 @@
 {
   "id": "fzm1dur5",
-  "display_name": "PSG QS: Fz-Cz  Signal Duration (Hours)   EEG from type II polysomnography",
+  "display_name": "Fz-Cz  Signal Duration (Hours)   EEG from type II polysomnography",
   "description": "",
   "type": "numeric",
   "units": "hours"

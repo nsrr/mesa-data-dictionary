@@ -1,6 +1,6 @@
 {
   "id": "lagbreath5",
-  "display_name": "PSG QS: Periodic Large Breaths from type II polysomnography",
+  "display_name": "Periodic Large Breaths from type II polysomnography",
   "description": "",
   "type": "choices",
   "domain": "noyes"

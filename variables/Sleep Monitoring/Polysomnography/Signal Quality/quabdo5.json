@@ -1,6 +1,6 @@
 {
   "id": "quabdo5",
-  "display_name": "PSG QS: Abdo Signal Quality from type II polysomnography",
+  "display_name": "Abdo Signal Quality from type II polysomnography",
   "description": "",
   "type": "choices",
   "domain": "psgsignalquality"

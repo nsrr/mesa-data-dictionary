@@ -1,6 +1,6 @@
 {
   "id": "quxflow5",
-  "display_name": "PSG QS: Cannula Flow Signal Quality from type II polysomnography",
+  "display_name": "Cannula Flow Signal Quality from type II polysomnography",
   "description": "",
   "type": "choices",
   "domain": "psgsignalquality"

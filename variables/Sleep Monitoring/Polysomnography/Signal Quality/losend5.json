@@ -1,6 +1,6 @@
 {
   "id": "losend5",
-  "display_name": "PSG QS: Data Lost At End Of Study from type II polysomnography",
+  "display_name": "Data Lost At End Of Study from type II polysomnography",
   "description": "",
   "type": "choices",
   "domain": "noyes"

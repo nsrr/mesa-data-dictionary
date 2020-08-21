@@ -1,6 +1,6 @@
 {
   "id": "casndur5",
-  "display_name": "PSG QS: Cannula Snore Signal Duration (Hours) from type II polysomnography",
+  "display_name": "Cannula Snore Signal Duration (Hours) from type II polysomnography",
   "description": "",
   "type": "numeric",
   "units": "events per hour"

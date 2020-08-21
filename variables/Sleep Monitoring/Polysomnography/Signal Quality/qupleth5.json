@@ -1,6 +1,6 @@
 {
   "id": "qupleth5",
-  "display_name": "PSG QS: Pleth Signal Quality from type II polysomnography",
+  "display_name": "Pleth Signal Quality from type II polysomnography",
   "description": "",
   "type": "choices",
   "domain": "psgsignalquality"

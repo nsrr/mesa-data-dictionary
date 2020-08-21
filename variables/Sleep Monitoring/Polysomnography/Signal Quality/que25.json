@@ -1,6 +1,6 @@
 {
   "id": "que25",
-  "display_name": "PSG QS: E2 Signal Quality from type II polysomnography",
+  "display_name": "E2 Signal Quality from type II polysomnography",
   "description": "",
   "type": "choices",
   "domain": "psgsignalquality"

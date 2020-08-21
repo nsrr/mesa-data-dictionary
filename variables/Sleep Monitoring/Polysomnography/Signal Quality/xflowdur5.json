@@ -1,6 +1,6 @@
 {
   "id": "xflowdur5",
-  "display_name": "PSG QS: Cannula Flow Signal Duration (Hours) from type II polysomnography",
+  "display_name": "Cannula Flow Signal Duration (Hours) from type II polysomnography",
   "description": "",
   "type": "numeric",
   "units": "hours"

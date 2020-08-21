@@ -1,6 +1,6 @@
 {
   "id": "posn5",
-  "display_name": "PSG QS: Signal Quality Issues Found On Position Signal from type II polysomnography",
+  "display_name": "Signal Quality Issues Found On Position Signal from type II polysomnography",
   "description": "",
   "type": "choices",
   "domain": "noyes"

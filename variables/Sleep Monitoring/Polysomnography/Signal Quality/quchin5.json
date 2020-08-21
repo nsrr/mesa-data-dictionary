@@ -1,6 +1,6 @@
 {
   "id": "quchin5",
-  "display_name": "PSG QS: Chin Signal Quality from type II polysomnography",
+  "display_name": "Chin Signal Quality from type II polysomnography",
   "description": "",
   "type": "choices",
   "domain": "psgsignalquality"

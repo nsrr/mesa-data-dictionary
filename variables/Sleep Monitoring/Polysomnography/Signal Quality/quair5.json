@@ -1,6 +1,6 @@
 {
   "id": "quair5",
-  "display_name": "PSG QS: Airflow Signal Quality from type II polysomnography",
+  "display_name": "Airflow Signal Quality from type II polysomnography",
   "description": "",
   "type": "choices",
   "domain": "psgsignalquality"
