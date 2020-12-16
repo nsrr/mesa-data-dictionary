@@ -8,5 +8,8 @@
     "chronotype",
     "homeq",
     "homeq_02wake"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
   ]
 }

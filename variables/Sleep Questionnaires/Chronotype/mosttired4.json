@@ -8,5 +8,8 @@
     "chronotype",
     "homeq",
     "homeq_09needslp"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
   ]
 }

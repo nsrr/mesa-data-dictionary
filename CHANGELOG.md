@@ -1,6 +1,9 @@
 ## 0.4.0
 
 - Update many variable display names and labels
+- Add Sleep Questionnaire PDF form link
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.4.0.pre\`
 - **Gem Changes**
   - Update to ruby 2.6.1
   - Update to spout 1.0.0

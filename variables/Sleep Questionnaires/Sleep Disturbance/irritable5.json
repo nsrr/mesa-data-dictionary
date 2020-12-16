@@ -6,5 +6,8 @@
   "domain": "freq4weeks",
   "labels": [
     "sleep_related_impairment"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
   ]
 }
