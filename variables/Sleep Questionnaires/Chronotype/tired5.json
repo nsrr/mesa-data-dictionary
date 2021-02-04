@@ -1,7 +1,7 @@
 {
   "id": "tired5",
   "display_name": "Horne-Ostberg Morningness-Eveningness Questionnaire: Tiredness during first half-hour after waking",
-  "description": "During the first half hour after having woken in the morning, how  tired do you feel?<br><br>Item from the Horne-Ostberg Morningness-Eveningness Questionnaire. [Horne JA and Ostberg O, 1976 (PubMed ID: 1027738)](https://www.ncbi.nlm.nih.gov/pubmed/1027738)<br><br> [Search for all HOMEQ variables within this dataset](https://sleepdata.org/datasets/mesa/variables?search=homeq)",
+  "description": "Item from the Horne-Ostberg Morningness-Eveningness Questionnaire. [Horne JA and Ostberg O, 1976 (PubMed ID: 1027738)](https://www.ncbi.nlm.nih.gov/pubmed/1027738) <br><br> Original question: *17. During the first half hour after having woken in the morning, how  tired do you feel?* <br><br> [Search for all HOMEQ variables within this dataset](https://sleepdata.org/datasets/mesa/variables?search=homeq)",
   "type": "choices",
   "domain": "tiredafter",
   "labels": [

@@ -1,7 +1,7 @@
 {
   "id": "feelngbstpk5",
   "display_name": "Horne-Ostberg Morningness-Eveningness Questionnaire: Time of day reaching \"feeling best\" peak",
-  "description": "At what time of the day do you think that you reach your \"feeling best\" peak?<br><br>Item from the Horne-Ostberg Morningness-Eveningness Questionnaire. [Horne JA and Ostberg O, 1976 (PubMed ID: 1027738)](https://www.ncbi.nlm.nih.gov/pubmed/1027738)<br><br> [Search for all HOMEQ variables within this dataset](https://sleepdata.org/datasets/mesa/variables?search=homeq)",
+  "description": "Item from the Horne-Ostberg Morningness-Eveningness Questionnaire. [Horne JA and Ostberg O, 1976 (PubMed ID: 1027738)](https://www.ncbi.nlm.nih.gov/pubmed/1027738) <br><br> Original question: *19. At what time of the day do you think that you reach your \"feeling best\" peak?* <br><br> [Search for all HOMEQ variables within this dataset](https://sleepdata.org/datasets/mesa/variables?search=homeq)",
   "type": "choices",
   "domain": "feelingpeak",
   "labels": [
