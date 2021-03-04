@@ -1,6 +1,6 @@
 {
   "id": "cpap5",
-  "display_name": "Cpap Or Bipap Machine for Sleep Apnea: Self-reported",
+  "display_name": "CPAP or BiPAP Machine for Sleep Apnea: Self-reported",
   "description": "Did you receive treatment for sleep apnea with any of the following: CPAP or BIPAP machine?",
   "type": "choices",
   "domain": "noyes",
