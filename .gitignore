@@ -1,5 +1,6 @@
 # OS generated files #
 .DS_Store
+debug.log
 
 # Project Files
 /gems.locked
