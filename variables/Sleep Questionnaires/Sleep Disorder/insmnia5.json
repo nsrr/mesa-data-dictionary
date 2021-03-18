@@ -1,7 +1,7 @@
 {
   "id": "insmnia5",
   "display_name": "Insomnia: Self-reported diagnosis by a physician",
-  "description": "Have you been told by a doctor that you have any of the following: Insomnia?",
+  "description": "Original question: *21b. Have you been told by a doctor that you have any of the following: Insomnia?*",
   "type": "choices",
   "domain": "noyes",
   "labels": [

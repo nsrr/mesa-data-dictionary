@@ -2,5 +2,8 @@
   "id": "sleepqsid",
   "display_name": "Sleep questionnaire staff ID",
   "description": "",
-  "type": "string"
+  "type": "string",
+  "forms": [
+    "mesa_sleep_questionnaire"
+  ]
 }

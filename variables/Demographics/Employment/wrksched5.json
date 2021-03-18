@@ -1,10 +1,13 @@
 {
   "id": "wrksched5",
   "display_name": "Usual work schedule",
-  "description": "Which of the following best describes your usual work schedule?",
+  "description": "Original question: *22. Which of the following best describes your usual work schedule?*",
   "type": "choices",
   "domain": "usualwork",
   "labels": [
     "work_schedule"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
   ]
 }
