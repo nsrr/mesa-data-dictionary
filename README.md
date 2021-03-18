@@ -1,7 +1,7 @@
 MESA Data Dictionary
 ====================
 
-[![Build Status](https://travis-ci.org/sleepepi/mesa-data-dictionary.svg?branch=master)](https://travis-ci.org/sleepepi/mesa-data-dictionary)
+[![Build Status](https://travis-ci.com/nsrr/mesa-data-dictionary.svg?branch=master)](https://travis-ci.com/nsrr/mesa-data-dictionary)
 
 ### Exports
 
@@ -43,4 +43,4 @@ approach for changing version numbers uses a variation on
 [Semantic Versioning](http://semver.org).
 
 A full list of changes for each version can be viewed in the
-[CHANGELOG](https://github.com/sleepepi/mesa-data-dictionary/blob/master/CHANGELOG.md).
+[CHANGELOG](https://github.com/nsrr/mesa-data-dictionary/blob/master/CHANGELOG.md).
