@@ -1,7 +1,7 @@
 {
   "id": "stpbrthng5",
   "display_name": "Frequency of breathing-stop during sleep in the past 4 weeks",
-  "description": "Over the past 4 weeks, how often do you have times when you stop breathing during your sleep?",
+  "description": "Original question: *14. Over the past 4 weeks, how often do you have times when you stop breathing during your sleep?*",
   "type": "choices",
   "domain": "freq4weeksdk",
   "labels": [

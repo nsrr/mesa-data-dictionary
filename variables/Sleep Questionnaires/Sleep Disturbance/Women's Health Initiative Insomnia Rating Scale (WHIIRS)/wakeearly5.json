@@ -1,7 +1,7 @@
 {
   "id": "wakeearly5",
   "display_name": "Women's Health Initiative Insomnia Rating Scale: Wake earlier than planned",
-  "description": "Item from the Women's Health Initiative Insomnia Rating Scale. [Levine et al. (2003)](https://psycnet.apa.org/record/2003-06188-004) <br><br> Original question: *Pick the answer that best describes how often you experienced the situation in the past 4 weeks. 6. Did you wake up earlier than you planned to?* <br><br> [Search for all WHIIRS variables within this dataset](https://sleepdata.org/datasets/mesa/variables?search=whiirs)",
+  "description": "Item from the Women's Health Initiative Insomnia Rating Scale. [Levine et al. (2003)](https://psycnet.apa.org/record/2003-06188-004) <br><br> Original question: *The next questions ask about your sleep habits. Please choose one of the answers for each of the following questions. Pick the answer that best describes how often you experienced the situation in the past 4 weeks. 6. Did you wake up earlier than you planned to?* <br><br> [Search for all WHIIRS variables within this dataset](https://sleepdata.org/datasets/mesa/variables?search=whiirs)",
   "type": "choices",
   "domain": "freq4weeks",
   "labels": [

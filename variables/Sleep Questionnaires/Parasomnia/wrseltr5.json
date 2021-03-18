@@ -1,7 +1,7 @@
 {
   "id": "wrseltr5",
   "display_name": "Symptoms worse later in day or night",
-  "description": "Are these symptoms worse later in the day or at night?",
+  "description": "Original question: *15c. Are these symptoms worse later in the day or at night?*",
   "type": "choices",
   "domain": "noyesdk",
   "labels": [

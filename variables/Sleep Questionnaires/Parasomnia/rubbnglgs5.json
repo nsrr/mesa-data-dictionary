@@ -1,7 +1,7 @@
 {
   "id": "rubbnglgs5",
   "display_name": "Feel need to move to relieve discomfort by walking or rub legs",
-  "description": "Do you sometimes feel the need to move to relieve the discomfort, for example by walking, or by rubbing your legs?",
+  "description": "Original question: *15a. Do you sometimes feel the need to move to relieve the discomfort, for example by walking, or by rubbing your legs?*",
   "type": "choices",
   "domain": "noyesdk",
   "labels": [
