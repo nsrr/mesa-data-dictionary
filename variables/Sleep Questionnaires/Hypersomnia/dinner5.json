@@ -1,7 +1,7 @@
 {
   "id": "dinner5",
   "display_name": "Chance of dozing while at dinner table",
-  "description": "",
+  "description": "Original question: *What is the chance that you would doze off or fall asleep (or just \"feel tired\") in each of the following situations? 12i. At the dinner table*",
   "type": "choices",
   "domain": "dozingchance",
   "labels": [

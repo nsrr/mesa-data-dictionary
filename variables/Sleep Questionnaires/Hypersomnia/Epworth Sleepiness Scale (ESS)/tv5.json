@@ -1,7 +1,7 @@
 {
   "id": "tv5",
   "display_name": "Epworth Sleepiness Scale: Chance of dozing while watching TV",
-  "description": "Item from the Epworth Sleepiness Scale [Johns MW 1991 (PubMed ID: 1798888)](https://www.ncbi.nlm.nih.gov/pubmed/1798888) <br><br> Original question: *What is the chance that you would doze off or fall asleep (or just \"feel tired\") in each of the following situations? 12.b. Watching TV* <br><br> [Search for all ESS variables within this dataset](https://sleepdata.org/datasets/mesa/variables?search=epworth)",
+  "description": "Item from the Epworth Sleepiness Scale [Johns MW 1991 (PubMed ID: 1798888)](https://www.ncbi.nlm.nih.gov/pubmed/1798888) <br><br> Original question: *What is the chance that you would doze off or fall asleep (or just \"feel tired\") in each of the following situations? 12b. Watching TV* <br><br> [Search for all ESS variables within this dataset](https://sleepdata.org/datasets/mesa/variables?search=epworth)",
   "type": "choices",
   "domain": "dozingchance",
   "labels": [

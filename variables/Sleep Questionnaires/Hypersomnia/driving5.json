@@ -1,7 +1,7 @@
 {
   "id": "driving5",
   "display_name": "Chance of dozing while driving",
-  "description": "",
+  "description": "Original question: *What is the chance that you would doze off or fall asleep (or just \"feel tired\") in each of the following situations? 12j. While driving*",
   "type": "choices",
   "domain": "dozingchance",
   "labels": [
