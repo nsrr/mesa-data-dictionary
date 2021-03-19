@@ -104,7 +104,7 @@
   run;
 
   data mesa_actigraphy;
-    set mesacc.mesae5_sleepactigraphy_20140617;
+    set mesacc.mesae5_sleepactigraphy_20180201;
   run;
 
   data mesa_hrvfull;
@@ -185,40 +185,12 @@
       avgwakeboutsrd5
       avgwasord5
       avgwhitetaltrd5
-      ceffend5
-      ceffwk5
-      cslpend5
-      cslpwk5
-      dur_avg_rest5
-      eff_avg_sleep5
-      latency_avg_sleep5
       losao2nr5
       losao2r5
-      mbedt5
-      mbedtend5
-      mbedtwk5
-      meffend5
-      meffwk5
-      mmidslpt5
-      mmidslptend5
-      mmidslptwk5
-      mslpend5
-      mslpendhr5
-      mslpwk5
-      mslpwkhr5
-      mwaket5
-      mwaketend5
-      mwaketwk5
       ndaysnapsallrd5
       ndaysnapssleep15rd5
       ndaysnapssleeprd5
       ndaysrd5
-      neffend5
-      neffwk5
-      nslpend5
-      nslpwk5
-      pslp_avg_sleep5
-      pwake_avg_sleep5
       rdi0pa5
       rdi0pns5
       rdi0ps5
@@ -268,20 +240,9 @@
       sdsleepoffsettimerd5
       sdsleeponsettimerd5
       sdsleepperioddurationrd5
-      seffend5
-      seffwk5
-      slptime_avg_sleep5
-      slptime_std_sleep5
-      smidslpt5
-      smidslptend5
-      smidslptwk5
-      sslpend5
-      sslpwk5
       stonset15
       timebedm5
-      wake_avg_sleep5
       wake_bouts_avg_sleep5
-      waso_avg_sleep5
       ;
   run;
 

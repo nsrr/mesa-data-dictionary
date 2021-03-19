@@ -1,7 +1,0 @@
-{
-  "id": "actquality5",
-  "display_name": "Actigraphy: Overall quality grading",
-  "description": "",
-  "type": "choices",
-  "domain": "overallqualitygrade"
-}
