@@ -1,6 +1,6 @@
 {
   "id": "gender1",
-  "display_name": "Gender",
+  "display_name": "Gender of the participant",
   "description": "",
   "type": "choices",
   "domain": "gender",

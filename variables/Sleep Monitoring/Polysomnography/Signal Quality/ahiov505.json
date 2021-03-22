@@ -1,0 +1,7 @@
+{
+  "id": "ahiov505",
+  "display_name": "Abnormal Referral - AHI> 50 from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

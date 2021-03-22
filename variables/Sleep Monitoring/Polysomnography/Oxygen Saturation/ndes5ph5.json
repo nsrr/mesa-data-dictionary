@@ -1,0 +1,10 @@
+{
+  "id": "ndes5ph5",
+  "display_name": "Total number of oxygen desaturations with >= 5% desat during total sleep duration from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "events",
+  "labels": [
+    "ttlnumds_dsge4_f1t2"
+  ]
+}

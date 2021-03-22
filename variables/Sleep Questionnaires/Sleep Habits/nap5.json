@@ -1,0 +1,13 @@
+{
+  "id": "nap5",
+  "display_name": "Typical number of naps in a usual week from survey questionnaires",
+  "description": "Original question: *3. During a usual week, how many times do you nap for 5 minutes or more?*",
+  "type": "integer",
+  "units": "naps",
+  "labels": [
+    "ttlnumnp_in_w7_f3"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
+  ]
+}

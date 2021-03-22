@@ -1,0 +1,7 @@
+{
+  "id": "ihr_fn5",
+  "display_name": "Instantaneous heart rate, full night: Average",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute"
+}

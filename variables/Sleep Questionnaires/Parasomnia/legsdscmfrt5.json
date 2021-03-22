@@ -1,0 +1,13 @@
+{
+  "id": "legsdscmfrt5",
+  "display_name": "Experience desire to move legs because of discomfort or disagreeable sensations in legs",
+  "description": "Original question: *15. Do you ever experience a desire to move your legs because of discomfort or disagreeable sensations in your legs?*",
+  "type": "choices",
+  "domain": "noyesdk",
+  "labels": [
+    "rls_plms"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
+  ]
+}

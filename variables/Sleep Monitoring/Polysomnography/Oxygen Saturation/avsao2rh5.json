@@ -1,0 +1,10 @@
+{
+  "id": "avsao2rh5",
+  "display_name": "Average level of oxygen saturation during REM sleep from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "avglvlsa_sr_f1t2"
+  ]
+}

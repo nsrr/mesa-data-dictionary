@@ -1,7 +1,0 @@
-{
-  "id": "types5",
-  "display_name": "Type Of Person: Morning Or Evening",
-  "description": "",
-  "type": "choices",
-  "domain": "persontype"
-}

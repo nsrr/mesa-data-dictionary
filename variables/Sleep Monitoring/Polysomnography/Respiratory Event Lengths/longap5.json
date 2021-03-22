@@ -1,0 +1,10 @@
+{
+  "id": "longap5",
+  "display_name": "Maximum length of apneas with no oxygen desaturation threshold used an with or without arousal from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "seconds",
+  "labels": [
+    "maxdurap_ap0u_f1t2"
+  ]
+}

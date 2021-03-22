@@ -1,0 +1,7 @@
+{
+  "id": "plethdur5",
+  "display_name": "Pleth Signal Duration (Hours) from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

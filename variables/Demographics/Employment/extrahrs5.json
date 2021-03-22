@@ -1,0 +1,13 @@
+{
+  "id": "extrahrs5",
+  "display_name": "Days per month working extra hours beyong usual schedule",
+  "description": "Original question: *23. How many days per month do you work extra hours beyond your usual schedule?*",
+  "type": "integer",
+  "units": "days",
+  "labels": [
+    "work_schedule"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
+  ]
+}

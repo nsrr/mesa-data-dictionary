@@ -1,7 +1,0 @@
-{
-  "id": "avgsleepperioddurationrd5",
-  "display_name": "Average Sleep Period Duration From Main Sleeps Across All Reliable Days (Minutes)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

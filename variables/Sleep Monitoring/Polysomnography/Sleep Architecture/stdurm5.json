@@ -1,0 +1,10 @@
+{
+  "id": "stdurm5",
+  "display_name": "Total Recording Period: the interval between recording start and end time from type II polysomnography",
+  "description": "Conventionally this variable would be called total recording time.",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "ttlprdrd_f1t2"
+  ]
+}

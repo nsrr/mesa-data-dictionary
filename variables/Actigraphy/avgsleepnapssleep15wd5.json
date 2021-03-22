@@ -1,7 +1,0 @@
-{
-  "id": "avgsleepnapssleep15wd5",
-  "display_name": "Average Sleep Time Per Weekday Nap When Only Naps With >=15 Minutes Of Sleep Time Are Counted (Minutes)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

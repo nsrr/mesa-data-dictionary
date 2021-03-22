@@ -1,0 +1,7 @@
+{
+  "id": "wakslepr5",
+  "display_name": "Scoring Stage Wake/Sleep Unreliable from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

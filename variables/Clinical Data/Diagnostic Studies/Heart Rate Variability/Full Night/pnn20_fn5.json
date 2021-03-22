@@ -1,0 +1,7 @@
+{
+  "id": "pnn20_fn5",
+  "display_name": "Adjacent normal-to-normal intervals, full night: Percentage of differences > 20 ms",
+  "description": "",
+  "type": "numeric",
+  "units": "percent"
+}

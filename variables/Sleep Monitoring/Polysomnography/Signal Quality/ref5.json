@@ -1,0 +1,7 @@
+{
+  "id": "ref5",
+  "display_name": "Signal Quality Issues Found On Reference / Ground Signal from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

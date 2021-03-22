@@ -1,0 +1,10 @@
+{
+  "id": "cardroa5",
+  "display_name": "Central Apnea Index (REM, Non-Supine): (Central apneas with no oxygen desaturation threshold used only with arousal) / hour of REM sleep in non-supine position from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "cai_srpo_ca0r_f1t2"
+  ]
+}

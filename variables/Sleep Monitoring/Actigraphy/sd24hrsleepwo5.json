@@ -1,0 +1,10 @@
+{
+  "id": "sd24hrsleepwo5",
+  "display_name": "Standard deviation of daily total sleep duration in main sleep and naps combined in workdays  from actigraphy",
+  "description": "This variable measures the within subject variability of daily total sleep duration in main sleep.",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "stddursp_ib_ww_f2"
+  ]
+}

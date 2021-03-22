@@ -1,0 +1,7 @@
+{
+  "id": "ndaysnapssleepnw5",
+  "display_name": "Total number of days with naps (with some sleep are counted) in the entire actigraphy recording period in non-workdays  from actigraphy",
+  "description": "",
+  "type": "integer",
+  "units": "non-workdays"
+}

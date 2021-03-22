@@ -1,0 +1,10 @@
+{
+  "id": "avgsleepnapsallwd5",
+  "display_name": "Average sleep duration per nap in weekdays  from actigraphy",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "pnpdursp_in_w5_f2"
+  ]
+}

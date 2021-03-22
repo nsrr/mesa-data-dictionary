@@ -1,0 +1,10 @@
+{
+  "id": "mndnop5",
+  "display_name": "Minimum oxygen saturation during NREM sleep in non-supine position from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "minlvlsa_snpo_f1t2"
+  ]
+}

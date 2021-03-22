@@ -1,0 +1,7 @@
+{
+  "id": "qulimb5",
+  "display_name": "Limb Signal Quality from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "psgsignalquality"
+}

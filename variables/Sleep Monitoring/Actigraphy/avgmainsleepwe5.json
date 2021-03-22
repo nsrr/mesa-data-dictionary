@@ -1,0 +1,10 @@
+{
+  "id": "avgmainsleepwe5",
+  "display_name": "Average daily total sleep duration in main sleep in weekends  from actigraphy",
+  "description": "Conventionally this variable would be called total sleep time (TST)",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "avgdursp_im_w2_f2"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "sdsleepperioddurationwd5",
+  "display_name": "Standard deviation of daily sleep period in weekdays  from actigraphy",
+  "description": "Sleep period (i.e. total sleep time, TST) is the interval between sleep onset time and sleep offset time in main sleep.",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "stdprdsp_im_w5_f2"
+  ]
+}

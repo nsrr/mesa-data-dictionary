@@ -1,0 +1,10 @@
+{
+  "id": "remlaiip5",
+  "display_name": "REM Latency II: the interval between sleep onset and first REM while asleep (excluding wake) from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "ttldursp_s1_sr_f1t2"
+  ]
+}

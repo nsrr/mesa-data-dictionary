@@ -1,0 +1,7 @@
+{
+  "id": "qupleth5",
+  "display_name": "Pleth Signal Quality from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "psgsignalquality"
+}

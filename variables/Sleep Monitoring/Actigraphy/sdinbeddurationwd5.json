@@ -1,0 +1,10 @@
+{
+  "id": "sdinbeddurationwd5",
+  "display_name": "Standard deviation of daily rest period in weekdays  from actigraphy",
+  "description": "In this study, rest period (i.e. rest internal) is defined as in-bed period (i.e. time in bed, TIB) in main sleep.",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "stdprdrt_im_w5_f2"
+  ]
+}

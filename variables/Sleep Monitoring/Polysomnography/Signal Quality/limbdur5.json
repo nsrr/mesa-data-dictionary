@@ -1,0 +1,7 @@
+{
+  "id": "limbdur5",
+  "display_name": "Limb Signal Duration (Hours) from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "hours"
+}

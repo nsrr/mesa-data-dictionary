@@ -1,0 +1,7 @@
+{
+  "id": "unuhrou4d5",
+  "display_name": "Urgent Referral - Unusual HR: HR Above 150 BPM For >= 2 Min from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "checkednotchecked"
+}

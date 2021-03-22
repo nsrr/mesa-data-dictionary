@@ -1,7 +1,0 @@
-{
-  "id": "ndaysnapsall5",
-  "display_name": "Number Of Days With Naps When All Naps Are Counted (Days)",
-  "description": "",
-  "type": "integer",
-  "units": "days"
-}

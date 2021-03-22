@@ -1,7 +1,0 @@
-{
-  "id": "npflow5",
-  "display_name": "PSG QS: Flow Limitation",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes"
-}

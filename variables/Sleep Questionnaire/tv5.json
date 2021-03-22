@@ -1,7 +1,0 @@
-{
-  "id": "tv5",
-  "display_name": "Chance Of Dozing / Fall Asleep While: Watching Tv",
-  "description": "",
-  "type": "choices",
-  "domain": "dozingchance"
-}

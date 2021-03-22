@@ -1,0 +1,7 @@
+{
+  "id": "quchest5",
+  "display_name": "Chest Signal Quality from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "psgsignalquality"
+}

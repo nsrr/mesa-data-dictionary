@@ -1,0 +1,7 @@
+{
+  "id": "qufzm15",
+  "display_name": "Fz-Cz Signal Quality - EEG -  Mismatched Variable Name And Label. Confirmed As \"Fz-Cz\" Signal from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "psgsignalquality"
+}

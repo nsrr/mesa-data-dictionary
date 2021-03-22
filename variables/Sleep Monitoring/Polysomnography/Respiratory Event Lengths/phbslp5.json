@@ -1,0 +1,10 @@
+{
+  "id": "phbslp5",
+  "display_name": "Percentage of total sleep duration with hypopneas with > 30% flow reduction and with no oxygen desaturation threhold or with arousal from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "pctdursp_hp3x0u_f1t2"
+  ]
+}

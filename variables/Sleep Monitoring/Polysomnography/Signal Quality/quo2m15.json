@@ -1,0 +1,7 @@
+{
+  "id": "quo2m15",
+  "display_name": "C4-M1 Signal Quality-EEG Mismatched Variable Name And Label. Confirmed As \"C4-M1\" Signal from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "psgsignalquality"
+}

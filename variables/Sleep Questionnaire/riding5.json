@@ -1,7 +1,0 @@
-{
-  "id": "riding5",
-  "display_name": "Chance Of Dozing / Fall Asleep While: Riding As Passenger In Car",
-  "description": "",
-  "type": "choices",
-  "domain": "dozingchance"
-}

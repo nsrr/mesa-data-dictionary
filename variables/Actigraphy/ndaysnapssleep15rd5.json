@@ -1,7 +1,0 @@
-{
-  "id": "ndaysnapssleep15rd5",
-  "display_name": "Number Of Reliable Days With Naps When Only Naps With >=15 Minutes Of Sleep Time Are Counted (Reliable Days)",
-  "description": "",
-  "type": "integer",
-  "units": "reliable days"
-}

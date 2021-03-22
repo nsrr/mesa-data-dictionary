@@ -1,0 +1,10 @@
+{
+  "id": "bpmmax5",
+  "display_name": "Maximum heart rate during total sleep duration from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "beats per minute",
+  "labels": [
+    "maxlvlhr_f1t2"
+  ]
+}

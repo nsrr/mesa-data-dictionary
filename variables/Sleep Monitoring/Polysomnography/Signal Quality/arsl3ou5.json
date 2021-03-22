@@ -1,0 +1,7 @@
+{
+  "id": "arsl3ou5",
+  "display_name": "Arousal Index < 3 Verified from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

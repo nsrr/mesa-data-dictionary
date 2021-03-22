@@ -1,8 +1,0 @@
-{
-  "id": "ai_all5",
-  "display_name": "Calculated - Overall Arousal Index",
-  "description": "",
-  "type": "numeric",
-  "units": "events per hour",
-  "commonly_used": true
-}

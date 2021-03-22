@@ -1,7 +1,0 @@
-{
-  "id": "haveact5",
-  "display_name": "MESA Sleep: Has Actigraphy Data (5+ Valid Nights)",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes"
-}

@@ -1,0 +1,11 @@
+{
+  "id": "avgplm5",
+  "display_name": "Number of periodic limb movements per hour of sleep from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "phrnumpl_f1t2"
+  ],
+  "commonly_used": true
+}

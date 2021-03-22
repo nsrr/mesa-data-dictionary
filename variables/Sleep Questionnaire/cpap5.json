@@ -1,7 +1,0 @@
-{
-  "id": "cpap5",
-  "display_name": "Receive Treatment For Sleep Apnea: Cpap Or Bipap Machine",
-  "description": "",
-  "type": "choices",
-  "domain": "noyes"
-}

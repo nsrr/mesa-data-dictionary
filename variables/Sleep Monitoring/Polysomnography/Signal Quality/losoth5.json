@@ -1,0 +1,7 @@
+{
+  "id": "losoth5",
+  "display_name": "Data Lost During Study from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

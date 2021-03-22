@@ -1,0 +1,13 @@
+{
+  "id": "wkendsleepdur5c",
+  "display_name": "Self-reported daily sleep duration on weekends from survey questionnaires",
+  "description": "",
+  "type": "time",
+  "labels": [
+    "sleep_duration",
+    "avgdursp_w2_f3"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
+  ]
+}

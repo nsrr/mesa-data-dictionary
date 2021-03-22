@@ -1,0 +1,9 @@
+{
+  "id": "sdinbedtimewo5",
+  "display_name": "Standard deviation of the daily start time for rest period in workdays  from actigraphy",
+  "description": "In this study, rest period (i.e. rest interval) is defined as in-bed period (i.e. time in bed, TIB), therefore the start time of rest period is in-bed time.",
+  "type": "time",
+  "labels": [
+    "stdbptrt_im_ww_f2"
+  ]
+}

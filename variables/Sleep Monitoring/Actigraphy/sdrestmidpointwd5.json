@@ -1,0 +1,9 @@
+{
+  "id": "sdrestmidpointwd5",
+  "display_name": "Standard deviation of the daily midpoint for rest period in main sleep in weekdays  from actigraphy",
+  "description": "In this study, rest period (i.e. rest interval) is defined as in-bed period (i.e. time in bed). ",
+  "type": "time",
+  "labels": [
+    "stdmptbd_im_w5_f2"
+  ]
+}

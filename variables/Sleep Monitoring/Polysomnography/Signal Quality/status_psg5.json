@@ -1,0 +1,7 @@
+{
+  "id": "status_psg5",
+  "display_name": "Pass/Fail Status from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "psgpassfail"
+}

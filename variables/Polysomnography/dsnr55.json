@@ -1,7 +1,0 @@
-{
-  "id": "dsnr55",
-  "display_name": "# of Desats Per Hour (NREM, >= 5%)",
-  "description": "",
-  "type": "numeric",
-  "units": "events per hour"
-}

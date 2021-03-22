@@ -1,7 +1,0 @@
-{
-  "id": "vlf_5m5",
-  "display_name": "Total spectral power of all NN intervals between 0.003 and 0.04 Hz, and between 0 and 0.04 Hz in analyses of the entire night period and 5-minute windows, respectively",
-  "description": "",
-  "type": "numeric",
-  "units": "milliseconds squared"
-}

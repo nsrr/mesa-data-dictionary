@@ -1,6 +1,0 @@
-{
-  "id": "avgsleepoffsettimenw5",
-  "display_name": "Average Time To Wake Up For Main Sleep Across All Non-Workday Days In Minutes (hh:mm:ss)",
-  "description": "",
-  "type": "time"
-}

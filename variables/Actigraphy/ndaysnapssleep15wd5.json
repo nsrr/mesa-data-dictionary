@@ -1,7 +1,0 @@
-{
-  "id": "ndaysnapssleep15wd5",
-  "display_name": "Number Of Weekday Days With Naps When Only Naps With >=15 Minutes Of Sleep Time Are Counted (Weekday Days)",
-  "description": "",
-  "type": "integer",
-  "units": "weekdays"
-}

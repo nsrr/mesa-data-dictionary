@@ -1,6 +1,13 @@
-## 0.3.0.commercial (January 16, 2018)
+## 0.4.0.commercial (March 22, 2021)
 
 - Release of commercial dataset
+- Update many variable display names and labels
+- Add Sleep Questionnaire PDF form link
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.4.0.commercial\`
+- **Gem Changes**
+  - Update to ruby 2.6.1
+  - Update to spout 1.0.0
 
 ## 0.3.0 (January 11, 2018)
 

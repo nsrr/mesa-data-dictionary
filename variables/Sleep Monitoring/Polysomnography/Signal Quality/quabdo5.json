@@ -1,0 +1,7 @@
+{
+  "id": "quabdo5",
+  "display_name": "Abdo Signal Quality from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "psgsignalquality"
+}

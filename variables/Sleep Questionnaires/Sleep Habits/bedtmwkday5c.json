@@ -1,0 +1,13 @@
+{
+  "id": "bedtmwkday5c",
+  "display_name": "Self-reported start time of the in-bed period on weekdays in 24-hour format",
+  "description": "Conventionally this variable would be called time to bed.<br><br>Original question: *1. What time do you usually go to bed? a. On weekdays or work or school days?*",
+  "type": "time",
+  "labels": [
+    "sleep_timing",
+    "begtimbd_w5_f3"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
+  ]
+}

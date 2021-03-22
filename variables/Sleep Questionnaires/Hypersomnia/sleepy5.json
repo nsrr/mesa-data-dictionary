@@ -1,0 +1,14 @@
+{
+  "id": "sleepy5",
+  "display_name": "Frequency of excessive sleepiness during the day in the last 4 weeks",
+  "description": "Original question: *The next questions ask about your sleep habits. Please choose one of the answers for each of the following questions. Pick the answer that best describes how often you experienced the situation in the past 4 weeks. 10. Did you feel overly sleepy during the day?* ",
+  "type": "choices",
+  "domain": "freq4weeks",
+  "labels": [
+    "subjective_sleepiness",
+    "nhanes_15sleepy"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
+  ]
+}

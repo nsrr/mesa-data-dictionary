@@ -1,0 +1,10 @@
+{
+  "id": "mxdnop5",
+  "display_name": "Maximum oxygen desaturation during NREM sleep in non-supine position from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "percent",
+  "labels": [
+    "maxlvlds_snpo_f1t2"
+  ]
+}

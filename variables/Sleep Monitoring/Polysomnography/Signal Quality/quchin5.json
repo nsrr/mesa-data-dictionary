@@ -1,0 +1,7 @@
+{
+  "id": "quchin5",
+  "display_name": "Chin Signal Quality from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "psgsignalquality"
+}

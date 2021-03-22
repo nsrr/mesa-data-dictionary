@@ -1,7 +1,0 @@
-{
-  "id": "qupleth5",
-  "display_name": "PSG QS: Pleth Signal Quality",
-  "description": "",
-  "type": "choices",
-  "domain": "psgsignalquality"
-}

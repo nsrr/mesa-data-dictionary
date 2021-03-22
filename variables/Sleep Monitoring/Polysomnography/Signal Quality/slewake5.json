@@ -1,0 +1,8 @@
+{
+  "id": "slewake5",
+  "display_name": "Study Scored Sleep / Wake Only (All Sleep Scored As N2 And No Arousals Scored Due To Poor Quality EEG) from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes",
+  "commonly_used": true
+}

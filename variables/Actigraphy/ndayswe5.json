@@ -1,7 +1,0 @@
-{
-  "id": "ndayswe5",
-  "display_name": "Number Of Weekend Days With Sleep Data In Recording (Weekend Days)",
-  "description": "",
-  "type": "integer",
-  "units": "weekend days"
-}

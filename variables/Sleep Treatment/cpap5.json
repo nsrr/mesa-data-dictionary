@@ -1,0 +1,13 @@
+{
+  "id": "cpap5",
+  "display_name": "CPAP or BiPAP Machine for Sleep Apnea: Self-reported",
+  "description": "Original question: *21a. Did you receive treatment for sleep apnea with any of the following: CPAP or BIPAP machine?*",
+  "type": "choices",
+  "domain": "noyes",
+  "labels": [
+    "sdb"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
+  ]
+}

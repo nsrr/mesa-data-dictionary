@@ -1,0 +1,13 @@
+{
+  "id": "wrserest5",
+  "display_name": "Symptoms worse when at rest with temporary relief by activity",
+  "description": "Original question: *15b. Are these symptoms worse when you are at rest, with at least temporary relief by activity?*",
+  "type": "choices",
+  "domain": "noyesdk",
+  "labels": [
+    "rls_plms"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "quc45",
+  "display_name": "Cz-Oz Signal Quality-EEG Mismatched Variable Name And Label. Confirmed As \"Cz-Oz\" Signal from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "psgsignalquality"
+}

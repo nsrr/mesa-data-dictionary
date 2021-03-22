@@ -1,0 +1,7 @@
+{
+  "id": "stg2stg3pr5",
+  "display_name": "Scoring Stage2/Deep Sleep Unreliable from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

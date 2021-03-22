@@ -1,0 +1,7 @@
+{
+  "id": "ndaysnapssleep15wd5",
+  "display_name": "Total number of days with naps (>= 15 minutes) in the entire actigraphy recording period in weekdays  from actigraphy",
+  "description": "",
+  "type": "integer",
+  "units": "weekdays"
+}

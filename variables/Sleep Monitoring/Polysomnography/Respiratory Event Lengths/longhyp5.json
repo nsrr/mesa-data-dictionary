@@ -1,0 +1,10 @@
+{
+  "id": "longhyp5",
+  "display_name": "Maximum length of hypopneas with 30 - 50% flow reduction and no oxygen desaturation threshold used and with or without arousal from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "seconds",
+  "labels": [
+    "maxdurhp_hp3x5x0u_f1t2"
+  ]
+}

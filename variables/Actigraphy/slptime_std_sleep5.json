@@ -1,7 +1,0 @@
-{
-  "id": "slptime_std_sleep5",
-  "display_name": "Actigraphy Report: Std Dev Sleep Sleep Time (Minutes)",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes"
-}

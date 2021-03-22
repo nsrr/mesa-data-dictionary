@@ -1,11 +1,13 @@
 # OS generated files #
 .DS_Store
+debug.log
 
 # Project Files
-/Gemfile.lock
+/gems.locked
 
 # Data Dictionary folders
 /coverage
 /csvs
 /exports
 /graphs
+/imports

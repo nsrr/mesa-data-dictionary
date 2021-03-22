@@ -1,0 +1,7 @@
+{
+  "id": "apnhyppr5",
+  "display_name": "Scoring Apnea/Hypopnea Unreliable from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

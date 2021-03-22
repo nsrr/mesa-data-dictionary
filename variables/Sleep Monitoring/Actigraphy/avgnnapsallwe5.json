@@ -1,0 +1,10 @@
+{
+  "id": "avgnnapsallwe5",
+  "display_name": "Average daily number of naps in weekends  from actigraphy",
+  "description": "In this study, naps were marked based on sleep diaries and sustained periods (>5 minutes) of inactivity.",
+  "type": "numeric",
+  "units": "naps",
+  "labels": [
+    "pdynumnp_in_w2_f2"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "avgwhitetaltwe5",
+  "display_name": "Average whte light time above 1,000 microwatts per square centimeter threshold over 24-hour periods in weekends  from actigraphy",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "avgtallw_ib_w2_f2"
+  ]
+}

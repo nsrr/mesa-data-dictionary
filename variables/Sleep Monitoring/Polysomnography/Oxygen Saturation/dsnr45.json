@@ -1,0 +1,10 @@
+{
+  "id": "dsnr45",
+  "display_name": "Number of oxygen desaturations with >= 4% desat per hour of NREM sleep from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "events per hour",
+  "labels": [
+    "phrnumds_sn_dsge4_f1t2"
+  ]
+}

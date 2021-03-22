@@ -1,7 +1,0 @@
-{
-  "id": "ndaysnapssleepwe5",
-  "display_name": "Number Of Weekend Days With Naps When Only Naps With Some Sleep Time Are Counted (Weekend Days)",
-  "description": "",
-  "type": "integer",
-  "units": "weekend days"
-}
