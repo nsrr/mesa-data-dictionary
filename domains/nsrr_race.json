@@ -1,0 +1,32 @@
+[
+  {
+    "value": "white",
+    "display_name": "white",
+    "description": ""
+  },
+  {
+    "value": "black or african american",
+    "display_name": "black or african american",
+    "description": ""
+  },
+  {
+    "value": "asian",
+    "display_name": "asian",
+    "description": ""
+  },
+  {
+    "value": "hispanic",
+    "display_name": "hispanic",
+    "description": ""
+  },
+  {
+    "value": "other",
+    "display_name": "other",
+    "description": ""
+  },
+  {
+    "value": "not reported",
+    "display_name": "not reported",
+    "description": ""
+  }
+]

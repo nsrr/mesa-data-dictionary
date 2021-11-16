@@ -14,7 +14,7 @@
   libname mesansrr "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets";
 
   *set data dictionary version;
-  %let version = 0.4.0;
+  %let version = 0.5.0.pre;
 
 *******************************************************************************;
 * import and process master datasets from source ;
@@ -250,6 +250,88 @@
     by mesaid;
   run;
 
+
+  proc print data= mesa_nsrr (obs= 10);
+  run;
+*******************************************************************************;
+* create harmonized datasets ;
+*******************************************************************************;
+data wsc_harmonized_temp;
+  set mesa_nsrr;
+  *subset wsc visit variable for Spout to use for graph generation;
+   if wsc_vst = 1 then output;
+run;
+
+data mesa_harmonized;
+set mesa_nsrr;
+
+*demographics
+*age;
+*use sleepage5c;
+  format nsrr_age 8.2;
+  nsrr_age = sleepage5c;
+
+*age_gt89;
+*use sleepage5c;
+  format nsrr_age_gt89 $10.; 
+  if sleepage5c gt 89 then nsrr_age_gt89='yes';
+  else if sleepage5c le 89 then nsrr_age_gt89='no';
+
+*sex;
+*use gender1;
+  format nsrr_sex $10.;
+  if gender1 = 1 then nsrr_sex = 'male';
+  else if gender1 = 0 then nsrr_sex = 'female';
+  else if gender1 = . then nsrr_sex = 'not reported';
+
+*race;
+*use race1c;
+    format nsrr_race $100.;
+	if race1c = '01' then nsrr_race = 'white';
+    else if race1c = '02' then nsrr_race = 'asian';
+	else if race1c = '03' then nsrr_race = 'black or african american';
+	else if race1c = '04' then nsrr_race = 'hispanic';
+    else if race1c = '.' then nsrr_race = 'not reported';
+
+*ethnicity;
+*use race1c;
+    format nsrr_ethnicity $100.;
+	if race1c = '01' then nsrr_ethnicity = 'not hispanic or latino';
+    else if race1c = '02' then nsrr_ethnicity = 'not hispanic or latino';
+	else if race1c = '03' then nsrr_ethnicity = 'not hispanic or latino';
+	else if race1c = '04' then nsrr_ethnicity = 'hispanic or latino';
+    else if race1c = '.' then nsrr_ethnicity = 'not reported';
+
+  keep 
+    mesaid
+    examnumber
+    nsrr_age
+    nsrr_age_gt89
+    nsrr_sex
+    nsrr_race
+    nsrr_ethnicity
+    ;
+run;
+
+*******************************************************************************;
+* checking harmonized datasets ;
+*******************************************************************************;
+/* Checking for extreme values for continuous variables */
+proc means data=mesa_harmonized;
+VAR   nsrr_age
+      ;
+run;
+
+/* Checking categorical variables */
+proc freq data=mesa_harmonized;
+table   nsrr_age_gt89
+    	nsrr_sex
+    	nsrr_race
+		nsrr_ethnicity;
+run;
+
+
+
 *******************************************************************************;
 * make all variable names lowercase ;
 *******************************************************************************;
@@ -269,6 +351,7 @@
   %mend lowcase;
 
   %lowcase(mesa_nsrr);
+  %lowcase(mesa_harmonized);
 
 *******************************************************************************;
 * create permanent sas datasets ;
@@ -277,12 +360,22 @@
     set mesa_nsrr;
   run;
 
+    data mesaharmonized.mesaharmonized_&sasfiledate;
+    set mesa_harmonized;
+  run;
 *******************************************************************************;
 * export nsrr csv datasets ;
 *******************************************************************************;
   proc export
     data=mesa_nsrr
     outfile="\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\&version\mesa-sleep-dataset-&version..csv"
+    dbms=csv
+    replace;
+  run;
+
+    proc export
+    data=mesa_harmonized
+    outfile="\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\&version\mesa-harmonized-sleep-dataset-&version..csv"
     dbms=csv
     replace;
   run;
