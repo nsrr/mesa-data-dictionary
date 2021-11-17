@@ -294,13 +294,7 @@ set mesa_nsrr;
     else if race1c = '.' then nsrr_race = 'not reported';
 
 *ethnicity;
-*use race1c;
-    format nsrr_ethnicity $100.;
-	if race1c = '01' then nsrr_ethnicity = 'not hispanic or latino';
-    else if race1c = '02' then nsrr_ethnicity = 'not hispanic or latino';
-	else if race1c = '03' then nsrr_ethnicity = 'not hispanic or latino';
-	else if race1c = '04' then nsrr_ethnicity = 'hispanic or latino';
-    else if race1c = '.' then nsrr_ethnicity = 'not reported';
+*not outputting ethnicity variable;
 
   keep 
     mesaid
@@ -309,7 +303,6 @@ set mesa_nsrr;
     nsrr_age_gt89
     nsrr_sex
     nsrr_race
-    nsrr_ethnicity
     ;
 run;
 
