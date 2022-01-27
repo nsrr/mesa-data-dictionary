@@ -296,6 +296,45 @@ set mesa_nsrr;
 *ethnicity;
 *not outputting ethnicity variable;
 
+*polysomnography;
+*nsrr_ahi_hp3u;
+*use ahi_a0h3;
+  format nsrr_ahi_hp3u 8.2;
+  nsrr_ahi_hp3u = ahi_a0h3;
+
+*nsrr_ahi_hp3r_aasm15;
+*use ahi_a0h3a;
+  format nsrr_ahi_hp3r_aasm15 8.2;
+  nsrr_ahi_hp3r_aasm15 = ahi_a0h3a;
+ 
+*nsrr_ahi_hp4u;
+*use ahi_a0h4;
+  format nsrr_ahi_hp4u 8.2;
+  nsrr_ahi_hp4u = ahi_a0h4;
+  
+*nsrr_ahi_hp4r;
+*use ahi_a0h4a;
+  format nsrr_ahi_hp4r 8.2;
+  nsrr_ahi_hp4r = ahi_a0h4a;
+ 
+*nsrr_ttldursp_f1;
+*use slpprdp5;
+  format nsrr_ttldursp_f1 8.2;
+  nsrr_ttldursp_f1 = slpprdp5;
+  
+*nsrr_phrnumar_f1;
+*use ai_all5;
+  format nsrr_phrnumar_f1 8.2;
+  nsrr_phrnumar_f1 = ai_all5;  
+
+*nsrr_flag_spsw;
+*use slewake5;
+  format nsrr_flag_spsw $100.;
+    if slewake5 = 1 then nsrr_flag_spsw = 'sleep/wake only';
+    else if slewake5 = 0 then nsrr_flag_spsw = 'full scoring';
+    else if slewake5 = 8 then nsrr_flag_spsw = 'unknown';
+  else if slewake5 = . then nsrr_flag_spsw = 'unknown';  
+  
   keep 
     mesaid
     examnumber
@@ -303,7 +342,14 @@ set mesa_nsrr;
     nsrr_age_gt89
     nsrr_sex
     nsrr_race
-    ;
+    nsrr_ahi_hp3u
+	nsrr_ahi_hp3r_aasm15
+	nsrr_ahi_hp4u
+	nsrr_ahi_hp4r
+	nsrr_ttldursp_f1
+	nsrr_phrnumar_f1
+	nsrr_flag_spsw
+	;
 run;
 
 *******************************************************************************;
@@ -312,6 +358,12 @@ run;
 /* Checking for extreme values for continuous variables */
 proc means data=mesa_harmonized;
 VAR   nsrr_age
+	  nsrr_ahi_hp3u
+	  nsrr_ahi_hp3r_aasm15
+	  nsrr_ahi_hp4u
+	  nsrr_ahi_hp4r
+	  nsrr_ttldursp_f1
+	  nsrr_phrnumar_f1
       ;
 run;
 
@@ -320,7 +372,7 @@ proc freq data=mesa_harmonized;
 table   nsrr_age_gt89
     	nsrr_sex
     	nsrr_race
-		nsrr_ethnicity;
+		nsrr_flag_spsw;
 run;
 
 

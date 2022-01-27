@@ -1,4 +1,6 @@
-##0.5.0 (November, 2021)
+##0.5.0 (January, 2022)
+- Add harmonized core covaraites
+- Add harmonized PSG variables
 
 ## 0.4.0(March 22, 2021)
 
