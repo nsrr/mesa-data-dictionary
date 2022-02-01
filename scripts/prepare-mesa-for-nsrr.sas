@@ -269,7 +269,8 @@ set mesa_nsrr;
 *age;
 *use sleepage5c;
   format nsrr_age 8.2;
-  nsrr_age = sleepage5c;
+  if sleepage5c gt 89 then nsrr_age=90;
+  else if sleepage5c le 89 then nsrr_age = sleepage5c;
 
 *age_gt89;
 *use sleepage5c;
