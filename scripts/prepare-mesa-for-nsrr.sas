@@ -134,6 +134,12 @@
     *recode values for clarity;
     if inhomepsgyn5 = -9 then inhomepsgyn5 = .; /* missing code, set to nil */
 
+    *remlaiip5 set to missing when only scored as sleep/wake (rem/non-rem is unreliable)
+	if slewake5 = 1 then do;
+	remlaiip5 = .;
+	end;
+
+
     *drop 'idno' in favor of using 'mesaid' for dataset and files;
     drop idno;
 
@@ -421,7 +427,7 @@ run;
 
     proc export
     data=mesa_harmonized
-    outfile="\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\&version\mesa-harmonized-sleep-dataset-&version..csv"
+    outfile="\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\&version\mesa-sleep-harmonized-dataset-&version..csv"
     dbms=csv
     replace;
   run;
