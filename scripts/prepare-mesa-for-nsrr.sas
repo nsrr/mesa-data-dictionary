@@ -314,10 +314,10 @@ set mesa_nsrr;
   format nsrr_ahi_hp3r_aasm15 8.2;
   nsrr_ahi_hp3r_aasm15 = ahi_a0h3a;
  
-*nsrr_ahi_hp4u;
+*nsrr_ahi_hp4u_aasm15;
 *use ahi_a0h4;
-  format nsrr_ahi_hp4u 8.2;
-  nsrr_ahi_hp4u = ahi_a0h4;
+  format nsrr_ahi_hp4u_aasm15 8.2;
+  nsrr_ahi_hp4u_aasm15 = ahi_a0h4;
   
 *nsrr_ahi_hp4r;
 *use ahi_a0h4a;
@@ -351,7 +351,7 @@ set mesa_nsrr;
     nsrr_race
     nsrr_ahi_hp3u
 	nsrr_ahi_hp3r_aasm15
-	nsrr_ahi_hp4u
+	nsrr_ahi_hp4u_aasm15
 	nsrr_ahi_hp4r
 	nsrr_ttldursp_f1
 	nsrr_phrnumar_f1
@@ -367,7 +367,7 @@ proc means data=mesa_harmonized;
 VAR   nsrr_age
 	  nsrr_ahi_hp3u
 	  nsrr_ahi_hp3r_aasm15
-	  nsrr_ahi_hp4u
+	  nsrr_ahi_hp4u_aasm15
 	  nsrr_ahi_hp4r
 	  nsrr_ttldursp_f1
 	  nsrr_phrnumar_f1
