@@ -1,6 +1,9 @@
-##0.5.0 (January, 2022)
-- Add harmonized core covaraites
+## 0.5.0 (February 4, 2022)
+
+- Add harmonized core covariates
 - Add harmonized PSG variables
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.5.0\`
 
 ## 0.4.0(March 22, 2021)
 
