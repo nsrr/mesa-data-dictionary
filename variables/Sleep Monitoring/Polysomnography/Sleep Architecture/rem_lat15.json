@@ -1,6 +1,6 @@
 {
   "id": "rem_lat15",
-  "display_name": "REM Latency I: the interval between sleep onset and first REM from type II polysomnography",
+  "display_name": "REM Latency I: the interval between sleep onset and first REM (including wake) from type II polysomnography",
   "description": "Calculated",
   "type": "numeric",
   "units": "minutes",
