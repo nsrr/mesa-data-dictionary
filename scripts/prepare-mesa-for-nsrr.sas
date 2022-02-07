@@ -137,10 +137,10 @@
     *recode values for clarity;
     if inhomepsgyn5 = -9 then inhomepsgyn5 = .; /* missing code, set to nil */
 
-    *remlaiip5 set to missing when only scored as sleep/wake (rem/non-rem is unreliable)
-	if slewake5 = 1 then do;
-	remlaiip5 = .;
-	end;
+    *remlaiip5 set to missing when only scored as sleep/wake (rem/non-rem is unreliable);
+  if slewake5 = 1 then do;
+    remlaiip5 = .;
+  end;
 
 
     *drop 'idno' in favor of using 'mesaid' for dataset and files;
@@ -297,10 +297,10 @@ set mesa_nsrr;
 *race;
 *use race1c;
     format nsrr_race $100.;
-	if race1c = '01' then nsrr_race = 'white';
+  if race1c = '01' then nsrr_race = 'white';
     else if race1c = '02' then nsrr_race = 'asian';
-	else if race1c = '03' then nsrr_race = 'black or african american';
-	else if race1c = '04' then nsrr_race = 'hispanic';
+  else if race1c = '03' then nsrr_race = 'black or african american';
+  else if race1c = '04' then nsrr_race = 'hispanic';
     else if race1c = '.' then nsrr_race = 'not reported';
 
 *ethnicity;
@@ -353,13 +353,13 @@ set mesa_nsrr;
     nsrr_sex
     nsrr_race
     nsrr_ahi_hp3u
-	nsrr_ahi_hp3r_aasm15
-	nsrr_ahi_hp4u_aasm15
-	nsrr_ahi_hp4r
-	nsrr_ttldursp_f1
-	nsrr_phrnumar_f1
-	nsrr_flag_spsw
-	;
+  nsrr_ahi_hp3r_aasm15
+  nsrr_ahi_hp4u_aasm15
+  nsrr_ahi_hp4r
+  nsrr_ttldursp_f1
+  nsrr_phrnumar_f1
+  nsrr_flag_spsw
+  ;
 run;
 
 *******************************************************************************;
@@ -368,21 +368,21 @@ run;
 /* Checking for extreme values for continuous variables */
 proc means data=mesa_harmonized;
 VAR   nsrr_age
-	  nsrr_ahi_hp3u
-	  nsrr_ahi_hp3r_aasm15
-	  nsrr_ahi_hp4u_aasm15
-	  nsrr_ahi_hp4r
-	  nsrr_ttldursp_f1
-	  nsrr_phrnumar_f1
+    nsrr_ahi_hp3u
+    nsrr_ahi_hp3r_aasm15
+    nsrr_ahi_hp4u_aasm15
+    nsrr_ahi_hp4r
+    nsrr_ttldursp_f1
+    nsrr_phrnumar_f1
       ;
 run;
 
 /* Checking categorical variables */
 proc freq data=mesa_harmonized;
 table   nsrr_age_gt89
-    	nsrr_sex
-    	nsrr_race
-		nsrr_flag_spsw;
+      nsrr_sex
+      nsrr_race
+    nsrr_flag_spsw;
 run;
 
 

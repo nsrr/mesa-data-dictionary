@@ -1,5 +1,6 @@
-## 0.5.0.commercial (February 4, 2022)
+## 0.5.0.commercial (February 7, 2022)
 
+- Release of commercial dataset
 - Add harmonized core covariates
 - Add harmonized PSG variables
 - The CSV datasets generated from a SAS export is located here:
