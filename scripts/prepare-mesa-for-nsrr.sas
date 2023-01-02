@@ -352,15 +352,15 @@ set mesa_nsrr;
   format nsrr_ttllatsp_f1 8.2;
   nsrr_ttllatsp_f1 = slp_lat5; 
 
-*nsrr_ttlprdsp_s1s4;
+*nsrr_ttlprdsp_s1sr;
 *use rem_lat15;
-  format nsrr_ttlprdsp_s1s4 8.2;
-  nsrr_ttlprdsp_s1s4 = rem_lat15; 
+  format nsrr_ttlprdsp_s1sr 8.2;
+  nsrr_ttlprdsp_s1sr = rem_lat15; 
 
-*nsrr_ttldursp_s1s4;
+*nsrr_ttldursp_s1sr;
 *use remlaiip5;
-  format nsrr_ttldursp_s1s4 8.2;
-  nsrr_ttldursp_s1s4 = remlaiip5; 
+  format nsrr_ttldursp_s1sr 8.2;
+  nsrr_ttldursp_s1sr = remlaiip5; 
 
 *nsrr_ttldurws_f1;
 *use waso5;
@@ -409,8 +409,8 @@ set mesa_nsrr;
 	nsrr_ttleffsp_f1
 	nsrr_ttlmefsp_f1
 	nsrr_ttllatsp_f1
-	nsrr_ttlprdsp_s1s4
-	nsrr_ttldursp_s1s4
+	nsrr_ttlprdsp_s1sr
+	nsrr_ttldursp_s1sr
 	nsrr_ttldurws_f1
 	nsrr_pctdursp_s1
 	nsrr_pctdursp_s2
@@ -435,8 +435,8 @@ VAR   nsrr_age
 	  nsrr_ttleffsp_f1
    	nsrr_ttlmefsp_f1
 	nsrr_ttllatsp_f1
-	nsrr_ttlprdsp_s1s4
-	nsrr_ttldursp_s1s4
+	nsrr_ttlprdsp_s1sr
+	nsrr_ttldursp_s1sr
 	nsrr_ttldurws_f1
 	nsrr_pctdursp_s1
 	nsrr_pctdursp_s2
