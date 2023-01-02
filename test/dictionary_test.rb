@@ -30,7 +30,7 @@ class DictionaryTest < Minitest::Test
   # Example 1: Create custom tests to show that `integer` and `numeric`
   # variables have a valid unit type.
   VALID_UNITS = [
-    nil, '', 'naps', 'days', 'nights', 'events per hour', 'events','minutes',
+    nil, '', 'naps', 'days', 'nights', 'events per hour', 'events','minutes','minutes (min)','percent (%)',
     'hours', 'beats per minute', 'seconds', 'percent', 'good days', 'weekdays',
     'weekend days', 'valid nights', 'invalid nights', 'wake bouts',
     'sleep bouts' , 'activity counts' , 'non-workdays', 'naps per day',

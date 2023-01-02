@@ -14,7 +14,7 @@
   libname mesansrr "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets";
 
   *set data dictionary version;
-  %let version = 0.5.0;
+  %let version = 0.6.0.pre;
 
 *******************************************************************************;
 * import and process master datasets from source ;
@@ -134,7 +134,7 @@
     *recode values for clarity;
     if inhomepsgyn5 = -9 then inhomepsgyn5 = .; /* missing code, set to nil */
 
-    *remlaiip5 set to missing when only scored as sleep/wake (rem/non-rem is unreliable)
+    *remlaiip5 set to missing when only scored as sleep/wake (rem/non-rem is unreliable);
 	if slewake5 = 1 then do;
 	remlaiip5 = .;
 	end;
@@ -262,11 +262,6 @@
 *******************************************************************************;
 * create harmonized datasets ;
 *******************************************************************************;
-data wsc_harmonized_temp;
-  set mesa_nsrr;
-  *subset wsc visit variable for Spout to use for graph generation;
-   if wsc_vst = 1 then output;
-run;
 
 data mesa_harmonized;
 set mesa_nsrr;
@@ -341,7 +336,62 @@ set mesa_nsrr;
     else if slewake5 = 0 then nsrr_flag_spsw = 'full scoring';
     else if slewake5 = 8 then nsrr_flag_spsw = 'unknown';
   else if slewake5 = . then nsrr_flag_spsw = 'unknown';  
+ 
+*nsrr_ttleffsp_f1;
+*use slp_eff5;
+  format nsrr_ttleffsp_f1 8.2;
+  nsrr_ttleffsp_f1 = slp_eff5;  
+
+*nsrr_ttlmefsp_f1;
+*use slp_maint_eff5;
+  format nsrr_ttlmefsp_f1 8.2;
+  nsrr_ttlmefsp_f1 = slp_maint_eff5;  
   
+*nsrr_ttllatsp_f1;
+*use slp_lat5;
+  format nsrr_ttllatsp_f1 8.2;
+  nsrr_ttllatsp_f1 = slp_lat5; 
+
+*nsrr_ttlprdsp_s1s4;
+*use rem_lat15;
+  format nsrr_ttlprdsp_s1s4 8.2;
+  nsrr_ttlprdsp_s1s4 = rem_lat15; 
+
+*nsrr_ttldursp_s1s4;
+*use remlaiip5;
+  format nsrr_ttldursp_s1s4 8.2;
+  nsrr_ttldursp_s1s4 = remlaiip5; 
+
+*nsrr_ttldurws_f1;
+*use waso5;
+  format nsrr_ttldurws_f1 8.2;
+  nsrr_ttldurws_f1 = waso5;
+  
+*nsrr_pctdursp_s1;
+*use timest1p5;
+  format nsrr_pctdursp_s1 8.2;
+  nsrr_pctdursp_s1 = timest1p5;
+
+*nsrr_pctdursp_s2;
+*use timest2p5;
+  format nsrr_pctdursp_s2 8.2;
+  nsrr_pctdursp_s2 = timest2p5;
+
+*nsrr_pctdursp_s3;
+*use times34p5;
+  format nsrr_pctdursp_s3 8.2;
+  nsrr_pctdursp_s3 = times34p5;
+
+*nsrr_pctdursp_sr;
+*use timeremp5;
+  format nsrr_pctdursp_sr 8.2;
+  nsrr_pctdursp_sr = timeremp5;
+
+*nsrr_ttlprdbd_f1;
+*use time_bed5;
+  format nsrr_ttlprdbd_f1 8.2;
+  nsrr_ttlprdbd_f1 = time_bed5;  
+ 
   keep 
     mesaid
     examnumber
@@ -356,6 +406,17 @@ set mesa_nsrr;
 	nsrr_ttldursp_f1
 	nsrr_phrnumar_f1
 	nsrr_flag_spsw
+	nsrr_ttleffsp_f1
+	nsrr_ttlmefsp_f1
+	nsrr_ttllatsp_f1
+	nsrr_ttlprdsp_s1s4
+	nsrr_ttldursp_s1s4
+	nsrr_ttldurws_f1
+	nsrr_pctdursp_s1
+	nsrr_pctdursp_s2
+	nsrr_pctdursp_s3
+	nsrr_pctdursp_sr
+	nsrr_ttlprdbd_f1
 	;
 run;
 
@@ -371,6 +432,17 @@ VAR   nsrr_age
 	  nsrr_ahi_hp4r
 	  nsrr_ttldursp_f1
 	  nsrr_phrnumar_f1
+	  nsrr_ttleffsp_f1
+   	nsrr_ttlmefsp_f1
+	nsrr_ttllatsp_f1
+	nsrr_ttlprdsp_s1s4
+	nsrr_ttldursp_s1s4
+	nsrr_ttldurws_f1
+	nsrr_pctdursp_s1
+	nsrr_pctdursp_s2
+	nsrr_pctdursp_s3
+	nsrr_pctdursp_sr
+	nsrr_ttlprdbd_f1
       ;
 run;
 

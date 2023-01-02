@@ -1,7 +1,7 @@
 {
   "id": "timerem5",
   "display_name": "Total duration of REM sleep from type II polysomnography",
-  "description": "Calculated",
+  "description": "",
   "type": "numeric",
   "units": "minutes",
   "labels": [

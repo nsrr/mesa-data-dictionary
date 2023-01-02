@@ -1,12 +1,13 @@
 {
   "id": "time_bed5",
   "display_name": "Total In-bed Period: the interval between lights out/in-bed time and lights off/out-bed time from type II polysomnography",
-  "description": "Calculated. Conventionally this variable would be called time in bed (TIB).",
+  "description": "Conventionally this variable would be called time in bed (TIB).",
   "type": "numeric",
   "units": "minutes",
   "labels": [
     "timebedm5",
-    "ttlprdbd_f1t2"
+    "ttlprdbd_f1t2",
+    "tib"
   ],
   "commonly_used": true
 }

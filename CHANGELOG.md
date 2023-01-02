@@ -1,3 +1,11 @@
+## 0.6.0
+
+- Add harmonized sleep architecture variables
+- Add annotated PSG quality summary forms
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.6.0\`
+
+
 ## 0.5.0 (February 4, 2022)
 
 - Add harmonized core covariates
