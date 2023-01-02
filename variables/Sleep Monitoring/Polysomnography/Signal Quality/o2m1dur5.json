@@ -3,5 +3,8 @@
   "display_name": "C4-M1 Signal Duration (Hours)  EEG from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "hours"
+  "units": "hours",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
 }

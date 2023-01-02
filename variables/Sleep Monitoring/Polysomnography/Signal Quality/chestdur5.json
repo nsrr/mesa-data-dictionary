@@ -3,5 +3,8 @@
   "display_name": "Chest Signal Duration (Hours) from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "hours"
+  "units": "hours",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
 }

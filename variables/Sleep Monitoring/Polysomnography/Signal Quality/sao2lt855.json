@@ -3,5 +3,8 @@
   "display_name": "Urgent Referral - O2sat < 85% For >10% Total Sleep Time from type II polysomnography",
   "description": "",
   "type": "choices",
-  "domain": "noyes"
+  "domain": "noyes",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
 }

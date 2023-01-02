@@ -3,5 +3,8 @@
   "display_name": "Urgent Referral - Unusual HR: HR < 30 BPM For >= 2 Min from type II polysomnography",
   "description": "",
   "type": "choices",
-  "domain": "checkednotchecked"
+  "domain": "checkednotchecked",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
 }

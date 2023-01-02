@@ -3,5 +3,8 @@
   "display_name": "Cannula Snore Signal Duration (Hours) from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
 }
