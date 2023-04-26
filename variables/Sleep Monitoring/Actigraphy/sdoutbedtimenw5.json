@@ -4,6 +4,6 @@
   "description": "In this study, the end time for rest period (i.e. rest interval) is defined as the out-bed time in main sleeps.",
   "type": "time",
   "labels": [
-    "stdeptrs_im_wn_f2"
+    "stdeptbd_im_wn_f2"
   ]
 }

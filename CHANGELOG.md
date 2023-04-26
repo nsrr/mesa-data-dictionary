@@ -1,7 +1,8 @@
-## 0.6.0
+## 0.6.0 (April 26, 2023)
 
 - Add harmonized sleep architecture variables
 - Add annotated PSG quality summary forms
+- Update metdata for MEQ variables
 - The CSV datasets generated from a SAS export is located here:
   - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.6.0\`
 

@@ -4,6 +4,6 @@
   "description": "In this study, rest period (i.e. rest interval) is defined as in-bed period (i.e. time in bed, TIB), therefore the start time of rest period is in-bed time.",
   "type": "time",
   "labels": [
-    "stdbptrs_im_w5_f2"
+    "stdbptbd_im_w5_f2"
   ]
 }

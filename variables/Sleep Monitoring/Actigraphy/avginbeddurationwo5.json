@@ -5,6 +5,6 @@
   "type": "numeric",
   "units": "minutes",
   "labels": [
-    "avgprdrs_im_ww_f2"
+    "avgprdbd_im_ww_f2"
   ]
 }
