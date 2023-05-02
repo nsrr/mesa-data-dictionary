@@ -1,4 +1,4 @@
-## 0.6.0 (April 26, 2023)
+## 0.6.0 (May 2, 2023)
 
 - Add harmonized sleep architecture variables
 - Add annotated PSG quality summary forms
