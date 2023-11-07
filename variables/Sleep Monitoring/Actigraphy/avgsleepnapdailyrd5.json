@@ -3,5 +3,5 @@
   "display_name": "Average daily total sleep duration in naps (with some sleep are counted) in non-workdays  from actigraphy",
   "description": "",
   "type": "numeric",
-  "units": "minutes"
+  "units": "minutes (min)"
 }

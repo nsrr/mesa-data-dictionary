@@ -3,7 +3,7 @@
   "display_name": "Spo2 From Signal Verification Form - Reading At Time Of Hookup from type II polysomnography",
   "description": "",
   "type": "integer",
-  "units": "percent",
+  "units": "percent (%)",
   "forms": [
     "mesa_qs_annotated"
   ]

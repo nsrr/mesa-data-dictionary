@@ -3,7 +3,7 @@
   "display_name": "Fz-Cz  Signal Duration (Hours)   EEG from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "hours",
+  "units": "hours (hr)",
   "forms": [
     "mesa_qs_annotated"
   ]

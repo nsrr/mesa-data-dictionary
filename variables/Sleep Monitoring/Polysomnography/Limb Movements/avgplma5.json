@@ -3,7 +3,7 @@
   "display_name": "Number of periodic limb movements with arousals per hour of sleep from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "events per hour",
+  "units": "number of events per hour",
   "labels": [
     "phrnumpl_so_f1t2"
   ]

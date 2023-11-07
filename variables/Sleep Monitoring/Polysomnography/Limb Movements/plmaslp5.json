@@ -3,7 +3,7 @@
   "display_name": "Number of periodic limb movements with arousal during total sleep duration from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "events",
+  "units": "number of events",
   "labels": [
     "ttlnumpl_so_f1t2"
   ]

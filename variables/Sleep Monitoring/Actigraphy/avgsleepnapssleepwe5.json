@@ -3,5 +3,5 @@
   "display_name": "Average sleep duration per nap (with some sleep are counted) in weekends  from actigraphy",
   "description": "",
   "type": "numeric",
-  "units": "minutes"
+  "units": "minutes (min)"
 }

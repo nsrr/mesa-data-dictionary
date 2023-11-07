@@ -3,7 +3,7 @@
   "display_name": "Maximum oxygen desaturation during REM sleep in supine position from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "percent",
+  "units": "percent (%)",
   "labels": [
     "maxlvlds_srpb_f1t2"
   ]

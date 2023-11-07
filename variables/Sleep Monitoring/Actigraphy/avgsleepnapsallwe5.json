@@ -3,7 +3,7 @@
   "display_name": "Average sleep duration per nap in weekends  from actigraphy",
   "description": "",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "pnpdursp_in_w2_f2"
   ]

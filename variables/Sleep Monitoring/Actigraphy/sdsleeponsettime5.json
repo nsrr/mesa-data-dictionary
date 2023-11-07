@@ -3,6 +3,7 @@
   "display_name": "Standard deviation of the daily sleep onset time in all days  from actigraphy",
   "description": "Sleep onset time is the start time of main sleep. This variable measures the within subject variability of sleep onset time.",
   "type": "time",
+  "units": "hh:mm:ss",
   "labels": [
     "stdbptsp_im_w7_f2"
   ]

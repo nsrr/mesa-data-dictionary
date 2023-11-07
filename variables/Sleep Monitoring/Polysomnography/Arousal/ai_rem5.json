@@ -3,7 +3,7 @@
   "display_name": "Arousal Index (REM): Number of arousals per hour of REM sleep from type II polysomnography",
   "description": "Calculated",
   "type": "numeric",
-  "units": "events per hour",
+  "units": "number of events per hour",
   "labels": [
     "phrnumrs_sr_f1t2"
   ]

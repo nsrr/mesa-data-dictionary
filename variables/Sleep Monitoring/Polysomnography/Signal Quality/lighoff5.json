@@ -3,6 +3,7 @@
   "display_name": "PSG QS: Participant Reported Time To Bed from type II polysomnography",
   "description": "",
   "type": "time",
+  "units": "hh:mm:ss",
   "forms": [
     "mesa_qs_annotated"
   ]

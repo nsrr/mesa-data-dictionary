@@ -3,6 +3,7 @@
   "display_name": "Standard deviation of the daily midpoint for sleep period in non-workdays  from actigraphy",
   "description": "Sleep period is the interval between sleep onset time and sleep offset time in main sleep.",
   "type": "time",
+  "units": "hh:mm:ss",
   "labels": [
     "stdmptsp_im_wn_f2"
   ]

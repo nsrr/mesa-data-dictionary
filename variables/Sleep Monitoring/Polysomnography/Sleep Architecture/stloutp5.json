@@ -3,6 +3,7 @@
   "display_name": "Clock time when the participant is in bed or lights are out from type II polysomnography",
   "description": "Conventionally, this variable would be called the start of time in bed (TIB).",
   "type": "time",
+  "units": "hh:mm:ss",
   "labels": [
     "begtimbd_f1t2"
   ]

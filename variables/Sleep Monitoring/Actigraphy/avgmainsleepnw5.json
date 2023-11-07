@@ -3,7 +3,7 @@
   "display_name": "Average daily total sleep duration in main sleep in non-workdays  from actigraphy",
   "description": "Conventionally this variable would be called total sleep time (TST)",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "avgdursp_im_wn_f2"
   ]

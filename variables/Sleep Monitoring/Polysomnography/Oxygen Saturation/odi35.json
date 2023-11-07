@@ -3,7 +3,7 @@
   "display_name": "Oxygen Desaturation Index: Oxygen desaturation with >= 3% desat per hour of sleep from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "events per hour",
+  "units": "number of events per hour",
   "labels": [
     "phrnumds_dsge3_f1t2"
   ]

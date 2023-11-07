@@ -3,5 +3,5 @@
   "display_name": "Normal-to-normal intervals, full night: Standard deviation",
   "description": "",
   "type": "numeric",
-  "units": "milliseconds"
+  "units": "milliseconds (ms)"
 }

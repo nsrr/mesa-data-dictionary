@@ -3,7 +3,7 @@
   "display_name": "Total duration of REM sleep from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "ttldursp_sr_f1t2"
   ]

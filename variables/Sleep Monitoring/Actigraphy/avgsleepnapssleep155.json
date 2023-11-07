@@ -3,5 +3,5 @@
   "display_name": "Average sleep duration per nap (>= 15 minutes) in all days  from actigraphy",
   "description": "",
   "type": "numeric",
-  "units": "minutes"
+  "units": "minutes (min)"
 }

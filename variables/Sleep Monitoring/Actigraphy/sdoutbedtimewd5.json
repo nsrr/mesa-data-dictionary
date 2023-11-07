@@ -3,6 +3,7 @@
   "display_name": "Standard deviation of the daily end time for rest period in weekdays  from actigraphy",
   "description": "In this study, the end time for rest period (i.e. rest interval) is defined as the out-bed time in main sleeps.",
   "type": "time",
+  "units": "hh:mm:ss",
   "labels": [
     "stdeptbd_im_w5_f2"
   ]

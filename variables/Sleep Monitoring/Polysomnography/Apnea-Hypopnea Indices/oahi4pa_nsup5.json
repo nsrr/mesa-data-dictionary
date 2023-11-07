@@ -3,7 +3,7 @@
   "display_name": "Obstructive Apnea Hypopnea Index (Non-Supine): (Obstructive apneas with no oxygen desaturation threshold used and with or without arousal+ hypopneas with > 30% flow reduction and >= 4% oxygen desaturation or with arousal) / hour of sleep in non-supine position from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "events per hour",
+  "units": "number of events per hour",
   "labels": [
     "oahi_po_oa0uhp3x4r_f1t2"
   ]

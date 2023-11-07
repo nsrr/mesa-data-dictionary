@@ -3,6 +3,7 @@
   "display_name": "Average daily midpoint for sleep period in non-workdays  from actigraphy",
   "description": "Sleep period is the interval between sleep onset time and sleep offset time in main sleep.",
   "type": "time",
+  "units": "hh:mm:ss",
   "labels": [
     "avgmptsp_im_wn_f2"
   ]

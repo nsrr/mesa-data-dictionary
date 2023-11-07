@@ -3,6 +3,7 @@
   "display_name": "Standard deviation of daily sleep offset time in workdays  from actigraphy",
   "description": "Sleep offset time is the end time of main sleep.",
   "type": "time",
+  "units": "hh:mm:ss",
   "labels": [
     "stdeptsp_im_ww_f2"
   ]

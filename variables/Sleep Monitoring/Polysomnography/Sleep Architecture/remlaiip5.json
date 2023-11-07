@@ -3,7 +3,7 @@
   "display_name": "REM Latency II: the interval between sleep onset and first REM while asleep (excluding wake) from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "ttldursp_s1sr_f1t2"
   ]

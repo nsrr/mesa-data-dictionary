@@ -3,7 +3,7 @@
   "display_name": "Average daily duration of rest period in all days  from actigraphy",
   "description": "In this study, rest period (i.e. rest internal) is defined as in-bed period (i.e. time in bed, TIB) in main sleep.",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "avgprdbd_im_w7_f2"
   ]
