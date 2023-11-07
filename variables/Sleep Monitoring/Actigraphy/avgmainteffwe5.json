@@ -3,7 +3,7 @@
   "display_name": "Average daily sleep maintenance efficiency in weekends  from actigraphy",
   "description": "Sleep maintenance efficiency is the ratio between sleep duration (i.e. total sleep time, tst) and sleep period in main sleep. Sleep duration is the interval between sleep onset time and sleep offset time while asleep, while sleep period is the interval between sleep onset time and sleep offset time. ",
   "type": "numeric",
-  "units": "percent",
+  "units": "percent (%)",
   "labels": [
     "avgmefsp_im_w2_f2"
   ]

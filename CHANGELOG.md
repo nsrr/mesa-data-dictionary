@@ -1,3 +1,9 @@
+## 0.7.0 
+
+- Revise unit
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.7.0\`
+
 ## 0.6.0 (May 2, 2023)
 
 - Add harmonized sleep architecture variables

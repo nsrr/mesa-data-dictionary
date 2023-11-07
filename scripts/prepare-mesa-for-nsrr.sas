@@ -14,7 +14,7 @@
   libname mesansrr "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets";
 
   *set data dictionary version;
-  %let version = 0.6.0;
+  %let version = 0.7.0.pre;
 
 *******************************************************************************;
 * import and process master datasets from source ;
