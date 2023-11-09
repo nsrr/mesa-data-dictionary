@@ -5,6 +5,6 @@
   "type": "numeric",
   "units": "percent (%)",
   "labels": [
-    "avglvlsa_f1t2"
+    "avglvlsa_sp_f1t2"
   ]
 }

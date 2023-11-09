@@ -5,6 +5,6 @@
   "type": "numeric",
   "units": "beats per minute (bpm)",
   "labels": [
-    "avglvlhr_f1t2"
+    "avglvlhr_sp_f1t2"
   ]
 }
