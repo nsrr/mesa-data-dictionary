@@ -319,10 +319,10 @@ set mesa_nsrr;
   format nsrr_ahi_hp4r 8.2;
   nsrr_ahi_hp4r = ahi_a0h4a;
  
-*nsrr_ttldursp_f1;
+*nsrr_tst_f1;
 *use slpprdp5;
-  format nsrr_ttldursp_f1 8.2;
-  nsrr_ttldursp_f1 = slpprdp5;
+  format nsrr_tst_f1 8.2;
+  nsrr_tst_f1 = slpprdp5;
   
 *nsrr_phrnumar_f1;
 *use ai_all5;
@@ -362,10 +362,10 @@ set mesa_nsrr;
   format nsrr_ttldursp_s1sr 8.2;
   nsrr_ttldursp_s1sr = remlaiip5; 
 
-*nsrr_ttldurws_f1;
+*nsrr_waso_f1;
 *use waso5;
-  format nsrr_ttldurws_f1 8.2;
-  nsrr_ttldurws_f1 = waso5;
+  format nsrr_waso_f1 8.2;
+  nsrr_waso_f1 = waso5;
   
 *nsrr_pctdursp_s1;
 *use timest1p5;
@@ -387,10 +387,10 @@ set mesa_nsrr;
   format nsrr_pctdursp_sr 8.2;
   nsrr_pctdursp_sr = timeremp5;
 
-*nsrr_ttlprdbd_f1;
+*nsrr_tib_f1;
 *use time_bed5;
-  format nsrr_ttlprdbd_f1 8.2;
-  nsrr_ttlprdbd_f1 = time_bed5;  
+  format nsrr_tib_f1 8.2;
+  nsrr_tib_f1 = time_bed5;  
  
   keep 
     mesaid
@@ -403,7 +403,7 @@ set mesa_nsrr;
 	nsrr_ahi_hp3r_aasm15
 	nsrr_ahi_hp4u_aasm15
 	nsrr_ahi_hp4r
-	nsrr_ttldursp_f1
+	nsrr_tst_f1
 	nsrr_phrnumar_f1
 	nsrr_flag_spsw
 	nsrr_ttleffsp_f1
@@ -411,12 +411,12 @@ set mesa_nsrr;
 	nsrr_ttllatsp_f1
 	nsrr_ttlprdsp_s1sr
 	nsrr_ttldursp_s1sr
-	nsrr_ttldurws_f1
+	nsrr_waso_f1
 	nsrr_pctdursp_s1
 	nsrr_pctdursp_s2
 	nsrr_pctdursp_s3
 	nsrr_pctdursp_sr
-	nsrr_ttlprdbd_f1
+	nsrr_tib_f1
 	;
 run;
 
@@ -430,19 +430,19 @@ VAR   nsrr_age
 	  nsrr_ahi_hp3r_aasm15
 	  nsrr_ahi_hp4u_aasm15
 	  nsrr_ahi_hp4r
-	  nsrr_ttldursp_f1
+	  nsrr_tst_f1
 	  nsrr_phrnumar_f1
 	  nsrr_ttleffsp_f1
    	nsrr_ttlmefsp_f1
 	nsrr_ttllatsp_f1
 	nsrr_ttlprdsp_s1sr
 	nsrr_ttldursp_s1sr
-	nsrr_ttldurws_f1
+	nsrr_waso_f1
 	nsrr_pctdursp_s1
 	nsrr_pctdursp_s2
 	nsrr_pctdursp_s3
 	nsrr_pctdursp_sr
-	nsrr_ttlprdbd_f1
+	nsrr_tib_f1
       ;
 run;
 
