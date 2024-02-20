@@ -37,7 +37,8 @@ class DictionaryTest < Minitest::Test
     'non-workdays', 'naps per day', 'minutes per day', 'reliable days', 
     'workdays', 'years', 'milliseconds', 'milliseconds squared', 'hours (hr)',
     'number of events per hour', 'number of events', 'milliseconds (ms)',
-    'seconds (s)', 'beats per minute (bpm)', 'hh:mm:ss'
+    'seconds (s)', 'beats per minute (bpm)', 'hh:mm:ss',
+    'kilograms per meters squared (kg/m2)', 'pounds (lb)', 'centimeters (cm)'
     ]
 
   @variables.select { |v| %w(numeric integer).include?(v.type) }.each do |variable|

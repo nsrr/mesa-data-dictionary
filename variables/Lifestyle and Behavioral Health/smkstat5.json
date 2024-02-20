@@ -1,0 +1,7 @@
+{
+  "id": "smkstat5",
+  "display_name": "Current smoking status",
+  "description": "",
+  "type": "choices",
+  "domain": "smokingstatus"
+}

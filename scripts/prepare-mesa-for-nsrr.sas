@@ -32,10 +32,16 @@
     keep idno race1c gender1 cucmcn1c;
   run;
 
-  data mesa_e5;
+  data mesa_e5sleepage;
     set mesacc.Mesasleep_age_idno_20160922;
 
-    keep idno sleepage5c;
+    keep idno sleepage5c ;
+  run;
+
+  data mesa_e5;
+    set mesacc.Mesae5_finallabel_20160520;
+
+    keep idno site5c htcm5 wtlb5 smkstat5 cursmk5 bmi5c;
   run;
 
   data mesa_sleepq;
@@ -139,6 +145,7 @@
   data mesa_nsrr;
     merge mesa_bridge
       mesa_e1 (in=d)
+      mesa_e5sleepage
       mesa_e5
       mesa_sleepq (in=a)
       mesa_polysomnography (in=b)
