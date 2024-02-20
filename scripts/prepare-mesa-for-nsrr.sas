@@ -302,6 +302,11 @@ set mesa_nsrr;
   if sleepage5c gt 89 then nsrr_age=90;
   else if sleepage5c le 89 then nsrr_age = sleepage5c;
 
+*bmi;
+*use bmi5c;
+  format nsrr_bmi 8.2;
+  nsrr_bmi = bmi5c;
+  
 *age_gt89;
 *use sleepage5c;
   format nsrr_age_gt89 $10.; 
@@ -327,6 +332,23 @@ set mesa_nsrr;
 *ethnicity;
 *not outputting ethnicity variable;
 
+*current smoker
+*use cursmk5;
+  format nsrr_current_smoker $100.; 
+  if cursmk5 = 0 then nsrr_current_smoker='no';
+  else if cursmk5 = 1 then nsrr_current_smoker = 'yes';
+  else if cursmk5 = '.' then nsrr_current_smoker = 'not reported';
+
+*ever smoker
+*use smkstat5;
+  format nsrr_ever_smoker $100.; 
+  if smkstat5 = 0 then nsrr_ever_smoker='no';
+  else if smkstat5 = 1 then nsrr_ever_smoker = 'yes';
+  else if smkstat5 = 2 then nsrr_ever_smoker = 'yes';
+  else if smkstat5 = 3 then nsrr_ever_smoker = 'yes';
+  else if smkstat5 = 4 then nsrr_ever_smoker = 'not reported';
+  else if smkstat5 = '.' then nsrr_ever_smoker = 'not reported';
+  
 *polysomnography;
 *nsrr_ahi_hp3u;
 *use ahi_a0h3;
@@ -428,24 +450,27 @@ set mesa_nsrr;
     nsrr_age_gt89
     nsrr_sex
     nsrr_race
+	nsrr_bmi
+    nsrr_current_smoker
+    nsrr_ever_smoker
     nsrr_ahi_hp3u
-  nsrr_ahi_hp3r_aasm15
-  nsrr_ahi_hp4u_aasm15
-  nsrr_ahi_hp4r
-  nsrr_tst_f1
-  nsrr_phrnumar_f1
-  nsrr_flag_spsw
-  nsrr_ttleffsp_f1
-  nsrr_ttlmefsp_f1
-  nsrr_ttllatsp_f1
-  nsrr_ttlprdsp_s1sr
-  nsrr_ttldursp_s1sr
-  nsrr_waso_f1
-  nsrr_pctdursp_s1
-  nsrr_pctdursp_s2
-  nsrr_pctdursp_s3
-  nsrr_pctdursp_sr
-  nsrr_tib_f1
+    nsrr_ahi_hp3r_aasm15
+    nsrr_ahi_hp4u_aasm15
+    nsrr_ahi_hp4r
+    nsrr_tst_f1
+    nsrr_phrnumar_f1
+    nsrr_flag_spsw
+    nsrr_ttleffsp_f1
+    nsrr_ttlmefsp_f1
+    nsrr_ttllatsp_f1
+    nsrr_ttlprdsp_s1sr
+    nsrr_ttldursp_s1sr
+    nsrr_waso_f1
+    nsrr_pctdursp_s1
+    nsrr_pctdursp_s2
+    nsrr_pctdursp_s3
+    nsrr_pctdursp_sr
+    nsrr_tib_f1
   ;
 run;
 
@@ -455,6 +480,7 @@ run;
 /* Checking for extreme values for continuous variables */
 proc means data=mesa_harmonized;
 VAR   nsrr_age
+      nsrr_bmi
     nsrr_ahi_hp3u
     nsrr_ahi_hp3r_aasm15
     nsrr_ahi_hp4u_aasm15
@@ -480,7 +506,9 @@ proc freq data=mesa_harmonized;
 table   nsrr_age_gt89
       nsrr_sex
       nsrr_race
-    nsrr_flag_spsw;
+	  nsrr_current_smoker
+      nsrr_ever_smoker
+      nsrr_flag_spsw;
 run;
 
 

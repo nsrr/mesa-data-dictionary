@@ -2,6 +2,5 @@
   "id": "lgn",
   "display_name": "Overall instability (NREM)",
   "description": "The magnitude of reflex (opposing) ventilatory drive response to a change in ventilation; it describes the ventilatory control stability and includes the effect of circulatory delays. Ventilatory drive is the level of ventilation that would be observed at any moment if the respiratory mechanics were normal, i.e. intended ventilation.",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }
