@@ -43,7 +43,7 @@
   run;
 
   data mesa_polysomnography;
-    set mesacc.mesae5_sleeppolysomn_20150630;
+    set mesacc.mesae5_sleeppolysomn_20160922;
   run;
 
   data mesa_poly_icsd;
@@ -115,6 +115,26 @@
     set mesacc.Mesae5_sleephrv5min_20171215;
   run;
 
+  proc import datafile="\\rfawin.partners.org\bwh-sleepepi-mesa\nsrr-prep\_datasets\endotypes\MESA_02172023.xlsx"
+    out=mesa_loopgain_in
+    dbms=xlsx
+    replace;
+    sheet = "NREM";
+  run;
+
+  data mesa_loopgain;
+    set mesa_loopgain_in;
+
+    format lgn 8.3;
+    rename id = idno;
+
+    keep id lgn;
+  run;
+
+  proc sort data=mesa_loopgain;
+    by idno;
+  run;
+
   *merge datasets;
   data mesa_nsrr;
     merge mesa_bridge
@@ -125,7 +145,9 @@
       mesa_poly_icsd
       mesa_hrvfull
       mesa_hrv5min
-      mesa_actigraphy (in=c);
+      mesa_actigraphy (in=c)
+      mesa_loopgain
+      ;
     by idno;
 
     *only keep subjects with sleep-related data;
@@ -135,9 +157,9 @@
     if inhomepsgyn5 = -9 then inhomepsgyn5 = .; /* missing code, set to nil */
 
     *remlaiip5 set to missing when only scored as sleep/wake (rem/non-rem is unreliable);
-	if slewake5 = 1 then do;
-	remlaiip5 = .;
-	end;
+  if slewake5 = 1 then do;
+  remlaiip5 = .;
+  end;
 
 
     *drop 'idno' in favor of using 'mesaid' for dataset and files;
@@ -289,10 +311,10 @@ set mesa_nsrr;
 *race;
 *use race1c;
     format nsrr_race $100.;
-	if race1c = '01' then nsrr_race = 'white';
+  if race1c = '01' then nsrr_race = 'white';
     else if race1c = '02' then nsrr_race = 'asian';
-	else if race1c = '03' then nsrr_race = 'black or african american';
-	else if race1c = '04' then nsrr_race = 'hispanic';
+  else if race1c = '03' then nsrr_race = 'black or african american';
+  else if race1c = '04' then nsrr_race = 'hispanic';
     else if race1c = '.' then nsrr_race = 'not reported';
 
 *ethnicity;
@@ -400,24 +422,24 @@ set mesa_nsrr;
     nsrr_sex
     nsrr_race
     nsrr_ahi_hp3u
-	nsrr_ahi_hp3r_aasm15
-	nsrr_ahi_hp4u_aasm15
-	nsrr_ahi_hp4r
-	nsrr_tst_f1
-	nsrr_phrnumar_f1
-	nsrr_flag_spsw
-	nsrr_ttleffsp_f1
-	nsrr_ttlmefsp_f1
-	nsrr_ttllatsp_f1
-	nsrr_ttlprdsp_s1sr
-	nsrr_ttldursp_s1sr
-	nsrr_waso_f1
-	nsrr_pctdursp_s1
-	nsrr_pctdursp_s2
-	nsrr_pctdursp_s3
-	nsrr_pctdursp_sr
-	nsrr_tib_f1
-	;
+  nsrr_ahi_hp3r_aasm15
+  nsrr_ahi_hp4u_aasm15
+  nsrr_ahi_hp4r
+  nsrr_tst_f1
+  nsrr_phrnumar_f1
+  nsrr_flag_spsw
+  nsrr_ttleffsp_f1
+  nsrr_ttlmefsp_f1
+  nsrr_ttllatsp_f1
+  nsrr_ttlprdsp_s1sr
+  nsrr_ttldursp_s1sr
+  nsrr_waso_f1
+  nsrr_pctdursp_s1
+  nsrr_pctdursp_s2
+  nsrr_pctdursp_s3
+  nsrr_pctdursp_sr
+  nsrr_tib_f1
+  ;
 run;
 
 *******************************************************************************;
@@ -426,32 +448,32 @@ run;
 /* Checking for extreme values for continuous variables */
 proc means data=mesa_harmonized;
 VAR   nsrr_age
-	  nsrr_ahi_hp3u
-	  nsrr_ahi_hp3r_aasm15
-	  nsrr_ahi_hp4u_aasm15
-	  nsrr_ahi_hp4r
-	  nsrr_tst_f1
-	  nsrr_phrnumar_f1
-	  nsrr_ttleffsp_f1
-   	nsrr_ttlmefsp_f1
-	nsrr_ttllatsp_f1
-	nsrr_ttlprdsp_s1sr
-	nsrr_ttldursp_s1sr
-	nsrr_waso_f1
-	nsrr_pctdursp_s1
-	nsrr_pctdursp_s2
-	nsrr_pctdursp_s3
-	nsrr_pctdursp_sr
-	nsrr_tib_f1
+    nsrr_ahi_hp3u
+    nsrr_ahi_hp3r_aasm15
+    nsrr_ahi_hp4u_aasm15
+    nsrr_ahi_hp4r
+    nsrr_tst_f1
+    nsrr_phrnumar_f1
+    nsrr_ttleffsp_f1
+    nsrr_ttlmefsp_f1
+  nsrr_ttllatsp_f1
+  nsrr_ttlprdsp_s1sr
+  nsrr_ttldursp_s1sr
+  nsrr_waso_f1
+  nsrr_pctdursp_s1
+  nsrr_pctdursp_s2
+  nsrr_pctdursp_s3
+  nsrr_pctdursp_sr
+  nsrr_tib_f1
       ;
 run;
 
 /* Checking categorical variables */
 proc freq data=mesa_harmonized;
 table   nsrr_age_gt89
-    	nsrr_sex
-    	nsrr_race
-		nsrr_flag_spsw;
+      nsrr_sex
+      nsrr_race
+    nsrr_flag_spsw;
 run;
 
 

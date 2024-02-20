@@ -1,0 +1,7 @@
+{
+  "id": "lgn",
+  "display_name": "Overall instability",
+  "description": "The magnitude of reflex (opposing) ventilatory drive response to a change in ventilation; it describes the ventilatory control stability and includes the effect of circulatory delays.",
+  "type": "numeric",
+  "units": ""
+}
