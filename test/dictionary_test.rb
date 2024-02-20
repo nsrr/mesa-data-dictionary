@@ -30,11 +30,15 @@ class DictionaryTest < Minitest::Test
   # Example 1: Create custom tests to show that `integer` and `numeric`
   # variables have a valid unit type.
   VALID_UNITS = [
-    nil, '', 'naps', 'days', 'nights', 'events per hour', 'events','minutes','minutes (min)','percent (%)',
-    'hours', 'beats per minute', 'seconds', 'percent', 'good days', 'weekdays',
-    'weekend days', 'valid nights', 'invalid nights', 'wake bouts',
-    'sleep bouts' , 'activity counts' , 'non-workdays', 'naps per day',
-    'minutes per day', 'reliable days', 'workdays', 'years', 'milliseconds', 'milliseconds squared']
+    nil, '', 'naps', 'days', 'nights', 'events per hour', 'events', 'minutes',
+    'minutes (min)','percent (%)', 'hours', 'beats per minute', 'seconds', 
+    'percent', 'good days', 'weekdays', 'weekend days', 'valid nights', 
+    'invalid nights', 'wake bouts', 'sleep bouts' , 'activity counts', 
+    'non-workdays', 'naps per day', 'minutes per day', 'reliable days', 
+    'workdays', 'years', 'milliseconds', 'milliseconds squared', 'hours (hr)',
+    'number of events per hour', 'number of events', 'milliseconds (ms)',
+    'seconds (s)', 'beats per minute (bpm)', 'hh:mm:ss'
+    ]
 
   @variables.select { |v| %w(numeric integer).include?(v.type) }.each do |variable|
     define_method("test_units: #{variable.path}") do

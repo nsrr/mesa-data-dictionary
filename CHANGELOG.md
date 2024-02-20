@@ -1,6 +1,7 @@
 ## 0.7.0 
 
-- Revise unit
+- Revise variable units
+- Add quantitative respiratory analysis variables
 - The CSV datasets generated from a SAS export is located here:
   - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.7.0\`
 

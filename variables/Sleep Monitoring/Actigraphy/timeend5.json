@@ -3,5 +3,5 @@
   "display_name": "Actigraphy QS: Data Collection End Time",
   "description": "",
   "type": "time",
-  "units": "hh:mm:ss",
+  "units": "hh:mm:ss"
 }
