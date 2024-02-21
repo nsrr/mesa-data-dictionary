@@ -3,7 +3,7 @@
   "display_name": "Average daily number of sleep bouts in main sleep in workdays  from actigraphy",
   "description": "sleep bouts are continuous blocks, one or more epochs in duration, with each epoch of each block scored as \"sleep\", between the start time and the end time of the given interval.",
   "type": "numeric",
-  "units": "sleep bouts",
+  "units": "number of events",
   "labels": [
     "avgbotsp_im_ww_f2"
   ]

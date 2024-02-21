@@ -1,0 +1,7 @@
+{
+  "id": "bmi5c",
+  "display_name": "Body mass index",
+  "description": "",
+  "type": "numeric",
+  "units": "kilograms per meters squared (kg/m2)"
+}

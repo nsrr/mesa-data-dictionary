@@ -3,6 +3,7 @@
   "display_name": "Average daily midpoint for rest period in main sleep in workdays  from actigraphy",
   "description": "In this study, rest period (i.e. rest interval) is defined as in-bed period (i.e. time in bed). ",
   "type": "time",
+  "units": "hh:mm:ss",
   "labels": [
     "avgmptbd_im_ww_f2"
   ]

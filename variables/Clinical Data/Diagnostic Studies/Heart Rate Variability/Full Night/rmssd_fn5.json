@@ -3,5 +3,5 @@
   "display_name": "Adjacent normal-to-normal intervals, full night: Square root of the mean of the squares of differences",
   "description": "",
   "type": "numeric",
-  "units": "milliseconds"
+  "units": "milliseconds (ms)"
 }

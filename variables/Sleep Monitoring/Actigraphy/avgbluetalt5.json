@@ -3,7 +3,7 @@
   "display_name": "Average blue light time above 1,000 microwatts per square centimeter threshold over 24-hour periods in all days  from actigraphy",
   "description": "",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "avgtallb_ib_w7_f2"
   ]

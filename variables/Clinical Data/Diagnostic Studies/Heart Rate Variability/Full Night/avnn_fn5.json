@@ -3,5 +3,5 @@
   "display_name": "Normal-to-normal intervals, full night: Mean",
   "description": "",
   "type": "numeric",
-  "units": "milliseconds"
+  "units": "milliseconds (ms)"
 }

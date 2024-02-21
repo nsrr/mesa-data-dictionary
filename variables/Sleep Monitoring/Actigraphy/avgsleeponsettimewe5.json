@@ -3,6 +3,7 @@
   "display_name": "Average daily sleep onset time in weekends  from actigraphy",
   "description": "Sleep onset time is the start time of main sleep.",
   "type": "time",
+  "units": "hh:mm:ss",
   "labels": [
     "avgbptsp_im_w2_f2"
   ]

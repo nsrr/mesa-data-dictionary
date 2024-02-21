@@ -1,0 +1,27 @@
+[
+  {
+    "value": "0",
+    "display_name": "Never smoked",
+    "description": ""
+  },
+  {
+    "value": "1",
+    "display_name": "Former smoker quit more than 1 year ago",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Former smoker quit less than 1 year ago",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Current smoker",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Do not know",
+    "description": ""
+  }
+]

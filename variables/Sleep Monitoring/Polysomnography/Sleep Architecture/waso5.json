@@ -1,9 +1,9 @@
 {
   "id": "waso5",
   "display_name": "Wake after Sleep Onset: the total duration between sleep onset and sleep offset time while being awake from type II polysomnography",
-  "description": "Calculated",
+  "description": "",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "waso",
     "ttldurws_f1t2"

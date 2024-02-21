@@ -3,5 +3,8 @@
   "display_name": "Chin (Lchin-Cchin)  Signal Duration (Hours) from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "hours"
+  "units": "hours (hr)",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
 }

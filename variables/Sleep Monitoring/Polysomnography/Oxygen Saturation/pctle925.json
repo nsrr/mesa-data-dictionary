@@ -3,7 +3,7 @@
   "display_name": "Percent of total sleep duration with < 92% oxygen saturation from type II polysomnography",
   "description": "Calculated",
   "type": "numeric",
-  "units": "percent",
+  "units": "percent (%)",
   "labels": [
     "pctdursp_salt92_f1t2"
   ]

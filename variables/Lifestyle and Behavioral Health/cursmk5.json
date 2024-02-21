@@ -1,0 +1,7 @@
+{
+  "id": "cursmk5",
+  "display_name": "Smoked cigarettes in last 30 days",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

@@ -14,7 +14,8 @@
   libname mesansrr "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets";
 
   *set data dictionary version;
-  %let version = 0.5.0.commercial;
+
+  %let version = 0.7.0.commercial;
 
 *******************************************************************************;
 * import and process master datasets from source ;
@@ -35,10 +36,16 @@
     keep idno race1c gender1 cucmcn1c;
   run;
 
-  data mesa_e5;
+  data mesa_e5sleepage;
     set mesacc.Mesasleep_age_idno_20160922;
 
-    keep idno sleepage5c;
+    keep idno sleepage5c ;
+  run;
+
+  data mesa_e5;
+    set mesacc.Mesae5_finallabel_20160520;
+
+    keep idno site5c htcm5 wtlb5 smkstat5 cursmk5 bmi5c;
   run;
 
   data mesa_sleepq;
@@ -46,7 +53,7 @@
   run;
 
   data mesa_polysomnography;
-    set mesacc.mesae5_sleeppolysomn_20150630;
+    set mesacc.mesae5_sleeppolysomn_20160922;
   run;
 
   data mesa_poly_icsd;
@@ -118,17 +125,40 @@
     set mesacc.Mesae5_sleephrv5min_20171215;
   run;
 
+  proc import datafile="\\rfawin.partners.org\bwh-sleepepi-mesa\nsrr-prep\_datasets\endotypes\MESA_02172023.xlsx"
+    out=mesa_loopgain_in
+    dbms=xlsx
+    replace;
+    sheet = "NREM";
+  run;
+
+  data mesa_loopgain;
+    set mesa_loopgain_in;
+
+    format lgn 8.3;
+    rename id = idno;
+
+    keep id lgn;
+  run;
+
+  proc sort data=mesa_loopgain;
+    by idno;
+  run;
+
   *merge datasets;
   data mesa_nsrr;
     merge mesa_bridge
       mesa_e1 (in=d)
+      mesa_e5sleepage
       mesa_e5
       mesa_sleepq (in=a)
       mesa_polysomnography (in=b)
       mesa_poly_icsd
       mesa_hrvfull
       mesa_hrv5min
-      mesa_actigraphy (in=c);
+      mesa_actigraphy (in=c)
+      mesa_loopgain
+      ;
     by idno;
 
     *only keep subjects with sleep-related data;
@@ -139,7 +169,9 @@
 
     *remlaiip5 set to missing when only scored as sleep/wake (rem/non-rem is unreliable);
   if slewake5 = 1 then do;
+
     remlaiip5 = .;
+
   end;
 
 
@@ -265,11 +297,6 @@
 *******************************************************************************;
 * create harmonized datasets ;
 *******************************************************************************;
-data wsc_harmonized_temp;
-  set mesa_nsrr;
-  *subset wsc visit variable for Spout to use for graph generation;
-   if wsc_vst = 1 then output;
-run;
 
 data mesa_harmonized;
 set mesa_nsrr;
@@ -281,6 +308,11 @@ set mesa_nsrr;
   if sleepage5c gt 89 then nsrr_age=90;
   else if sleepage5c le 89 then nsrr_age = sleepage5c;
 
+*bmi;
+*use bmi5c;
+  format nsrr_bmi 8.2;
+  nsrr_bmi = bmi5c;
+  
 *age_gt89;
 *use sleepage5c;
   format nsrr_age_gt89 $10.;
@@ -306,6 +338,23 @@ set mesa_nsrr;
 *ethnicity;
 *not outputting ethnicity variable;
 
+*current smoker
+*use cursmk5;
+  format nsrr_current_smoker $100.; 
+  if cursmk5 = 0 then nsrr_current_smoker='no';
+  else if cursmk5 = 1 then nsrr_current_smoker = 'yes';
+  else if cursmk5 = '.' then nsrr_current_smoker = 'not reported';
+
+*ever smoker
+*use smkstat5;
+  format nsrr_ever_smoker $100.; 
+  if smkstat5 = 0 then nsrr_ever_smoker='no';
+  else if smkstat5 = 1 then nsrr_ever_smoker = 'yes';
+  else if smkstat5 = 2 then nsrr_ever_smoker = 'yes';
+  else if smkstat5 = 3 then nsrr_ever_smoker = 'yes';
+  else if smkstat5 = 4 then nsrr_ever_smoker = 'not reported';
+  else if smkstat5 = '.' then nsrr_ever_smoker = 'not reported';
+  
 *polysomnography;
 *nsrr_ahi_hp3u;
 *use ahi_a0h3;
@@ -331,7 +380,12 @@ set mesa_nsrr;
 *use slpprdp5;
   format nsrr_ttldursp_f1 8.2;
   nsrr_ttldursp_f1 = slpprdp5;
-
+ 
+*nsrr_tst_f1;
+*use slpprdp5;
+  format nsrr_tst_f1 8.2;
+  nsrr_tst_f1 = slpprdp5;
+  
 *nsrr_phrnumar_f1;
 *use ai_all5;
   format nsrr_phrnumar_f1 8.2;
@@ -343,22 +397,91 @@ set mesa_nsrr;
     if slewake5 = 1 then nsrr_flag_spsw = 'sleep/wake only';
     else if slewake5 = 0 then nsrr_flag_spsw = 'full scoring';
     else if slewake5 = 8 then nsrr_flag_spsw = 'unknown';
-  else if slewake5 = . then nsrr_flag_spsw = 'unknown';
+    else if slewake5 = . then nsrr_flag_spsw = 'unknown';
+ 
+*nsrr_ttleffsp_f1;
+*use slp_eff5;
+  format nsrr_ttleffsp_f1 8.2;
+  nsrr_ttleffsp_f1 = slp_eff5;  
 
-  keep
+*nsrr_ttlmefsp_f1;
+*use slp_maint_eff5;
+  format nsrr_ttlmefsp_f1 8.2;
+  nsrr_ttlmefsp_f1 = slp_maint_eff5;  
+  
+*nsrr_ttllatsp_f1;
+*use slp_lat5;
+  format nsrr_ttllatsp_f1 8.2;
+  nsrr_ttllatsp_f1 = slp_lat5; 
+
+*nsrr_ttlprdsp_s1sr;
+*use rem_lat15;
+  format nsrr_ttlprdsp_s1sr 8.2;
+  nsrr_ttlprdsp_s1sr = rem_lat15; 
+
+*nsrr_ttldursp_s1sr;
+*use remlaiip5;
+  format nsrr_ttldursp_s1sr 8.2;
+  nsrr_ttldursp_s1sr = remlaiip5; 
+
+*nsrr_waso_f1;
+*use waso5;
+  format nsrr_waso_f1 8.2;
+  nsrr_waso_f1 = waso5;
+  
+*nsrr_pctdursp_s1;
+*use timest1p5;
+  format nsrr_pctdursp_s1 8.2;
+  nsrr_pctdursp_s1 = timest1p5;
+
+*nsrr_pctdursp_s2;
+*use timest2p5;
+  format nsrr_pctdursp_s2 8.2;
+  nsrr_pctdursp_s2 = timest2p5;
+
+*nsrr_pctdursp_s3;
+*use times34p5;
+  format nsrr_pctdursp_s3 8.2;
+  nsrr_pctdursp_s3 = times34p5;
+
+*nsrr_pctdursp_sr;
+*use timeremp5;
+  format nsrr_pctdursp_sr 8.2;
+  nsrr_pctdursp_sr = timeremp5;
+
+*nsrr_tib_f1;
+*use time_bed5;
+  format nsrr_tib_f1 8.2;
+  nsrr_tib_f1 = time_bed5;  
+ 
+  keep 
     mesaid
     examnumber
     nsrr_age
     nsrr_age_gt89
     nsrr_sex
     nsrr_race
+	  nsrr_bmi
+    nsrr_current_smoker
+    nsrr_ever_smoker
     nsrr_ahi_hp3u
-  nsrr_ahi_hp3r_aasm15
-  nsrr_ahi_hp4u_aasm15
-  nsrr_ahi_hp4r
-  nsrr_ttldursp_f1
-  nsrr_phrnumar_f1
-  nsrr_flag_spsw
+    nsrr_ahi_hp3r_aasm15
+    nsrr_ahi_hp4u_aasm15
+    nsrr_ahi_hp4r
+    nsrr_tst_f1
+    nsrr_phrnumar_f1
+    nsrr_flag_spsw
+    nsrr_ttleffsp_f1
+    nsrr_ttlmefsp_f1
+    nsrr_ttllatsp_f1
+    nsrr_ttlprdsp_s1sr
+    nsrr_ttldursp_s1sr
+    nsrr_waso_f1
+    nsrr_pctdursp_s1
+    nsrr_pctdursp_s2
+    nsrr_pctdursp_s3
+    nsrr_pctdursp_sr
+    nsrr_tib_f1
   ;
 run;
 
@@ -368,12 +491,24 @@ run;
 /* Checking for extreme values for continuous variables */
 proc means data=mesa_harmonized;
 VAR   nsrr_age
+      nsrr_bmi
     nsrr_ahi_hp3u
     nsrr_ahi_hp3r_aasm15
     nsrr_ahi_hp4u_aasm15
     nsrr_ahi_hp4r
-    nsrr_ttldursp_f1
+    nsrr_tst_f1
     nsrr_phrnumar_f1
+    nsrr_ttleffsp_f1
+    nsrr_ttlmefsp_f1
+  nsrr_ttllatsp_f1
+  nsrr_ttlprdsp_s1sr
+  nsrr_ttldursp_s1sr
+  nsrr_waso_f1
+  nsrr_pctdursp_s1
+  nsrr_pctdursp_s2
+  nsrr_pctdursp_s3
+  nsrr_pctdursp_sr
+  nsrr_tib_f1
       ;
 run;
 
@@ -382,7 +517,9 @@ proc freq data=mesa_harmonized;
 table   nsrr_age_gt89
       nsrr_sex
       nsrr_race
-    nsrr_flag_spsw;
+	    nsrr_current_smoker
+      nsrr_ever_smoker
+      nsrr_flag_spsw;
 run;
 
 

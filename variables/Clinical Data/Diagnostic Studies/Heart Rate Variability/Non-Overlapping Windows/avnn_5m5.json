@@ -3,5 +3,5 @@
   "display_name": "Normal-to-normal intervals, non-overlapping windows: Mean",
   "description": "",
   "type": "numeric",
-  "units": "milliseconds"
+  "units": "milliseconds (ms)"
 }

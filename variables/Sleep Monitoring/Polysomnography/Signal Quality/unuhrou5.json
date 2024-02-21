@@ -3,5 +3,8 @@
   "display_name": "Urgent Referral - Unusual HR/ECG (Categorical) from type II polysomnography",
   "description": "",
   "type": "choices",
-  "domain": "urgentunusualhr"
+  "domain": "urgentunusualhr",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
 }

@@ -2,5 +2,6 @@
   "id": "timestart5",
   "display_name": "Actigraphy QS: Data Collection Start Time",
   "description": "",
-  "type": "time"
+  "type": "time",
+  "units": "hh:mm:ss"
 }

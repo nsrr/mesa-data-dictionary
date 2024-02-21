@@ -1,0 +1,10 @@
+{
+  "id": "arnremop5",
+  "display_name": "Total number of arousals during NREM sleep in non-supine position from type II polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "number of events",
+  "labels": [
+    "ttlnumrs_snpo_f1t2"
+  ]
+}

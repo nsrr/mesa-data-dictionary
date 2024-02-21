@@ -3,7 +3,7 @@
   "display_name": "Average daily duration of wake in bed in workdays  from actigraphy",
   "description": "Duration of wake in bed is the sum of sleep latency, wake after sleep onset (WASO) and wake after sleep offset in main sleep. Conventionally, this variable would be called \"total wake time\" (TWT).",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "avgdurwk_im_ww_f2"
   ]

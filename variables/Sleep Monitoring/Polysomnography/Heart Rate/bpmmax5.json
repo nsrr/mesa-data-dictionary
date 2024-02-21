@@ -3,8 +3,8 @@
   "display_name": "Maximum heart rate during total sleep duration from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "beats per minute",
+  "units": "beats per minute (bpm)",
   "labels": [
-    "maxlvlhr_f1t2"
+    "maxlvlhr_sp_f1t2"
   ]
 }

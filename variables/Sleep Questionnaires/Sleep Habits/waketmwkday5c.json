@@ -3,6 +3,7 @@
   "display_name": "Self-reported end time of the in-bed period on weekdays in 24-hour format from survey questionnaires",
   "description": "Conventionally this variable would be called wake time.<br><br>Original question: *2. What time do you usually wake up: a. On weekdays or work or school days?*",
   "type": "time",
+  "units": "hh:mm:ss",
   "labels": [
     "sleep_timing",
     "endtimbd_w5_f3"

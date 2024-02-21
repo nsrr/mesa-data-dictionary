@@ -3,8 +3,8 @@
   "display_name": "Total number of periodic limb movements during total sleep duration from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "events",
+  "units": "number of events",
   "labels": [
-    "ttlnumpl_f1t2"
+    "ttlnumpl_sp_f1t2"
   ]
 }

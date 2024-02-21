@@ -3,5 +3,8 @@
   "display_name": "Pass/Fail Status from type II polysomnography",
   "description": "",
   "type": "choices",
-  "domain": "psgpassfail"
+  "domain": "psgpassfail",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
 }

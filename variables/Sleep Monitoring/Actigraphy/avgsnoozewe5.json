@@ -3,7 +3,7 @@
   "display_name": "Average daily duration of wake after sleep offset in weekends  from actigraphy",
   "description": "Wake after sleep offset refers to the time elapsed between the end of sleep and the end of ret interval in main sleeps.",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "avgdursz_im_w2_f2"
   ]

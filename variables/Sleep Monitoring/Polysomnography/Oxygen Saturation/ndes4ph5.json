@@ -3,8 +3,8 @@
   "display_name": "Total number of oxygen desaturations with >= 4% desat during total sleep duration from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "events",
+  "units": "number of events",
   "labels": [
-    "ttlnumds_dsge4_f1t2"
+    "ttlnumds_sp_dsge4_f1t2"
   ]
 }

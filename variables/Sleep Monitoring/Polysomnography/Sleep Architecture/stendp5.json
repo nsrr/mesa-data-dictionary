@@ -3,6 +3,7 @@
   "display_name": "Clock time when the recording (study) ends from type II polysomnography",
   "description": "",
   "type": "time",
+  "units": "hh:mm:ss",
   "labels": [
     "endtimrd_f1t2"
   ]

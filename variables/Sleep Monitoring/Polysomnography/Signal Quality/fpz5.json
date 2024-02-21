@@ -3,5 +3,8 @@
   "display_name": "Signal Quality Issues Found On Fpz Signal from type II polysomnography",
   "description": "",
   "type": "choices",
-  "domain": "noyes"
+  "domain": "noyes",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
 }

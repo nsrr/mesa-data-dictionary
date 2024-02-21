@@ -3,7 +3,7 @@
   "display_name": "Average daily total sleep fragmentation index in main sleep in workdays  from actigraphy",
   "description": "Sleep Fragmentation is an index of restlessness during the sleep period expressed as a percentage. [Kristen L et al. 2011 (PubMed ID:21411507)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3114508/) <br><br>There are three type of measures for sleep fragmentation: movement Index (MI), fragmentation index (FI), and total sleep fragmentation Index. The fragmentation index refers to the percentage of 60?s periods of sleep out of the total number of periods of immobility. The movement index refers to the total of scored awake minutes divided by sleep period (i.e. total time in bed). The total sleep fragmentation index is the sum of FI and MI. (ActiGraph validation reference)[https://actigraphcorp.force.com/support/s/article/Sleep-Fragmentation-Index-Validation-Reference]",
   "type": "numeric",
-  "units": "percent",
+  "units": "percent (%)",
   "labels": [
     "avgindfg_im_ww_f2"
   ]

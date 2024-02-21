@@ -3,7 +3,8 @@
   "display_name": "Average daily end time for rest period in workdays  from actigraphy",
   "description": "In this study, the end time for rest period (i.e. rest interval) is defined as the out-bed time in main sleeps.",
   "type": "time",
+  "units": "hh:mm:ss",
   "labels": [
-    "avgeptrs_im_ww_f2"
+    "avgeptbd_im_ww_f2"
   ]
 }

@@ -3,5 +3,8 @@
   "display_name": "Spo2 Signal Quality from type II polysomnography",
   "description": "",
   "type": "choices",
-  "domain": "psgsignalquality"
+  "domain": "psgsignalquality",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
 }

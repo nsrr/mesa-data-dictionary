@@ -1,9 +1,9 @@
 {
   "id": "timest345",
   "display_name": "Total duration of Stage 3 and 4 sleep from type II polysomnography",
-  "description": "Calculated",
+  "description": "",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "ttldursp_s3_f1t2"
   ]

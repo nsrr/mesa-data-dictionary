@@ -3,6 +3,7 @@
   "display_name": "Self-reported daily sleep duration on weekends from survey questionnaires",
   "description": "",
   "type": "time",
+  "units": "hh:mm:ss",
   "labels": [
     "sleep_duration",
     "avgdursp_w2_f3"

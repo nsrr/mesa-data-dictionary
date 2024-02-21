@@ -3,7 +3,7 @@
   "display_name": "Minimum oxygen saturation during REM sleep in non-supine position from type II polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "percent",
+  "units": "percent (%)",
   "labels": [
     "minlvlsa_srpo_f1t2"
   ]

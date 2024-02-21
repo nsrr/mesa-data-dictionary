@@ -1,9 +1,9 @@
 {
   "id": "nsupinep5",
   "display_name": "Percentage of total sleep duration in non-supine position from type II polysomnography",
-  "description": "Calculated",
+  "description": "Sleep duration is the interval between sleep onset time and lights on/out-bed time while asleep, conventionally called total sleep time.",
   "type": "numeric",
-  "units": "percent",
+  "units": "percent (%)",
   "labels": [
     "pctdursp_po_f1t2"
   ]

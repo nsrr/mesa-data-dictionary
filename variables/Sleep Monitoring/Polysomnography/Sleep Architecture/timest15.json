@@ -1,9 +1,9 @@
 {
   "id": "timest15",
   "display_name": "Total duration of Stage 1 sleep from type II polysomnography",
-  "description": "Calculated",
+  "description": "",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "ttldursp_s1_f1t2"
   ]

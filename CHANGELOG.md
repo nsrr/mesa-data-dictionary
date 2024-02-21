@@ -1,4 +1,12 @@
-## 0.5.0.commercial (February 7, 2022)
+## 0.7.0.commercial (February 21, 2024)
+
+- Revise variable units
+- Add quantitative respiratory analysis variables
+- Add additional harmonized covariates
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.7.0\`
+
+## 0.5.0.commercial (February 4, 2022)
 
 - Release of commercial dataset
 - Add harmonized core covariates

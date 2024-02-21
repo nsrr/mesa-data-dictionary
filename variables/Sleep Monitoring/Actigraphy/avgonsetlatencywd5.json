@@ -3,7 +3,7 @@
   "display_name": "Average daily sleep onset latency in weekdays  from actigraphy",
   "description": "Sleep latency is the interval between the start of rest period (i.e. rest interval) and sleep onset time in main sleep.",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
     "avglatsp_im_w5_f2"
   ]
