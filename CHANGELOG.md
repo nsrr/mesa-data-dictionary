@@ -1,4 +1,4 @@
-## 0.7.0 
+## 0.7.0 (February 21, 2024)
 
 - Revise variable units
 - Add quantitative respiratory analysis variables
