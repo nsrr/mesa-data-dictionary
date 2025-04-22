@@ -6,7 +6,8 @@
   "domain": "freq4weeks",
   "labels": [
     "insomnia",
-    "nhanes_17meds"
+    "nhanes_17meds",
+    "SleepHealth_medication"
   ],
   "forms": [
     "mesa_sleep_questionnaire"
