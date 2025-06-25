@@ -1,6 +1,6 @@
 {
   "id": "ndaysnapsallwo5",
-  "display_name": "Total number of days with naps in the entire actigraphy recording period in workdays  from actigraphy",
+  "display_name": "Total number of days with naps in the entire actigraphy recording period in workdays from actigraphy",
   "description": "",
   "type": "integer",
   "units": "workdays",

@@ -1,6 +1,6 @@
 {
   "id": "avgsleepnapsallwe5",
-  "display_name": "Average sleep duration per nap in weekends  from actigraphy",
+  "display_name": "Average sleep duration per nap in weekends from actigraphy",
   "description": "",
   "type": "numeric",
   "units": "minutes (min)",

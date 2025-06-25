@@ -1,6 +1,6 @@
 {
   "id": "sdsleepoffsettimewo5",
-  "display_name": "Standard deviation of daily sleep offset time in workdays  from actigraphy",
+  "display_name": "Standard deviation of daily sleep offset time in workdays from actigraphy",
   "description": "Sleep offset time is the end time of main sleep.",
   "type": "time",
   "units": "hh:mm:ss",

@@ -1,6 +1,6 @@
 {
   "id": "avgsleepnapsall5",
-  "display_name": "Average sleep duration per nap in all days  from actigraphy",
+  "display_name": "Average sleep duration per nap in all days from actigraphy",
   "description": "",
   "type": "numeric",
   "units": "minutes (min)",

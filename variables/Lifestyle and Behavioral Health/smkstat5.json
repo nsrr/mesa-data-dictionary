@@ -3,5 +3,8 @@
   "display_name": "Current smoking status",
   "description": "",
   "type": "choices",
-  "domain": "smokingstatus"
+  "domain": "smokingstatus",
+  "labels": [
+    "smoking"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "avgsleepnapsallnw5",
-  "display_name": "Average sleep duration per nap in non-workdays  from actigraphy",
+  "display_name": "Average sleep duration per nap in non-workdays from actigraphy",
   "description": "",
   "type": "numeric",
   "units": "minutes (min)",

@@ -1,6 +1,6 @@
 {
   "id": "sdmainsleepwe5",
-  "display_name": "Standard deviation of daily total sleep duration in main sleep in weekends  from actigraphy",
+  "display_name": "Standard deviation of daily total sleep duration in main sleep in weekends from actigraphy",
   "description": "",
   "type": "numeric",
   "units": "minutes (min)",

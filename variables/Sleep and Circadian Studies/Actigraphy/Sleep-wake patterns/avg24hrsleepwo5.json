@@ -1,6 +1,6 @@
 {
   "id": "avg24hrsleepwo5",
-  "display_name": "Average daily total sleep duration in main sleep and naps combined in workdays  from actigraphy",
+  "display_name": "Average daily total sleep duration in main sleep and naps combined in workdays from actigraphy",
   "description": "",
   "type": "numeric",
   "units": "minutes (min)",
