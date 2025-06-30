@@ -281,6 +281,25 @@
       ;
   run;
 
+
+* UNTESTED:
+**create decimal hours variables for PSG lights/onset 5 key times;
+*format stendp5_dec stlonp5_dec stloutp5_dec stonsetp5_dec ststartp5_dec 8.2;
+* 
+*if stendp5 < 43200 then stendp5_dec = stendp5/3600 + 24;
+*else stendp5_dec = stendp5/3600;
+*if stlonp5 < 43200 then stlonp5_dec = stlonp5/3600 + 24;
+*else stlonp5_dec = stlonp5/3600;
+*if stloutp5 < 43200 then stloutp5_dec = stloutp5/3600 + 24;
+*else stloutp5_dec = stloutp5/3600;
+*if stonsetp5 < 43200 then stonsetp5_dec = stonsetp5/3600 + 24;
+*else stonsetp5_dec = stonsetp5/3600;
+*if ststartp5 < 43200 then ststartp5_dec = ststartp5/3600 + 24;
+*else ststartp5_dec = ststartp5/3600;
+*
+
+
+
   proc sort data=mesa_nsrr;
     by mesaid;
   run;
@@ -442,9 +461,14 @@ set mesa_nsrr;
 *use time_bed5;
   format nsrr_tib_f1 8.2;
   nsrr_tib_f1 = time_bed5;  
+
  
+* nsrrid = mesaid; * create NSRRID variable UNTESTED
+
+
   keep 
     mesaid
+    nsrrid
     examnumber
     nsrr_age
     nsrr_age_gt89

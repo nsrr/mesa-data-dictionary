@@ -1,10 +1,11 @@
 {
   "id": "avgsleepperiodduration5",
   "display_name": "Average daily sleep period in all days from actigraphy",
-  "description": "Sleep period (i.e. total sleep time, TST) is the interval between sleep onset time and sleep offset time in main sleep.",
+  "description": "Sleep period (i.e., total sleep time, TST) is the interval between sleep onset time and sleep offset time in main sleep.",
   "type": "numeric",
   "units": "minutes (min)",
   "labels": [
-    "avgprdsp_im_w7_f2"
+    "avgprdsp_im_w7_f2",
+    "tst"
   ]
 }

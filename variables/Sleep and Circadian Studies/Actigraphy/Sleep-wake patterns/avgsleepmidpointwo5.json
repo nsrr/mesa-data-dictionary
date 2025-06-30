@@ -1,7 +1,7 @@
 {
   "id": "avgsleepmidpointwo5",
   "display_name": "Average daily midpoint for sleep period in workdays from actigraphy",
-  "description": "Sleep period (i.e. total sleep time, TST) is the interval between sleep onset time and sleep offset time in main sleep.",
+  "description": "Sleep period (i.e., total sleep time, TST) is the interval between sleep onset time and sleep offset time in main sleep.",
   "type": "time",
   "units": "hh:mm:ss",
   "labels": [

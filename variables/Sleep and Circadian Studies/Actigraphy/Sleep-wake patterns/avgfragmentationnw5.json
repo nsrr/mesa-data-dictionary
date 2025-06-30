@@ -1,10 +1,10 @@
 {
   "id": "avgfragmentationnw5",
   "display_name": "Average daily total sleep fragmentation index in main sleep in non-workdays from actigraphy",
-  "description": "Sleep Fragmentation is an index of restlessness during the sleep period expressed as a percentage. [Kristen L et al. 2011 (PubMed ID:21411507)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3114508/) <br><br>There are three type of measures for sleep fragmentation: movement Index (MI), fragmentation index (FI), and total sleep fragmentation Index. The fragmentation index refers to the percentage of 60s periods of sleep out of the total number of periods of immobility. The movement index refers to the total of scored awake minutes divided by sleep period (i.e. total time in bed). The total sleep fragmentation index is the sum of FI and MI. [ActiGraph validation reference](https://actigraphcorp.my.site.com/support/s/article/Sleep-Fragmentation-Index-Validation-Reference#:~:text=The%20higher%20the%20index%2C%20the,total%20sleep%20time%20(TTS))",
+  "description": "Sleep Fragmentation is an index of restlessness during the sleep period expressed as a percentage. [Kristen L et al. 2011 (PubMed ID:21411507)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3114508/) <br><br>There are three type of measures for sleep fragmentation: movement Index (MI), fragmentation index (FI), and total sleep fragmentation Index. The fragmentation index refers to the percentage of 60s periods of sleep out of the total number of periods of immobility. The movement index refers to the total of scored awake minutes divided by sleep period (i.e., total time in bed). The total sleep fragmentation index is the sum of FI and MI. [ActiGraph validation reference](https://actigraphcorp.my.site.com/support/s/article/Sleep-Fragmentation-Index-Validation-Reference#:~:text=The%20higher%20the%20index%2C%20the,total%20sleep%20time%20(TTS))",
   "type": "numeric",
   "units": "percent (%)",
   "labels": [
-    "avgindrl_im_wn_f2"
+    "avgindfg_im_wn_f2"
   ]
 }

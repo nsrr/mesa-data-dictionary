@@ -1,0 +1,10 @@
+{
+  "id": "stloutp5_dec",
+  "display_name": "Clock time when the participant is in bed or lights are out from type II polysomnography",
+  "description": "Conventionally, this variable would be called the start of time in bed (TIB). 24 hours were added to the original values that occurred after midnight",
+  "type": "numeric",
+  "units": "hours (hr)",
+  "labels": [
+    "begtimbd_f1t2"
+  ]
+}
