@@ -5,6 +5,7 @@
   "type": "numeric",
   "units": "percent (%)",
   "labels": [
-    "pctdursp_salt85_f1t2"
+    "pctdursp_salt85_f1t2",
+    "pctsa85h5"
   ]
 }

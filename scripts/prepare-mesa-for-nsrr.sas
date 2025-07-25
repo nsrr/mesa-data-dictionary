@@ -462,8 +462,71 @@ set mesa_nsrr;
   format nsrr_tib_f1 8.2;
   nsrr_tib_f1 = time_bed5;  
 
- 
-* nsrrid = mesaid; * create NSRRID variable UNTESTED
+
+** UNTESTED !
+* nsrrid = mesaid; * create NSRRID variable 
+*
+*  *nsrr_cai;
+*  *use cai0p5;
+*    format cai0p5 8.2;
+*    nsrr_cai = cai0p5;
+*
+*  *nsrr_oai;
+*  *use oai0p5;
+*    format oai0p5 8.2;
+*    nsrr_oai = oai0p5;
+*
+*  *nsrr_oahi_hp4u;
+*  *use ahi_o0h4;
+*    format ahi_o0h4 8.2;
+*    nsrr_oahi_hp4u = ahi_o0h4;
+*
+*  *nsrr_oahi_hp3u;
+*  *use ahi_o0h3;
+*    format ahi_o0h3 8.2;
+*    nsrr_oahi_hp3u = ahi_o0h3;
+*
+*  *nsrr_oahi_hp3u_sr;
+*  *use oahi3_rem5;
+*    format oahi3_rem5 8.2;
+*    nsrr_oahi_hp3u_sr = oahi3_rem5;
+*
+*  *nsrr_oahi_hp3u_sn;
+*  *use oahi3_nrem5;
+*    format oahi3_nrem5 8.2;
+*    nsrr_oahi_hp3u_sn = oahi3_nrem5;
+*
+*  *nsrr_oahi_hp3u_pb;
+*  *use oahi3_sup5;
+*    format oahi3_sup5 8.2;
+*    nsrr_oahi_hp3u_pb = oahi3_sup5;
+*
+*  *nsrr_oahi_hp3u_po;
+*  *use oahi3_nsup5;
+*    format oahi3_nsup5 8.2;
+*    nsrr_oahi_hp3u_po = oahi3_nsup5;
+*
+*  *nsrr_oahi_hp4u_sr;
+*  *use oahi4_rem5;
+*    format oahi4_rem5 8.2;
+*    nsrr_oahi_hp4u_sr = oahi4_rem5;
+*
+*  *nsrr_oahi_hp4u_sn;
+*  *use oahi4_nrem5;
+*    format oahi4_nrem5 8.2;
+*    nsrr_oahi_hp4u_sn = oahi4_nrem5;
+*
+*  *nsrr_avglvlsa;
+*  *use avgsat5;
+*    format avgsat5 8.2;
+*    nsrr_avglvlsa = avgsat5;
+*
+*  *nsrr_minlvlsa;
+*  *use minsat5;
+*    format minsat5 8.2;
+*    nsrr_minlvlsa = minsat5;
+
+
 
 
   keep 
@@ -495,6 +558,18 @@ set mesa_nsrr;
     nsrr_pctdursp_s3
     nsrr_pctdursp_sr
     nsrr_tib_f1
+    *cai0p5 UNTESTED
+*oai0p5
+*ahi_o0h4
+*ahi_o0h3
+*oahi3_rem5
+*oahi3_nrem5
+*oahi3_sup5
+*oahi3_nsup5
+*oahi4_rem5
+*oahi4_nrem5
+*avgsat5
+*minsat5
   ;
 run;
 
