@@ -1,0 +1,7 @@
+{
+  "id": "haveact5",
+  "display_name": "MESA Sleep: Has Actigraphy Data (5+ Valid Nights) from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes"
+}

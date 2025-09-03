@@ -1,0 +1,10 @@
+{
+  "id": "ndaysnapsallwe5",
+  "display_name": "Total number of days with naps in the entire actigraphy recording period in weekends  from actigraphy",
+  "description": "",
+  "type": "integer",
+  "units": "weekend days",
+  "labels": [
+    "ttldaynp_ir_w2_f2"
+  ]
+}

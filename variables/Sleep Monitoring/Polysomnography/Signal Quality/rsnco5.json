@@ -1,0 +1,10 @@
+{
+  "id": "rsnco5",
+  "display_name": "Reason For Study Failure from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "psgreasonfail",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
+}

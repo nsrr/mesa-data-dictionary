@@ -1,0 +1,14 @@
+{
+  "id": "slpngpills5",
+  "display_name": "Frequency of taking sleeping pills to help with sleep in the last 4 weeks",
+  "description": "Original question: *The next questions ask about your sleep habits. Please choose one of the answers for each of the following questions. Pick the answer that best describes how often you experienced the situation in the past 4 weeks. 8. Did you take sleeping pills to help you sleep?*",
+  "type": "choices",
+  "domain": "freq4weeks",
+  "labels": [
+    "insomnia",
+    "nhanes_17meds"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
+  ]
+}

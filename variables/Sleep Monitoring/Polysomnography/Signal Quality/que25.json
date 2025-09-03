@@ -1,0 +1,10 @@
+{
+  "id": "que25",
+  "display_name": "E2 Signal Quality from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "psgsignalquality",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
+}

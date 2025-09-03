@@ -1,0 +1,10 @@
+{
+  "id": "respevpr5",
+  "display_name": "Scoring Respiratory Events (RDI) Unreliable from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
+}

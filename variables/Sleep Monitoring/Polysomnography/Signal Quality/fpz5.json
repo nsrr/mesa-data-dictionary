@@ -1,0 +1,10 @@
+{
+  "id": "fpz5",
+  "display_name": "Signal Quality Issues Found On Fpz Signal from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
+}

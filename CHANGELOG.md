@@ -1,3 +1,10 @@
+## 0.8.0 
+
+- Add additional harmonized PSG variables
+- Revise folder structure for tabular data
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_releases\0.8.0\`
+  
 ## 0.7.0 (February 21, 2024)
 
 - Revise variable units

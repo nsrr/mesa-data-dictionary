@@ -1,0 +1,10 @@
+{
+  "id": "plmou5",
+  "display_name": "PLM > 100 Verified from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
+}

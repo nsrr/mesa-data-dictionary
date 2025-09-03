@@ -1,0 +1,13 @@
+{
+  "id": "irritable5",
+  "display_name": "Frequency of irritability due to sleep difficulties in the last 4 weeks",
+  "description": "Original question: *The next questions ask about your sleep habits. Please choose one of the answers for each of the following questions. Pick the answer that best describes how often you experienced the situation in the past 4 weeks. 9. Did you have sleep difficulties that made you very irritable?*",
+  "type": "choices",
+  "domain": "freq4weeks",
+  "labels": [
+    "sleep_related_impairment"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ai_nrem5",
+  "display_name": "Arousal Index (NREM): Number of arousals per hour of NREM sleep from type II polysomnography",
+  "description": "Calculated",
+  "type": "numeric",
+  "units": "number of events per hour",
+  "labels": [
+    "phrnumrs_sn_f1t2"
+  ]
+}

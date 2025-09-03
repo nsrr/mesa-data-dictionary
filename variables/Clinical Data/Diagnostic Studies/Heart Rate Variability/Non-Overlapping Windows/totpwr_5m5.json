@@ -1,0 +1,7 @@
+{
+  "id": "totpwr_5m5",
+  "display_name": "Normal-to-normal intervals up to 0.04 Hz, non-overlapping windows: Total spectral power",
+  "description": "",
+  "type": "numeric",
+  "units": "milliseconds squared"
+}

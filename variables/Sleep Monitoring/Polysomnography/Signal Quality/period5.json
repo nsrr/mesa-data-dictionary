@@ -1,0 +1,10 @@
+{
+  "id": "period5",
+  "display_name": "Periodic Breathing >=10 Min from type II polysomnography",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes",
+  "forms": [
+    "mesa_qs_annotated"
+  ]
+}

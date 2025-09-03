@@ -1,0 +1,14 @@
+{
+  "id": "rstlesslgs5",
+  "display_name": "Restless Legs: Self-reported diagnosis by a physician",
+  "description": "Original question: *21c. Have you been told by a doctor that you have any of the following: Restless Legs?*",
+  "type": "choices",
+  "domain": "noyes",
+  "labels": [
+    "rls_plms",
+    "nhanes_09rls"
+  ],
+  "forms": [
+    "mesa_sleep_questionnaire"
+  ]
+}

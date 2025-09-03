@@ -14,7 +14,7 @@
   libname mesansrr "\\rfawin\bwh-sleepepi-mesa\nsrr-prep\_datasets";
 
   *set data dictionary version;
-  %let version = 0.7.0;
+  %let version = 0.8.0.pre;
 
 *******************************************************************************;
 * import and process master datasets from source ;
@@ -163,10 +163,31 @@
     *recode values for clarity;
     if inhomepsgyn5 = -9 then inhomepsgyn5 = .; /* missing code, set to nil */
 
+*Convert time variables to hours of day;
+array char_times {5} $ stendp5 stlonp5 stloutp5 stonsetp5 ststartp5;
+array num_times {5} stendp5_num stlonp5_num stloutp5_num stonsetp5_num ststartp5_num;
+array dec_times {5} stendp5_dec stlonp5_dec stloutp5_dec stonsetp5_dec ststartp5_dec;
+
+format stendp5_dec stlonp5_dec stloutp5_dec stonsetp5_dec ststartp5_dec 8.2;
+
+do i = 1 to 5;
+    ** Convert character to numeric time **;
+    num_times[i] = input(char_times[i], time.);
+    
+    ** Convert to decimal hours **;
+    if not missing(num_times[i]) then do;
+        if num_times[i] < 43200 then dec_times[i] = num_times[i]/3600 + 24;
+        else dec_times[i] = num_times[i]/3600;
+    end;
+end;
+
+drop i stendp5_num	stlonp5_num	stloutp5_num	stonsetp5_num	ststartp5_num;
+
     *remlaiip5 set to missing when only scored as sleep/wake (rem/non-rem is unreliable);
   if slewake5 = 1 then do;
   remlaiip5 = .;
   end;
+
 
 
     *drop 'idno' in favor of using 'mesaid' for dataset and files;
@@ -281,25 +302,6 @@
       ;
   run;
 
-
-* UNTESTED:
-**create decimal hours variables for PSG lights/onset 5 key times;
-*format stendp5_dec stlonp5_dec stloutp5_dec stonsetp5_dec ststartp5_dec 8.2;
-* 
-*if stendp5 < 43200 then stendp5_dec = stendp5/3600 + 24;
-*else stendp5_dec = stendp5/3600;
-*if stlonp5 < 43200 then stlonp5_dec = stlonp5/3600 + 24;
-*else stlonp5_dec = stlonp5/3600;
-*if stloutp5 < 43200 then stloutp5_dec = stloutp5/3600 + 24;
-*else stloutp5_dec = stloutp5/3600;
-*if stonsetp5 < 43200 then stonsetp5_dec = stonsetp5/3600 + 24;
-*else stonsetp5_dec = stonsetp5/3600;
-*if ststartp5 < 43200 then ststartp5_dec = ststartp5/3600 + 24;
-*else ststartp5_dec = ststartp5/3600;
-*
-
-
-
   proc sort data=mesa_nsrr;
     by mesaid;
   run;
@@ -314,6 +316,10 @@
 data mesa_harmonized;
 set mesa_nsrr;
 
+  nsrrid = mesaid;  
+  
+  nsrr_visit = examnumber;
+  
 *demographics
 *age;
 *use sleepage5c;
@@ -462,77 +468,72 @@ set mesa_nsrr;
   format nsrr_tib_f1 8.2;
   nsrr_tib_f1 = time_bed5;  
 
+ *nsrr_cai;
+ *use cai0p5;
+   format cai0p5 8.2;
+   nsrr_cai = cai0p5;
 
-** UNTESTED !
-* nsrrid = mesaid; * create NSRRID variable 
-*
-*  *nsrr_cai;
-*  *use cai0p5;
-*    format cai0p5 8.2;
-*    nsrr_cai = cai0p5;
-*
-*  *nsrr_oai;
-*  *use oai0p5;
-*    format oai0p5 8.2;
-*    nsrr_oai = oai0p5;
-*
-*  *nsrr_oahi_hp4u;
-*  *use ahi_o0h4;
-*    format ahi_o0h4 8.2;
-*    nsrr_oahi_hp4u = ahi_o0h4;
-*
-*  *nsrr_oahi_hp3u;
-*  *use ahi_o0h3;
-*    format ahi_o0h3 8.2;
-*    nsrr_oahi_hp3u = ahi_o0h3;
-*
-*  *nsrr_oahi_hp3u_sr;
-*  *use oahi3_rem5;
-*    format oahi3_rem5 8.2;
-*    nsrr_oahi_hp3u_sr = oahi3_rem5;
-*
-*  *nsrr_oahi_hp3u_sn;
-*  *use oahi3_nrem5;
-*    format oahi3_nrem5 8.2;
-*    nsrr_oahi_hp3u_sn = oahi3_nrem5;
-*
-*  *nsrr_oahi_hp3u_pb;
-*  *use oahi3_sup5;
-*    format oahi3_sup5 8.2;
-*    nsrr_oahi_hp3u_pb = oahi3_sup5;
-*
-*  *nsrr_oahi_hp3u_po;
-*  *use oahi3_nsup5;
-*    format oahi3_nsup5 8.2;
-*    nsrr_oahi_hp3u_po = oahi3_nsup5;
-*
-*  *nsrr_oahi_hp4u_sr;
-*  *use oahi4_rem5;
-*    format oahi4_rem5 8.2;
-*    nsrr_oahi_hp4u_sr = oahi4_rem5;
-*
-*  *nsrr_oahi_hp4u_sn;
-*  *use oahi4_nrem5;
-*    format oahi4_nrem5 8.2;
-*    nsrr_oahi_hp4u_sn = oahi4_nrem5;
-*
-*  *nsrr_avglvlsa;
-*  *use avgsat5;
-*    format avgsat5 8.2;
-*    nsrr_avglvlsa = avgsat5;
-*
-*  *nsrr_minlvlsa;
-*  *use minsat5;
-*    format minsat5 8.2;
-*    nsrr_minlvlsa = minsat5;
+ *nsrr_oai;
+ *use oai0p5;
+   format oai0p5 8.2;
+   nsrr_oai = oai0p5;
+
+ *nsrr_oahi_hp4u;
+ *use ahi_o0h4;
+   format ahi_o0h4 8.2;
+   nsrr_oahi_hp4u = ahi_o0h4;
+
+ *nsrr_oahi_hp3u;
+ *use ahi_o0h3;
+   format ahi_o0h3 8.2;
+   nsrr_oahi_hp3u = ahi_o0h3;
+
+ *nsrr_oahi_hp3u_sr;
+ *use oahi3_rem5;
+   format oahi3_rem5 8.2;
+   nsrr_oahi_hp3u_sr = oahi3_rem5;
+
+ *nsrr_oahi_hp3u_sn;
+ *use oahi3_nrem5;
+   format oahi3_nrem5 8.2;
+   nsrr_oahi_hp3u_sn = oahi3_nrem5;
+
+ *nsrr_oahi_hp3u_pb;
+ *use oahi3_sup5;
+   format oahi3_sup5 8.2;
+   nsrr_oahi_hp3u_pb = oahi3_sup5;
+
+ *nsrr_oahi_hp3u_po;
+ *use oahi3_nsup5;
+   format oahi3_nsup5 8.2;
+   nsrr_oahi_hp3u_po = oahi3_nsup5;
+
+ *nsrr_oahi_hp4u_sr;
+ *use oahi4_rem5;
+   format oahi4_rem5 8.2;
+   nsrr_oahi_hp4u_sr = oahi4_rem5;
+
+ *nsrr_oahi_hp4u_sn;
+ *use oahi4_nrem5;
+   format oahi4_nrem5 8.2;
+   nsrr_oahi_hp4u_sn = oahi4_nrem5;
+
+ *nsrr_avglvlsa;
+ *use avgsat5;
+   format avgsat5 8.2;
+   nsrr_avglvlsa = avgsat5;
+
+ *nsrr_minlvlsa;
+ *use minsat5;
+   format minsat5 8.2;
+   nsrr_minlvlsa = minsat5;
 
 
 
 
   keep 
-    mesaid
     nsrrid
-    examnumber
+    nsrr_visit
     nsrr_age
     nsrr_age_gt89
     nsrr_sex
@@ -557,19 +558,19 @@ set mesa_nsrr;
     nsrr_pctdursp_s2
     nsrr_pctdursp_s3
     nsrr_pctdursp_sr
-    nsrr_tib_f1
-    *cai0p5 UNTESTED
-*oai0p5
-*ahi_o0h4
-*ahi_o0h3
-*oahi3_rem5
-*oahi3_nrem5
-*oahi3_sup5
-*oahi3_nsup5
-*oahi4_rem5
-*oahi4_nrem5
-*avgsat5
-*minsat5
+    nsrr_tib_f1     
+    nsrr_cai
+    nsrr_oai
+    nsrr_oahi_hp4u
+    nsrr_oahi_hp3u
+    nsrr_oahi_hp3u_sr
+    nsrr_oahi_hp3u_sn
+	nsrr_oahi_hp3u_pb
+    nsrr_oahi_hp3u_po
+    nsrr_oahi_hp4u_sr
+    nsrr_oahi_hp4u_sn
+    nsrr_avglvlsa
+    nsrr_minlvlsa
   ;
 run;
 
@@ -597,6 +598,18 @@ VAR   nsrr_age
   nsrr_pctdursp_s3
   nsrr_pctdursp_sr
   nsrr_tib_f1
+      nsrr_cai
+    nsrr_oai
+    nsrr_oahi_hp4u
+    nsrr_oahi_hp3u
+    nsrr_oahi_hp3u_sr
+    nsrr_oahi_hp3u_sn
+	nsrr_oahi_hp3u_pb
+    nsrr_oahi_hp3u_po
+    nsrr_oahi_hp4u_sr
+    nsrr_oahi_hp4u_sn
+    nsrr_avglvlsa
+    nsrr_minlvlsa
       ;
 run;
 
