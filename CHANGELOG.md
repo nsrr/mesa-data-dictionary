@@ -1,4 +1,4 @@
-## 0.8.0 
+## 0.8.0 (September 25, 2025)
 
 - Add additional harmonized PSG variables
 - Revise folder structure for tabular data
