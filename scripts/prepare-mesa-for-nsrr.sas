@@ -299,6 +299,8 @@ drop i stendp5_num	stlonp5_num	stloutp5_num	stonsetp5_num	ststartp5_num;
       stonset15
       timebedm5
       wake_bouts_avg_sleep5
+      pctsa80h5
+      pctsa85h5
       ;
   run;
 

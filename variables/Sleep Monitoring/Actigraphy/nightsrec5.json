@@ -1,7 +1,0 @@
-{
-  "id": "nightsrec5",
-  "display_name": "Actigraphy QS: # of Nights Recorded",
-  "description": "",
-  "type": "integer",
-  "units": "nights"
-}
