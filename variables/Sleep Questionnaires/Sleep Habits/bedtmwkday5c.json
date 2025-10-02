@@ -6,7 +6,8 @@
   "units": "hh:mm:ss",
   "labels": [
     "sleep_timing",
-    "begtimbd_w5_f3"
+    "begtimbd_w5_f3",
+    "SleepHealth_timing"
   ],
   "forms": [
     "mesa_sleep_questionnaire"

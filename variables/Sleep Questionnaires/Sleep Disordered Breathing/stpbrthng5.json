@@ -6,7 +6,8 @@
   "domain": "freq4weeksdk",
   "labels": [
     "sdb",
-    "nhanes_04stop"
+    "nhanes_04stop",
+    "SleepHealth_sleep_apnea"
   ],
   "forms": [
     "mesa_sleep_questionnaire"

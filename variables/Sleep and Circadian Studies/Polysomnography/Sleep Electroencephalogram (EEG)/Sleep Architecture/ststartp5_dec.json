@@ -1,0 +1,10 @@
+{
+  "id": "ststartp5_dec",
+  "display_name": "Clock time when the recording (study) begins from type II polysomnography",
+  "description": "24 hours were added to the original values that occurred after midnight",
+  "type": "numeric",
+  "units": "hours (hr)",
+  "labels": [
+    "begtimrd_f1t2"
+  ]
+}

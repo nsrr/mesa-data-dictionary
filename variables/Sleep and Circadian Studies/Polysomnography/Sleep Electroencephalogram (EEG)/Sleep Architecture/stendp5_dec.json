@@ -1,0 +1,10 @@
+{
+  "id": "stendp5_dec",
+  "display_name": "Clock time when the recording (study) ends from type II polysomnography",
+  "description": "24 hours were added to the original values that occurred after midnight",
+  "type": "numeric",
+  "units": "hours (hr)",
+  "labels": [
+    "endtimrd_f1t2"
+  ]
+}

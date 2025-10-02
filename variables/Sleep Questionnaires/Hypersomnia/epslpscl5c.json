@@ -6,7 +6,8 @@
   "labels": [
     "ess_score",
     "subjective_sleepiness",
-    "epworth"
+    "epworth",
+    "SleepHealth_alertness"
   ],
   "commonly_used": true,
   "forms": [

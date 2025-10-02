@@ -1,0 +1,11 @@
+{
+  "id": "nsrr_oahi_hp3u_po",
+  "display_name": "Obstructive Apnea-Hypopnea Index for non-supine sleep: (Obstructive apneas + hypopneas with >= 3% oxygen desaturation) / hour of sleep in non-supine position",
+  "description": "Harmonized by the NSRR team. Source: :oahi3_nsup5:",
+  "type": "numeric",
+  "units": "number of events per hour",
+  "labels": [
+    "oahi_po_oa0uhp3x3u_f1t2"
+  ],
+  "commonly_used": true
+}
