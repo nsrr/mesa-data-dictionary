@@ -1,0 +1,8 @@
+{
+  "bundle": "t004_harmonized_recode",
+  "source_file": "scripts/prepare-mesa-for-nsrr.sas",
+  "source_blob_sha": "4620c6fedbd919e8c2028bbeb59dbc7ba8ce6c43",
+  "source_commit": "1c89c19deb79ddfb5b1e0a9d59d793892ee31989",
+  "tier": "real_data",
+  "notes": "NSRR-harmonized variable derivation from the mesa_harmonized DATA step; demographic/smoking/AHI/scoring recodes including age-90 top-coding kept verbatim; 4 mock mesa_nsrr rows."
+}

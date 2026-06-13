@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_merge_in_subset",
+  "source_file": "scripts/prepare-mesa-for-nsrr.sas",
+  "source_blob_sha": "4620c6fedbd919e8c2028bbeb59dbc7ba8ce6c43",
+  "source_commit": "1c89c19deb79ddfb5b1e0a9d59d793892ee31989",
+  "tier": "real_data",
+  "notes": "Multi-way MERGE with IN= flags from the mesa_nsrr DATA step; four mock master datasets keyed by idno; the 'if d and (b or c)' subset rule and the inhomepsgyn5 missing-code recode kept verbatim."
+}
