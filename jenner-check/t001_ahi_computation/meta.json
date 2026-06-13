@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_ahi_computation",
+  "source_file": "scripts/prepare-mesa-for-nsrr.sas",
+  "source_blob_sha": "4620c6fedbd919e8c2028bbeb59dbc7ba8ce6c43",
+  "source_commit": "1c89c19deb79ddfb5b1e0a9d59d793892ee31989",
+  "tier": "real_data",
+  "notes": "AHI derivation from the mesa_poly_icsd DATA step; 3 mock polysomnography rows supply the apnea/hypopnea event-count columns; verbatim ICSD-3 AHI arithmetic plus the keep ahi_a0h3--cent_obs_ratioa variable-range; PROC PRINT shows 15 derived columns."
+}

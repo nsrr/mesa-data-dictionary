@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_array_time_decimal",
+  "source_file": "scripts/prepare-mesa-for-nsrr.sas",
+  "source_blob_sha": "4620c6fedbd919e8c2028bbeb59dbc7ba8ce6c43",
+  "source_commit": "1c89c19deb79ddfb5b1e0a9d59d793892ee31989",
+  "tier": "real_data",
+  "notes": "Clock-time to decimal-hours conversion block; three parallel arrays, INPUT(...,time.) parse, and the 43200-second past-midnight pivot kept verbatim; 3 mock rows of HH:MM:SS sleep clock times."
+}

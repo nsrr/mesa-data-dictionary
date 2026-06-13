@@ -1,0 +1,8 @@
+{
+  "bundle": "t005_means_freq_check",
+  "source_file": "scripts/prepare-mesa-for-nsrr.sas",
+  "source_blob_sha": "4620c6fedbd919e8c2028bbeb59dbc7ba8ce6c43",
+  "source_commit": "1c89c19deb79ddfb5b1e0a9d59d793892ee31989",
+  "tier": "real_data",
+  "notes": "Harmonized-dataset QC checks: PROC MEANS over continuous NSRR variables and PROC FREQ over categorical NSRR variables, with the upstream VAR/TABLE lists; 5 mock harmonized rows."
+}
